@@ -35,13 +35,13 @@ The full path from novice to frontier. See `shared/graphics/stage-map.svg` for t
 - You've shipped an AI product or feature to real users, with SLOs met
 - You've orchestrated a multi-agent workflow in production
 - You've handled at least one real drift or incident
-- You've done a model bake-off with data-driven decision
+- You've done a model bake-off with a data-driven decision
 - You've hardened one workflow against adversarial input
 - For the company track: full observability, incident response tested, cross-department scaling underway
 - You've fine-tuned a model with measurable impact
 - You've led a red-team exercise
 - You understand training-stack internals (attention, MoE, quantization, inference)
-- You can teach any Stages 1 to 3 concept
+- You can teach any concept from Stages 1 to 3
 - You can lead an AI team or an AI initiative
 - For the company track: applied research team stood up, safety program mature, cross-industry benchmarking
 

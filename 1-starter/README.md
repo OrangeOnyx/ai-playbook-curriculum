@@ -36,6 +36,6 @@
 3. If a section feels dense, open the `eli10/` twin first
 4. For companies: run the individual sequence AND the company sequence in parallel
 
-If you finish this level, you have the foundation to become a builder.
+If you finish this stage, you have the foundation to become a builder.
 
 Formerly Level 1 Essentials.

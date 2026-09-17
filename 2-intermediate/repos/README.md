@@ -1,6 +1,6 @@
 # Stage 2 — Working code repositories
 
-Four public GitHub repos back the four core walkthroughs in Stage 2. Each is a real, running codebase — not a snippet — meant to be cloned, run, and modified as you work through the level.
+Four public GitHub repos back the four core walkthroughs in Stage 2. Each is a real, running codebase — not a snippet — meant to be cloned, run, and modified as you work through the stage.
 
 They're intentionally scoped:
 

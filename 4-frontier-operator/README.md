@@ -39,6 +39,6 @@ Stage 4 is aspirational and non-linear. The map is a compass, not a checklist.
 4. Engage the community — reading, commenting, contributing
 5. Build your own agenda over years, not months
 
-If you engage seriously with this level, you become someone the field takes seriously back.
+If you engage seriously with this stage, you become someone the field takes seriously back.
 
 Formerly Level 5 Frontier.

@@ -51,6 +51,6 @@ You've moved to Stage 3 when:
 6. Everything else deepens what you've built.
 7. Bonus: [`individual/13-combine-two-agents`](individual/13-combine-two-agents) — chain two of your agents into a real system
 
-If you finish this level, you can build real AI systems on your own stack.
+If you finish this stage, you can build real AI systems on your own stack.
 
 Formerly Level 2 Intermediate.

@@ -84,11 +84,11 @@ def path_is_allowed(rel_path: str) -> bool:
     return any(rel_path.startswith(prefix) for prefix in ALLOWED_PATH_PREFIXES)
 
 
-def check_brand_names(files) -> list[str]:
+def check_brand_names(files, root: Path = REPO_ROOT) -> list[str]:
     """Return list of violations as human-readable strings."""
     violations = []
     for p in files:
-        rel = str(p.relative_to(REPO_ROOT))
+        rel = str(p.relative_to(root)).replace("\\", "/")
         if path_is_allowed(rel):
             continue
         text = p.read_text(encoding="utf-8", errors="replace")

@@ -32,6 +32,7 @@ This program is open. Fork it, extend it, remix it. If you find something worth 
 - [ ] No emojis, no AI-tells
 - [ ] Cross-references to related sections
 - [ ] Updated the stage's README index if adding a new section
+- [ ] Headings never carry the words Layer, Layers, Phase, or Phases, nor "Level N": the Playbook site's build rejects them, and the site compiles this repository verbatim.
 
 ## Governance
 

@@ -24,7 +24,7 @@
 - You've fine-tuned a model with measurable impact
 - You've led a red-team exercise
 - You understand training-stack internals (attention, MoE, quantization, inference optimization)
-- You can teach any Stages 1 to 3 concept clearly
+- You can teach any concept from Stages 1 to 3 clearly
 - You can lead an AI team or an AI initiative
 - For companies: full observability, incident response tested, cross-department scaling underway; applied research team stood up, safety program mature, cross-industry benchmarking
 

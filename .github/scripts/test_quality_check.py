@@ -55,6 +55,12 @@ class Domain(unittest.TestCase):
     def test_playbook_domain_is_allowlisted_for_brand_scan(self):
         self.assertIsNotNone(Q.URL_ALLOWLIST_RE.search("https://playbook.adamabdalla.com/x"))
 
+    def test_brand_scan_allowlist_matches_windows_paths(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            p = _write(root, "history/x.md", "Orange Ocean\n")
+            self.assertEqual(Q.check_brand_names([p], root), [])
+
 
 if __name__ == "__main__":
     unittest.main()
