@@ -1,6 +1,8 @@
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
+from . import fold_to_stages
 from .fold_to_stages import (STAGE_OF_LEVEL, new_module_dir, new_file_path, rewrite_text, plan_moves)
 
 
@@ -71,6 +73,28 @@ class MovePlanOrdering(unittest.TestCase):
                 "level-4-professional/eli10/what-is-a-model-card-eli10.md",
                 "3-expert/eli10/what-is-a-model-card-for-your-own-model-eli10.md"))
             self.assertLess(whole_folder_idx, model_card_idx)
+
+
+class FoldMapWriteGuard(unittest.TestCase):
+    def test_apply_on_already_folded_tree_leaves_fold_map_untouched(self):
+        # A second --apply run (e.g. someone re-checking idempotency) finds no level-*
+        # directories, so build_path_map can't rediscover the per-module mappings. Writing
+        # the fold map in that case would silently shrink the committed, load-bearing file
+        # (a later task reads it to generate site redirects) down to just the RENAME_FILE
+        # entries. main() must leave the existing file alone when there is nothing to move.
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            (root / "1-starter").mkdir()
+            (root / "1-starter" / "README.md").write_text("hello\n", encoding="utf-8")
+            (root / "history").mkdir()
+            fold_map = root / "history" / "fold-map-2026-09.json"
+            sentinel = '{"sentinel": "do-not-overwrite"}'
+            fold_map.write_text(sentinel, encoding="utf-8")
+            with mock.patch.object(fold_to_stages, "ROOT", root), \
+                 mock.patch.object(fold_to_stages.subprocess, "run") as mock_run:
+                fold_to_stages.main(["--apply"])
+            mock_run.assert_not_called()
+            self.assertEqual(fold_map.read_text(encoding="utf-8"), sentinel)
 
 
 class TextRewrite(unittest.TestCase):

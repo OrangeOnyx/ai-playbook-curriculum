@@ -210,9 +210,15 @@ def main(argv):
         for rel in DELETE:
             if (ROOT / rel).exists():
                 subprocess.run(["git", "rm", "-q", rel], cwd=ROOT, check=True)
-        (ROOT / "history").mkdir(exist_ok=True)
-        io.open(ROOT / "history" / "fold-map-2026-09.json", "w", encoding="utf-8", newline="\n").write(
-            json.dumps({"levels": STAGE_OF_LEVEL, "paths": pm}, indent=1) + "\n")
+        if moves:
+            (ROOT / "history").mkdir(exist_ok=True)
+            io.open(ROOT / "history" / "fold-map-2026-09.json", "w", encoding="utf-8", newline="\n").write(
+                json.dumps({"levels": STAGE_OF_LEVEL, "paths": pm}, indent=1) + "\n")
+        else:
+            # A run on an already-folded tree finds no level-* directories, so build_path_map
+            # can't rediscover the per-module mappings: writing here would silently shrink the
+            # committed, load-bearing map (a later task reads it to generate site redirects).
+            print("fold map unchanged (nothing to move)")
     changed, residual = [], []
     for p, rel in md_files(ROOT):
         was_level4 = rel.startswith("3-expert/") and any(
