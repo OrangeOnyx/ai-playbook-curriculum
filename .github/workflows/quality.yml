@@ -24,6 +24,11 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Unit tests for the checker and the fold script
+        run: |
+          python3 .github/scripts/test_quality_check.py
+          python3 -m unittest scripts.test_fold_to_stages
+
       - name: Run quality checker
         run: |
           if [ "${{ github.event.inputs.strict }}" = "true" ]; then
@@ -36,5 +41,5 @@ jobs:
         if: always()
         run: |
           echo "See job log for the full quality report."
-          echo "Warnings are advisory; only broken relative links fail the build."
+          echo "Warnings are advisory; broken links, old numbering, and the stale domain fail the build."
           echo "Run 'python3 .github/scripts/quality_check.py' locally before pushing."

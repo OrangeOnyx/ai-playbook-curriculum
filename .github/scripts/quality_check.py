@@ -1,14 +1,20 @@
 #!/usr/bin/env python3
 """Quality checks for the AI Fluency Program repo.
 
-Runs three checks:
+Runs five checks:
   1. Brand-name scan       [ WARN ] — no unapproved company/brand names
   2. Link check            [ FAIL ] — all relative Markdown links resolve
   3. Module coverage       [ WARN ] — files inside a module are linked from
                                      its README
+  4. Old numbering         [ FAIL ] — no retired Level/Phase/Layer/Order/
+                                     Interview numbering in headings, folder
+                                     names, link text, or (Level N only) prose
+  5. Stale domain          [ FAIL ] — no links into the retired Groundwork
+                                     domain
 
-Exit code is 0 unless a hard-fail check (link check) finds violations.
-Pass `--strict` to escalate warnings into hard failures.
+Exit code is 0 unless a hard-fail check (link check, old numbering, stale
+domain) finds violations. Pass `--strict` to escalate warnings into hard
+failures.
 
 Run from the repo root:
     python3 .github/scripts/quality_check.py
@@ -49,8 +55,8 @@ ALLOWED_PATH_PREFIXES = [
     ".github/pre-commit-checklist.md",
     "LICENSE",
     "CONTRIBUTING.md",
-    "LEVELS-4-5-COMPLETION-SUMMARY.md",
-    "GROUNDWORK-AND-FLUENCY.md",  # names Adam once, deliberately
+    "history/",
+    "PLAYBOOK-AND-CURRICULUM.md",  # names Adam once, deliberately
 ]
 
 # Directories to skip entirely
@@ -59,7 +65,7 @@ SKIP_DIRS = {".git", "node_modules", ".venv", "venv", "__pycache__", ".bak"}
 # GitHub URL pattern that mentions OrangeOnyx (companion repo links) is
 # always allowed no matter where it appears.
 URL_ALLOWLIST_RE = re.compile(
-    r"https?://[^\s\)]*(?:github\.com/OrangeOnyx|groundwork\.adamabdalla\.com)[^\s\)]*",
+    r"https?://[^\s\)]*(?:github\.com/OrangeOnyx|playbook\.adamabdalla\.com)[^\s\)]*",
     re.IGNORECASE,
 )
 
@@ -112,11 +118,17 @@ FENCE_RE = re.compile(r"```.*?```", re.DOTALL)
 INLINE_CODE_RE = re.compile(r"`[^`]*`")
 
 
-def check_links(files) -> list[str]:
-    """Verify relative Markdown links resolve to existing files."""
+def check_links(files, root: Path = REPO_ROOT) -> list[str]:
+    """Verify relative Markdown links resolve to existing files.
+
+    history/ is a frozen verbatim record whose links point at moved paths
+    by design, so it is exempt.
+    """
     violations = []
     for p in files:
-        rel = str(p.relative_to(REPO_ROOT))
+        rel = str(p.relative_to(root)).replace("\\", "/")
+        if rel.startswith(EXEMPT_PREFIXES):
+            continue
         raw = p.read_text(encoding="utf-8", errors="replace")
         # Strip fenced code blocks and inline code before scanning for links,
         # so example markdown inside tutorials doesn't trigger false positives.
@@ -164,10 +176,64 @@ def check_module_coverage(root: Path) -> list[str]:
     return violations
 
 
-# Which categories are hard-fail vs advisory. Only broken links block CI
-# by default. Brand-name scrubs and module coverage are cleanup work that
-# the repo carries; the report tells you what to fix, at your own pace.
-HARD_FAIL_CATEGORIES = {"broken links"}
+# Headline positions (headings, folder names, link text) may carry none of the retired
+# numbering words. Prose is gated only on the level words: "Phase 1 of a rollout" is
+# ordinary lesson text, but "Level 4" can only be the retired numbering.
+OLD_NUMBERING = re.compile(r"\b(?:Interview|Order|Layer|Phase|Level)s? [0-9]\b|\blevel-[1-5]\b")
+PROSE_NUMBERING = re.compile(r"\bLevels? [1-5]\b|\blevel-[1-5]\b")
+HEADING_RE = re.compile(r"^#{1,6} (.*)$")
+EXEMPT_PREFIXES = ("history/",)
+STALE_DOMAIN = "groundwork.adamabdalla.com"
+
+
+def check_numbering(files, root: Path = REPO_ROOT) -> list[str]:
+    """Four is the only headline number. A line starting with 'Formerly' is provenance
+    and exempt; history/ is exempt by path. One violation per line at most."""
+    violations = []
+    for p in files:
+        rel = str(p.relative_to(root)).replace("\\", "/")
+        if rel.startswith(EXEMPT_PREFIXES):
+            continue
+        for part in Path(rel).parts[:-1]:
+            if OLD_NUMBERING.search(part.replace("-", " ")) or re.search(r"level-[1-5]", part):
+                violations.append(f"{rel}: folder name carries old numbering '{part}'")
+                break
+        text = p.read_text(encoding="utf-8", errors="replace")
+        for lineno, line in enumerate(text.splitlines(), 1):
+            if line.startswith("Formerly"):
+                continue
+            hm = HEADING_RE.match(line)
+            if hm:
+                if OLD_NUMBERING.search(hm.group(1)):
+                    violations.append(f"{rel}:{lineno}: heading carries old numbering")
+                continue
+            if any(OLD_NUMBERING.search(lm.group(1)) for lm in re.finditer(r"\[([^\]]+)\]\(", line)):
+                violations.append(f"{rel}:{lineno}: link text carries old numbering")
+                continue
+            if PROSE_NUMBERING.search(line):
+                violations.append(f"{rel}:{lineno}: prose carries old numbering")
+    return violations
+
+
+def check_stale_domain(files, root: Path = REPO_ROOT) -> list[str]:
+    """A link into the retired Groundwork domain lands on a redirect; it is stale by definition."""
+    violations = []
+    for p in files:
+        rel = str(p.relative_to(root)).replace("\\", "/")
+        if rel.startswith(EXEMPT_PREFIXES):
+            continue
+        for lineno, line in enumerate(p.read_text(encoding="utf-8", errors="replace").splitlines(), 1):
+            if STALE_DOMAIN in line:
+                violations.append(f"{rel}:{lineno}: stale domain {STALE_DOMAIN}")
+                break
+    return violations
+
+
+# Which categories are hard-fail vs advisory. Broken links, old numbering, and
+# the stale domain block CI by default. Brand-name scrubs and module coverage
+# are cleanup work that the repo carries; the report tells you what to fix,
+# at your own pace.
+HARD_FAIL_CATEGORIES = {"broken links", "old numbering", "stale domain"}
 
 
 def main() -> int:
@@ -181,6 +247,8 @@ def main() -> int:
         "brand names": check_brand_names(files),
         "broken links": check_links(files),
         "unreferenced files": check_module_coverage(REPO_ROOT),
+        "old numbering": check_numbering(files),
+        "stale domain": check_stale_domain(files),
     }
 
     hard_fail = 0
