@@ -4,7 +4,7 @@ This program is open. Fork it, extend it, remix it. If you find something worth 
 
 ## What good contributions look like
 
-- **New sections** — a topic missing at the right level
+- **New sections** — a topic missing at the right stage
 - **Better examples** — anchored on real, working systems
 - **ELI10 companions** — new concepts explained plainly
 - **Corrections** — factual, stylistic, or structural
@@ -26,12 +26,12 @@ This program is open. Fork it, extend it, remix it. If you find something worth 
 
 ## PR checklist
 
-- [ ] Files in the right level and section
+- [ ] Files in the right stage and section
 - [ ] Every doc has an ELI10 companion if it introduces a new concept
 - [ ] Under 800 words unless the topic requires more
 - [ ] No emojis, no AI-tells
 - [ ] Cross-references to related sections
-- [ ] Updated the level's README index if adding a new section
+- [ ] Updated the stage's README index if adding a new section
 
 ## Governance
 

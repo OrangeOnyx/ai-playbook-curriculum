@@ -20,9 +20,9 @@ Run through this before every commit. The CI workflow (`.github/workflows/qualit
 
 - [ ] **[FAIL]** No broken relative Markdown links (all `[text](file.md)` targets exist)
 - [ ] **[WARN]** New files under a module directory are referenced from that module's README
-- [ ] External links to Groundwork use `https://playbook.adamabdalla.com`
+- [ ] External links to the Playbook use `https://playbook.adamabdalla.com`
 
-## Any-level entry
+## Any-stage entry
 
 - [ ] Someone jumping into your new file cold can act on it — no hidden prerequisites
 - [ ] Cross-refs are one-click, not "see section 3.2"

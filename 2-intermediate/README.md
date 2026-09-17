@@ -1,8 +1,8 @@
-# Stage 2 — Intermediate
+# Stage 2 Intermediate
 
 **You are:** comfortable using AI daily.
 **You will become:** a builder — someone who can build agents, RAG systems, MCP servers, evals, and cost-controlled workflows.
-**Typical time:** 60–90 days at 4–8 hours/week.
+**The Curriculum's pace:** 60–90 days at 4–8 hours/week.
 
 ![Stage 2](../shared/graphics/stage-2.svg)
 
@@ -52,3 +52,5 @@ You've moved to Stage 3 when:
 7. Bonus: [`individual/13-combine-two-agents`](individual/13-combine-two-agents) — chain two of your agents into a real system
 
 If you finish this level, you can build real AI systems on your own stack.
+
+Formerly Level 2 Intermediate.

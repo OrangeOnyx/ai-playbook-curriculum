@@ -1,91 +1,31 @@
-# Groundwork and the Curriculum: how the two programs fit together
+# The Playbook and the Curriculum: how the two fit together
 
-**TL;DR.** Groundwork is the **readiness** program. The Groundwork Curriculum is the **capability** program: five levels that build AI fluency in you and your team. Groundwork gets your identity, knowledge, and rules into a shape AI can work on. The Curriculum teaches you to use AI well and, at the higher levels, to build the agents, tools, and evaluation systems that run on top of that foundation. They are sequential, not competing. Neither is gated. You can start in either program at any order or level that fits where you already are.
+**TL;DR.** The AI Playbook is what you build for a business: ten sections in four stages, each one interviewed out of you, tested, and used on real work before the next. The Curriculum is the same four stages for a person or a team who wants to build the tooling rather than operate it. Same stage numbers, deeper at each.
 
-- Groundwork: [groundwork.adamabdalla.com](https://groundwork.adamabdalla.com)
-- The Curriculum: this repo. Start at [README.md](README.md).
+- The Playbook: [playbook.adamabdalla.com](https://playbook.adamabdalla.com)
+- The Curriculum: this repository. Start at [README.md](README.md).
 
-One axis note before anything else, because it trips people up: **Groundwork has six standing ORDERS. The Curriculum has five LEVELS.** Orders are things you build once for your business. Levels are stages of skill you climb as a person or a team. The numbers are not the same axis and never map one-to-one.
+## One climb, two tracks
 
----
-
-## Two programs, one arc
-
-Groundwork's core thesis is **"do not automate chaos."** It is six standing orders built in sequence, producing fifteen plain-text documents, with one scoped AI Operator activated at order four:
-
-- **Orders 1 to 3, the foundation, required first:** Order 1 Know me (Identity: who you are and how you are allowed to behave), Order 2 Know my information (Knowledge: what the system is allowed to trust and use, including the Context Vault and Authority Classification), Order 3 Know your limits (Governance: what the system is allowed to do).
-- **Order 4, activation:** Help me operate. One scoped AI Operator, running under the rules the first three orders wrote.
-- **Orders 5 and 6, the standing half:** Order 5 Remember (Continuity) and Order 6 Improve (measurement and the operating rhythm). From activation on, the system runs one loop: capture, understand, decide, act, verify, remember, improve.
-
-Automation enters at order four, and only inside the three zones Order 3 defines: Auto-Execute, Draft & Wait, Never Automate. The default rule: unlisted work falls to Draft & Wait, never to Auto-Execute.
-
-The Curriculum starts where a serious learner actually needs help: not "how do I organize my business" but "how do I get genuinely good at this, and eventually build systems without shipping something that embarrasses me." Level 1 assumes you can already talk to an AI product. Level 2 assumes you are ready to build. Level 3 and up assume you are operating AI systems for other people.
-
-The overlap between the two is deliberate and small. Groundwork Order 4, the Operator, is the exact bridge: it hands off to Curriculum Level 2 the moment you want to build automation as software rather than as prompt-and-approval loops.
-
-## Full mapping: six orders to five levels
-
-| If you are here in Groundwork | This is the natural starting point in the Curriculum |
-|---|---|
-| Order 1, Know me (charter, brand voice, decision principles) | Level 1 · [03-system-prompts](level-1-essentials/individual/03-system-prompts/): your identity documents become the system prompt |
-| Order 2, Know my information (Context Vault, Authority Classification) | Level 1 memory and context habits, then Level 2 · [06-rag-pipeline](level-2-intermediate/individual/06-rag-pipeline/): the vault becomes the corpus |
-| Order 3, Know your limits (the three zones, escalation, allowed tools) | Level 2 Company · [02-agent-governance](level-2-intermediate/company/02-agent-governance/): the org-wide version of your zone rules |
-| Order 4, Help me operate (the Agent Scope and the Operator) | **Level 2**, the whole track. You are ready to build agents. |
-| Order 5, Remember (succession, override authority, working memory) | Level 2 Company · [02-agent-governance](level-2-intermediate/company/02-agent-governance/), the access and estate side |
-| Order 6, Improve (signals, the correction loop, ownership, cadence) | Level 2 · [07-evaluation](level-2-intermediate/individual/07-evaluation/) and Level 3 and up: evals, drift, incidents, operating over time |
-
-Groundwork's Readiness Scorecard names your weakest order. If it names Order 1, 2, or 3, run Groundwork first: the Curriculum assumes that foundation exists. If the foundation stands and your vault is real, Level 1 will feel like a natural next chapter. If your Operator is already running, you belong in Level 2.
-
-## Where the two programs agree, verbatim
-
-Both programs teach the same **three-zone approval model** because it is the correct one:
-
-| Zone | Both programs call it | Rule |
+| Stage | The Playbook (what you build) | The Curriculum (what you learn) |
 |---|---|---|
-| 1 | Auto-Execute | Low-risk, reversible, rule-bound. Runs without a human. |
-| 2 | Draft & Wait | AI prepares the output. A human reviews before it leaves the system. |
-| 3 | Never Automate | Money, legal, personnel, sensitive comms. AI can research and prep, never act. |
+| 1 Starter | Choose one workflow, know me, learn my work. One real run, human-reviewed. | Use every top AI product well; your own prompts, rituals, and jargon. |
+| 2 Intermediate | Know what is true, remember my world, capture and commit. | Build agents, RAG, MCP servers, evals; control cost. |
+| 3 Expert | Know your limits, help me operate. A bounded operator inside enforced limits. | Ship to real users with SLOs; multi-agent systems; drift and incidents; lead an AI team; custom training; alignment and safety engineering. |
+| 4 Frontier Operator | Automate the proven work, improve and survive. | Novel systems, research, open weights, foundation infrastructure. |
 
-In Groundwork these are the three zones of Order 3, Know your limits. In the Curriculum the same model appears as HITL propose-write defaults: the companion repos (`belle-mcp-server`, `lease-abstractor`, `support-triage-agent`, `diligence-agent`) all default to Zone 2 behavior, propose-write with `auto_send` off. That is on purpose. It is the same zone Groundwork tells you to default to when in doubt. Nothing in either program ships with autonomous send turned on.
+The Playbook's core rule is **do not automate chaos**: automation enters at Stage 4 only, and only inside the limits Stage 3 wrote down. The Curriculum starts where a serious learner needs help: not "how do I organize my business" but "how do I get genuinely good at this, and eventually build systems without shipping something that hurts someone."
 
-## Where the two programs deliberately differ
+## Where they hand off
 
-| Dimension | Groundwork | The Curriculum |
-|---|---|---|
-| Format | Six standing orders, strictly sequenced, with a scorecard | Any-order reference. Jump in at any level. Every module stands alone. |
-| Audience | Any owner or operator who wants their business AI-ready | Learners and builders raising their own capability |
-| Deliverable | Fifteen plain-text documents and one scoped AI Operator | Skills, working code, evals, and companion repos |
-| Pedagogy | Foundation-first: the first three orders are required before activation | Level-independent: refresher-friendly, no prerequisites enforced |
-| Delivery | Free and ungated: the site, the Field Guide PDF, the free audit conversation | Free and open. This repo is the whole thing. |
+The Playbook's section 3.2, Help me operate, is the bridge. It hands off to Curriculum Stage 2 the moment you want to build automation as software rather than configure it as a tool. Everything in the Curriculum from Stage 2 up assumes the Playbook's Stage 1 and 2 artifacts exist: an identity file, a source register, a memory the system keeps.
 
-If you are a technical builder, the Curriculum is almost certainly what you need. If you are an owner who has never systematically organized the business's information, run Groundwork first: coming to the Curriculum without a vault and an approval framework in your head means you will build agents that automate a mess.
+## Which one first
 
-## How to enter each program
+- Your files, identity, and knowledge are not yet in a shape AI can use: the Playbook, Stage 1.
+- You already run a working system and want to build the tooling yourself: the Curriculum, Stage 2.
+- You are a team lead deciding what to roll out: the Playbook's company lane, then the Curriculum's company track at the same stage.
 
-**Enter Groundwork if any of these are true:**
-- Your files live in Downloads, Desktop, and email attachments
-- You explain the same preferences to AI every time you open a new chat
-- You have no rules for what AI is allowed to do without asking you
-- You worry about losing everything if your current AI provider changes terms
-- You want a Day One, a scorecard, and a finished system at the end
+## Lineage
 
-**Enter the Curriculum if any of these are true:**
-- You already have a Markdown notes system or the equivalent
-- You know what a system prompt is and have written one that matters
-- You want to build an agent, an MCP server, or a RAG pipeline this month
-- You want evals, not vibes
-- You are hiring or leading people who will build these things
-
-**Enter both, in sequence,** if you are building AI capability for a real business: Groundwork gets the foundation right, the Curriculum builds the skill and the systems on top of it.
-
-## Cross-links in this repo
-
-- [Level 1 · Essentials README](level-1-essentials/README.md) treats a knowledge base you own as the recommended starting condition; Groundwork Order 2, Know my information, is where that vault gets built
-- [Level 2 Company · 02-agent-governance](level-2-intermediate/company/02-agent-governance/README.md) references Groundwork Order 3, Know your limits, for the personal analogue of the org approval matrix, and Order 5, Remember, for access and estate rules
-- [Level 2 Company · 08-cross-team-workflows](level-2-intermediate/company/08-cross-team-workflows/README.md) references the Groundwork zone model as the individual analogue of the org-wide approval matrix
-
-No file in this repo requires Groundwork to make sense. You can jump into any level, any module, and get value. Groundwork is the recommended prerequisite for owners whose foundation is not yet set. It is not a paywall.
-
-## One-line summary for readers
-
-> Groundwork gets your information into a shape AI can use. The Curriculum teaches you to use it well and build systems on top of it. Run them in that order and both are cheaper and faster than doing this ad-hoc.
+Formerly "Groundwork and the Curriculum": Groundwork's six standing orders and the Curriculum's five levels were two numbering systems for one program. In September 2026 both were folded into the Playbook's four stages. The site's `/lineage/` page keeps the full mapping.

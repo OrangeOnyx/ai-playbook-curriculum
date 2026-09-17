@@ -1,8 +1,8 @@
-# Stage 4 — Frontier
+# Stage 4 Frontier Operator
 
 **You are:** a practitioner.
 **You will become:** a contributor to the field — original research, novel systems, category-defining products, open-weight training, foundation infra, or mechanistic interpretability.
-**Typical time:** ongoing, indefinite.
+**The Curriculum's pace:** ongoing, indefinite.
 
 ![Stage 4](../shared/graphics/stage-4.svg)
 
@@ -40,3 +40,5 @@ Stage 4 is aspirational and non-linear. The map is a compass, not a checklist.
 5. Build your own agenda over years, not months
 
 If you engage seriously with this level, you become someone the field takes seriously back.
+
+Formerly Level 5 Frontier.

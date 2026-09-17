@@ -1,32 +1,18 @@
 # Graphics
 
-Visual assets for the program. All originals live here.
+Visual assets for the program. All originals live here and are generated, not drawn by hand.
 
-## SVG diagrams
+## Generated plates
 
-- **`level-map.svg`** — the five-level path from novice to frontier
-- **`cost-of-waiting.svg`** — cumulative hours saved vs lost, one year
-- **`program-flow.svg`** — how to use the program (read → assess → sequence → level up)
+Run `python shared/graphics/render.py` from the repository root to regenerate every file below from `plates.py`, the same plate library the Playbook site and the book use.
 
-Edit these directly in any text editor or SVG tool.
-
-## Hero images
-
-- **`hero-cover.png`** — path of light stepping up through five terraces (cover / manifesto)
-- **`hero-level-1.png`** — seedling of orange light, dawn — beginning
-- **`hero-level-2.png`** — blueprints and wireframe geometry — construction
-- **`hero-level-3.png`** — interconnected orange network at scale — orchestration
-- **`hero-level-4.png`** — hand tuning glowing filaments inside a translucent cube — calibration
-- **`hero-level-5.png`** — silhouette at a cliff's edge over an infinite constellation ocean — frontier
-
-Regenerate with the media skill if you want alternates.
+- **`hero-cover.svg`**: the cover plate (mark, title, the four-station climb)
+- **`stage-1.svg`** to **`stage-4.svg`**: one plate per stage, used at the top of each stage README
+- **`stage-map.svg`**: the four-station climb with labels, referenced from `STAGE-MAP.md`
+- **`cost-of-waiting.svg`**: cumulative hours saved vs lost, one year (hand-drawn; kept)
 
 ## Style
 
-Every asset uses the same palette:
-- Background: deep charcoal (#0b0d10 → #141820)
-- Primary accent: warm orange (#f97316 → #f59e0b)
-- Secondary accent: cool blue-black (#0f172a → #1e293b)
-- Text: near-white on dark, muted gray on secondary
+Every plate follows the Annual Report world of the Playbook site: flat ink on paper, stars and rules, spot color at device scale. Palette and rules live in `plates.py` (`T`).
 
-Keep additions in this palette.
+`plates.py` is a byte-identical copy of the Playbook site's plate library. Edit it there, then copy it here; the site's tests check the two match.
