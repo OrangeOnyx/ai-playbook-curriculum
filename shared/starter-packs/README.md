@@ -64,4 +64,4 @@ When a new platform arrives, you'll spend 10 minutes wrapping it, not 4 hours wr
 
 ## The AI fluency program
 
-These starter packs support the [AI Fluency Program](../..) — a Level 1 → Level 2 curriculum for going from novice to governed power user. If you haven't gone through Level 1 yet, start there.
+These starter packs support the [AI Fluency Program](../..) — a Stage 1 → Stage 2 curriculum for going from novice to governed power user. If you haven't gone through Stage 1 yet, start there.

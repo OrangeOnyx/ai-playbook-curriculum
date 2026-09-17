@@ -1,5 +1,7 @@
+import tempfile
 import unittest
-from .fold_to_stages import (STAGE_OF_LEVEL, new_module_dir, new_file_path, rewrite_text)
+from pathlib import Path
+from .fold_to_stages import (STAGE_OF_LEVEL, new_module_dir, new_file_path, rewrite_text, plan_moves)
 
 
 class ModuleMapping(unittest.TestCase):
@@ -49,6 +51,26 @@ class ModuleMapping(unittest.TestCase):
         self.assertEqual(new_file_path("shared/graphics/hero-level-4.png"), "shared/graphics/stage-3.svg")
         self.assertEqual(new_file_path("level-1-essentials/individual/01-foundation/README.md"),
                          "1-starter/individual/01-foundation/README.md")
+
+
+class MovePlanOrdering(unittest.TestCase):
+    def test_whole_folder_move_precedes_rename_file_moves_into_its_stage(self):
+        # A RENAME_FILE move that lands inside a stage directory (e.g. 3-expert/eli10/...)
+        # must not run before the whole-folder move that creates that stage directory by
+        # renaming a level directory (e.g. level-3-advanced -> 3-expert): mkdir-ing the
+        # stage directory early makes `git mv level-3-advanced 3-expert` nest instead of
+        # rename.
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            (root / "level-3-advanced").mkdir()
+            (root / "level-4-professional" / "eli10").mkdir(parents=True)
+            (root / "level-4-professional" / "eli10" / "what-is-a-model-card-eli10.md").write_text("x")
+            moves = plan_moves(root)
+            whole_folder_idx = moves.index(("level-3-advanced", "3-expert"))
+            model_card_idx = moves.index((
+                "level-4-professional/eli10/what-is-a-model-card-eli10.md",
+                "3-expert/eli10/what-is-a-model-card-for-your-own-model-eli10.md"))
+            self.assertLess(whole_folder_idx, model_card_idx)
 
 
 class TextRewrite(unittest.TestCase):

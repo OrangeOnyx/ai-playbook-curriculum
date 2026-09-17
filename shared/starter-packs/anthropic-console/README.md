@@ -50,5 +50,5 @@ Model names shift. Check the [current models list](https://docs.anthropic.com/en
 
 ## Related program modules
 
-- [`level-2-intermediate/individual/02-build-first-agent`](../../../level-2-intermediate/individual/02-build-first-agent) — end-to-end example that uses the API
-- [`level-2-intermediate/individual/08-cost-engineering`](../../../level-2-intermediate/individual/08-cost-engineering) — prompt caching and token math
+- [`2-intermediate/individual/02-build-first-agent`](../../../2-intermediate/individual/02-build-first-agent) — end-to-end example that uses the API
+- [`2-intermediate/individual/08-cost-engineering`](../../../2-intermediate/individual/08-cost-engineering) — prompt caching and token math

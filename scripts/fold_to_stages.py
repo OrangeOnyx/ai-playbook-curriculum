@@ -127,9 +127,6 @@ def plan_moves(root):
     to a stage moves whole; a second level mapping to the same stage (Professional into
     3-expert) merges file by file."""
     moves = []
-    for old, new in RENAME_FILE.items():
-        if (root / old).exists() and old not in DELETE:
-            moves.append((old, new))
     planned_stage = set()
     for level, stage in STAGE_OF_LEVEL.items():
         ld = root / level
@@ -161,6 +158,13 @@ def plan_moves(root):
                         if old in RENAME_FILE:
                             continue              # already planned from RENAME_FILE (the ELI10 collision)
                         moves.append((old, new_file_path(old)))
+    # RENAME_FILE moves run last: several target a stage directory (e.g. 3-expert/eli10/...)
+    # that a whole-folder move above creates by renaming a level directory. mkdir-ing that
+    # stage directory early (as part of one of these moves) would make git mv nest the later
+    # whole-folder move inside it instead of renaming it, so these must not run first.
+    for old, new in RENAME_FILE.items():
+        if (root / old).exists() and old not in DELETE:
+            moves.append((old, new))
     return moves
 
 

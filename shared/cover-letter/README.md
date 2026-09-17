@@ -10,4 +10,4 @@ Both make the same argument:
 - Every quarter of waiting compounds against you.
 - Starting is not hard. Starting is deciding.
 
-If you're already convinced, skip both and start Level 1.
+If you're already convinced, skip both and start Stage 1.

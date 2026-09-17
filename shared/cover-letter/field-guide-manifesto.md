@@ -82,7 +82,7 @@ The excuses that were valid in 2023 — cost, reliability, tooling — are not v
 
 **"But security."** Real. And solvable. Enterprise contracts with zero-retention, data classification matrices, and tool tiering handle 95% of the risk. The other 5% is process, not technology.
 
-**"But my team isn't ready."** They're readier than you think. The average person can be Level 1 in 30 days. The blocker is not talent. It is a program.
+**"But my team isn't ready."** They're readier than you think. The average person can be Stage 1 in 30 days. The blocker is not talent. It is a program.
 
 **"But we tried it."** You didn't. You gave people a login and hoped. That's not a program. That's a wish. This kit is the program.
 
@@ -90,7 +90,7 @@ The excuses that were valid in 2023 — cost, reliability, tooling — are not v
 
 **"But we're too big."** Big companies benefit hardest. Every process you have is documented. Every process that's documented can be systematized. Every process that can be systematized can be AI-augmented.
 
-**"But we don't have AI engineers."** You don't need them for Levels 1-2. Level 3 needs one platform engineer. Levels 4-5 need a small applied research team. Most companies never need to go past Level 3.
+**"But we don't have AI engineers."** You don't need them for Stages 1 and 2. Stage 3 needs one platform engineer. Stages 3 and 4 need a small applied research team. Most companies never need to go past Stage 3.
 
 ## The prescription
 
@@ -98,19 +98,19 @@ Read the AI Fluency Program in this order:
 
 1. **This letter** — you're done.
 2. **`/README.md`** — 5 minutes. The map.
-3. **`/LEVEL-MAP.md`** — 10 minutes. Where you're going.
-4. **`/level-1-essentials/`** — 30 days. The foundation.
-5. **`/level-2-intermediate/`** — 60-90 days. You become a builder.
-6. Everything above Level 2 is optional depending on your goals.
+3. **`/STAGE-MAP.md`** — 10 minutes. Where you're going.
+4. **`/1-starter/`** — 30 days. The foundation.
+5. **`/2-intermediate/`** — 60-90 days. You become a builder.
+6. Everything above Stage 2 is optional depending on your goals.
 
 For companies, add:
 
-- **`/level-1-essentials/company/01-governance/`** on Day 1 (before any employee uses AI)
-- **`/level-1-essentials/company/10-rollout-playbook/`** for the 30-60-90 plan
+- **`/1-starter/company/01-governance/`** on Day 1 (before any employee uses AI)
+- **`/1-starter/company/10-rollout-playbook/`** for the 30-60-90 plan
 - Steering committee on Day 1
 - Two department pilots by Day 60
 
-## What Level 1 actually feels like
+## What Stage 1 actually feels like
 
 - Day 1: You draft an AUP. You classify your data. You procure ChatGPT and Claude.
 - Day 7: You have a master system prompt. You've written 3 personal prompts. You save 30 min a day already.
@@ -120,7 +120,7 @@ For companies, add:
 
 None of this is theoretical. This is what the ~30% of adopters have already done. It is not hard. It just requires starting.
 
-## What Level 2 buys you
+## What Stage 2 buys you
 
 - Custom agents on your own stack, doing real work
 - A RAG system over your own docs answering questions your team keeps asking
@@ -128,7 +128,7 @@ None of this is theoretical. This is what the ~30% of adopters have already done
 - Cost per workflow measured in dollars, not vibes
 - An eval set that catches regressions before your customers do
 
-## What Level 3+ buys you
+## What Stage 3 and up buys you
 
 - AI products shipping to real customers
 - Multi-agent workflows replacing full-time work
@@ -138,11 +138,11 @@ None of this is theoretical. This is what the ~30% of adopters have already done
 
 ## The final honest note
 
-This program does not require you to be technical. Levels 1 and much of Level 2 are approachable by anyone willing to work through them.
+This program does not require you to be technical. Stage 1 and much of Stage 2 are approachable by anyone willing to work through them.
 
 It does require you to *start*. Reading is not starting. Watching a webinar is not starting. Buying a license is not starting.
 
-Starting is: opening `level-1-essentials/00-start-here/` and completing Day 1 today.
+Starting is: opening `1-starter/00-start-here/` and completing Day 1 today.
 
 The models will keep getting better. The cost will keep dropping. The tools will keep multiplying. None of that helps you if you never begin.
 

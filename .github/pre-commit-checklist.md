@@ -20,7 +20,7 @@ Run through this before every commit. The CI workflow (`.github/workflows/qualit
 
 - [ ] **[FAIL]** No broken relative Markdown links (all `[text](file.md)` targets exist)
 - [ ] **[WARN]** New files under a module directory are referenced from that module's README
-- [ ] External links to Groundwork use `https://groundwork.adamabdalla.com`
+- [ ] External links to Groundwork use `https://playbook.adamabdalla.com`
 
 ## Any-level entry
 
@@ -34,7 +34,7 @@ Run through this before every commit. The CI workflow (`.github/workflows/qualit
 
 ## Companion repos
 
-If you touched a file in `level-2-intermediate/repos/*` or a walkthrough that references a companion repo (`belle-mcp-server`, `lease-abstractor`, `support-triage-agent`, `diligence-agent`):
+If you touched a file in `2-intermediate/repos/*` or a walkthrough that references a companion repo (`belle-mcp-server`, `lease-abstractor`, `support-triage-agent`, `diligence-agent`):
 
 - [ ] The companion repo is still at the URL you're linking to
 - [ ] The referenced example (file, function, or scenario) still exists in that repo
@@ -54,7 +54,7 @@ This runs the same checks CI runs. Fix every FAIL. Track WARN counts down over t
 
 The repo carries legacy Orange-Ocean-specific examples and level-3+ module READMEs that don't index their sibling files. These are the warnings you'll see today. The cleanup path:
 
-1. Sweep brand names by directory, starting with `level-3-advanced/eli10/` — replace named examples with generic ones
+1. Sweep brand names by directory, starting with `3-expert/eli10/` — replace named examples with generic ones
 2. For each level-3 module README, add the sibling-file index at the top
 3. Rerun `python3 .github/scripts/quality_check.py`, expect WARN count to drop
 4. When WARN count reaches zero, flip the CI workflow to `--strict` so warnings become failures

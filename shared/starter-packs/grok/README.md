@@ -27,5 +27,5 @@ For [Grok](https://grok.com) — xAI's assistant, available on x.com and grok.co
 
 ## Related program modules
 
-- [Level 1 — Essentials](../../../level-1-essentials/) — model-agnostic AI fluency
-- [`level-2-intermediate/individual/09-prompt-engineering-depth/prompting-techniques.md`](../../../level-2-intermediate/individual/09-prompt-engineering-depth/prompting-techniques.md) — which techniques transfer across models
+- [Stage 1 — Essentials](../../../1-starter/) — model-agnostic AI fluency
+- [`2-intermediate/individual/09-prompt-engineering-depth/prompting-techniques.md`](../../../2-intermediate/individual/09-prompt-engineering-depth/prompting-techniques.md) — which techniques transfer across models

@@ -31,14 +31,14 @@ If you're reading this in 2026, here's the honest picture:
 - Every new hire gets 5 hours of AI training in their first week
 - The company has retired 3 workflows because AI made them obsolete
 
-**If you have none of these, you are Level 0.** Ninety days from now, you can be Level 1 across the board with real work behind you. But only if you start.
+**If you have none of these, you are Level 0.** Ninety days from now, you can be Stage 1 across the board with real work behind you. But only if you start.
 
 ## The one action
 
-Read `field-guide-manifesto.md` for the full picture, or open `/level-1-essentials/00-start-here/30-day-starter-sequence.md` and begin Day 1.
+Read `field-guide-manifesto.md` for the full picture, or open `/1-starter/00-start-here/30-day-starter-sequence.md` and begin Day 1.
 
 The kit is done. The path is drawn. The only variable left is you.
 
 ---
 
-*This is a cover letter for a five-level AI fluency program. If you're already using AI daily, skip to Level 2. If you don't know what a system prompt is, start Level 1. Everyone else, read the field guide.*
+*This is a cover letter for a four-stage AI fluency program. If you're already using AI daily, skip to Stage 2. If you don't know what a system prompt is, start Stage 1. Everyone else, read the field guide.*
