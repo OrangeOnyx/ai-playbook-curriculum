@@ -59,3 +59,22 @@ Formerly Level 3 Advanced and Level 4 Professional.
 - For the company track: category-defining product, open-source contributions, industry-recognized capability
 
 **Unlocks:** contribution to the field itself.
+
+## Movement between stages
+
+- You don't have to be uniform. A person might be Stage 3 on RAG, Stage 2 on agents.
+- A company might be Stage 2 on governance, Stage 1 on department deployments.
+- The map is a compass, not a report card.
+
+## Timing
+
+Realistic timelines assume 4 to 8 hours/week of dedicated effort alongside real work:
+
+| Stage | Individual (fast) | Individual (typical) | Company (fast) | Company (typical) |
+|---|---|---|---|---|
+| 1 | 15 days | 30 days | 60 days | 90 days |
+| 2 | 45 days | 90 days | 90 days | 180 days |
+| 3 | 270 days | 540 days | 540 days | 1080 days |
+| 4 | 360 days | ongoing | 720 days | ongoing |
+
+Faster is possible with full-time focus and prior software background.
