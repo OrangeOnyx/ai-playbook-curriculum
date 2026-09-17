@@ -72,11 +72,13 @@ PHRASES = [  # ordered: ranges and long phrases before the single words that wou
     ("Levels 4 and 5", "Stages 3 and 4"), ("Levels 4-5", "Stages 3 and 4"), ("Levels 4–5", "Stages 3 and 4"),
     ("Level 1–3", "Stages 1 to 3"), ("Level 1-3", "Stages 1 to 3"), ("Levels 1–3", "Stages 1 to 3"), ("Levels 1-3", "Stages 1 to 3"),
     ("Level 3+", "Stage 3 and up"),
+    ("level-3+", "Stage 3 and up"),
     ("five-level", "four-stage"), ("Five-level", "Four-stage"), ("five levels", "four stages"), ("Five levels", "Four stages"),
     ("The Groundwork Curriculum", "The AI Playbook Curriculum"), ("the Groundwork Curriculum", "The AI Playbook Curriculum"),
     ("Groundwork Curriculum", "The AI Playbook Curriculum"),
 ]
 SINGLE = re.compile(r"\bLevel ([1-5])\b")
+SINGLE_LOWER = re.compile(r"\blevel-([1-5])\b(?!-)")
 SINGLE_MAP = {"1": "Stage 1", "2": "Stage 2", "3": "Stage 3", "4": "Stage 3", "5": "Stage 4"}
 RESIDUAL = re.compile(r"\bGroundwork\b")
 
@@ -176,6 +178,9 @@ def rewrite_text(text, path_map, in_level4):
     text = SINGLE.sub(lambda m: SINGLE_MAP[m.group(1)], text)
     for old in sorted(path_map, key=len, reverse=True):
         text = text.replace(old, path_map[old])
+    # after path_map, not before: a bare "level-3" also sits inside untouched filenames
+    # like "hero-level-3.png" that path_map's exact-string keys still need to see intact.
+    text = SINGLE_LOWER.sub(lambda m: SINGLE_MAP[m.group(1)], text)
     if in_level4:
         for old, new in path_map.items():
             if old.startswith("level-4-professional/") and old.count("/") == 2:

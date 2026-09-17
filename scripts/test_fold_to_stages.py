@@ -76,11 +76,18 @@ class MovePlanOrdering(unittest.TestCase):
 class TextRewrite(unittest.TestCase):
     PM = {"level-4-professional/individual/01-leading-ai-teams": "3-expert/individual/15-leading-ai-teams",
           "level-4-professional": "3-expert", "level-1-essentials": "1-starter",
+          "level-3-advanced": "3-expert",
           "shared/graphics/hero-level-3.png": "shared/graphics/stage-3.svg"}
 
     def test_single_level_words(self):
         out, _ = rewrite_text("Level 1 exit criteria met. See Level 4 and Level 5.", self.PM, False)
         self.assertEqual(out, "Stage 1 exit criteria met. See Stage 3 and Stage 4.")
+
+    def test_lowercase_level_prose_forms(self):
+        out, _ = rewrite_text("legacy level-3+ module READMEs", self.PM, False)
+        self.assertEqual(out, "legacy Stage 3 and up module READMEs")
+        out, _ = rewrite_text("For each level-3 module README; see level-3-advanced/x", self.PM, False)
+        self.assertEqual(out, "For each Stage 3 module README; see 3-expert/x")
 
     def test_ranges_before_singles(self):
         out, _ = rewrite_text("Any Level 1–3 concept; Levels 4-5 are ahead; Level 3+ buys you time.", self.PM, False)
