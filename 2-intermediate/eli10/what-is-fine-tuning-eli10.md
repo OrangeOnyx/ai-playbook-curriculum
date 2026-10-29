@@ -8,6 +8,6 @@ It is not the right way to teach a model today’s lease details. That is like t
 
 Fine-tuning also needs clean examples, permission to use them, tests, and updates. If the examples are messy or unfair, the model learns messy or unfair habits.
 
-**Why it matters:** fine-tuning can make a repeated job faster and more consistent, but it is an investment—not a magic fix for missing data or unclear rules.
+**Why it matters:** fine-tuning can make a repeated job faster and more consistent, but it is an investment, not a magic fix for missing data or unclear rules.
 
 The grown-up rule is to test the setup with real examples before trusting it with real people.

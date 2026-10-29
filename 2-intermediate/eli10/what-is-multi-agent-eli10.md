@@ -2,7 +2,7 @@
 
 Multi-agent AI means using several AI helpers instead of one. Think of a small team: one person sorts incoming mail, one reads leases, one checks the work, and one asks a manager when something is risky.
 
-This can be useful when jobs are truly different. For Deal Leverage, one helper might identify document types, another extract insurance facts, and a checker makes sure each finding has a page citation. Their work can sometimes happen at the same time.
+This can be useful when jobs are truly different. For deal diligence, one helper might identify document types, another extract insurance facts, and a checker makes sure each finding has a page citation. Their work can sometimes happen at the same time.
 
 But a bigger team is not automatically better. If everyone reads the same file and chats about it, you pay more, wait longer, and may get more confusion. Three helpers agreeing on the same wrong answer does not turn it into a fact.
 

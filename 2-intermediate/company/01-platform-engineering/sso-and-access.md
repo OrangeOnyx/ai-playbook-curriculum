@@ -28,9 +28,9 @@ Copy this into your identity provider. Adjust naming to your org's conventions.
 
 | Group | Purpose | Typical members |
 |---|---|---|
-| `ai-users-<agent-name>` | Runtime access — send prompts, receive drafts | End users of that specific agent |
+| `ai-users-<agent-name>` | Runtime access: send prompts, receive drafts | End users of that specific agent |
 | `ai-reviewers-<agent-name>` | Review drafts before send (Category 2 approval) | People with the authority to send on the company's behalf |
-| `ai-owners-<agent-name>` | Build access — deploy, change config | The named owner and their delegates |
+| `ai-owners-<agent-name>` | Build access: deploy, change config | The named owner and their delegates |
 | `ai-admins` | Cross-cutting kill switch, cost caps, credential rotation | Platform team, security team |
 | `ai-auditors` | Read-only access to traces, logs, eval history | Compliance, legal, third-party auditors |
 
@@ -44,7 +44,7 @@ Every AI vendor you use should support the below. If they don't, know what you'r
 - [ ] **SCIM provisioning** so deprovisioning happens without a support ticket
 - [ ] **Audit log export** so you can see who accessed what, when
 - [ ] **IP allowlist** for API tokens (defense in depth)
-- [ ] **Least-privilege service accounts** — no personal accounts running production
+- [ ] **Least-privilege service accounts**: no personal accounts running production
 - [ ] **Session timeout** appropriate to the sensitivity (short for anything that acts, longer for read-only)
 - [ ] **MFA required** for the underlying identity provider (SSO is only as strong as the IDP)
 

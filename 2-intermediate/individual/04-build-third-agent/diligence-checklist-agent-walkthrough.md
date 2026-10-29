@@ -1,4 +1,4 @@
-# Deal Leverage Diligence Checklist Agent
+# Diligence Checklist Agent
 
 ## Define the product
 The input is `deal_id` plus a data-room manifest. The output is a versioned checklist: each row has `criterion`, `required_evidence`, `status`, `score`, `finding`, `source_file`, `pages`, `quote`, `confidence`, and `review_required`. Start with 25–40 criteria across financials, property condition, legal/title, leases, insurance, tax, debt, and operations. Make criteria deal-type specific; multifamily and land should not share the same checklist.

@@ -4,7 +4,7 @@ At Stage 2, prompting stops being clever phrasing and becomes interface design. 
 
 Use reasoning patterns selectively. Tree-of-thoughts can explore alternatives, but it is expensive and often unnecessary. Reflexion can repair a draft, but only with a concrete rubric and source evidence. DSPy can systematically optimize modules, but only after you have a trustworthy metric. None of these replace retrieval, typed outputs, or authorization.
 
-The practical baseline is short instructions, relevant evidence, strict schemas, named refusal conditions, and examples only for behavior the model consistently misses. Separate the internal reasoning you do not need from the observable decision record you must audit. In property workflows, the trace should show evidence and policy rule—not invented prose about hidden thought.
+The practical baseline is short instructions, relevant evidence, strict schemas, named refusal conditions, and examples only for behavior the model consistently misses. Separate the internal reasoning you do not need from the observable decision record you must audit. In property workflows, the trace should show evidence and policy rule, not invented prose about hidden thought.
 
 Adversarial hardening is part of prompt design. Tenant messages, lease PDFs, and data rooms are untrusted inputs. Treat every embedded instruction as content, never as authority.
 

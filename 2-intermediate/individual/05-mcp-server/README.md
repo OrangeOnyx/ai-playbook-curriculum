@@ -1,6 +1,6 @@
 # MCP Server: Give Agents Safe Access to Real Data
 
-> **Live code:** [`OrangeOnyx/belle-mcp-server`](https://github.com/OrangeOnyx/belle-mcp-server) — clone, run locally, then follow the walkthrough. See the [repos overview](../../repos/README.md) for how the four Stage 2 repos fit together.
+> **Live code:** [`OrangeOnyx/belle-mcp-server`](https://github.com/OrangeOnyx/belle-mcp-server): clone, run locally, then follow the walkthrough. See the [repos overview](../../repos/README.md) for how the four Stage 2 repos fit together.
 
 Model Context Protocol (MCP) is a standard way to expose tools and resources to an AI client. For Belle Realty, the first MCP server should be intentionally boring: read-only, tenant-scoped, rate-limited queries that return typed facts. Boring is a feature. It lets an agent answer “What is the late-fee policy for Unit 204?” without handing it a Supabase service key or unrestricted SQL.
 

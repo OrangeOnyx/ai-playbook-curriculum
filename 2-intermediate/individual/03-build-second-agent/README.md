@@ -1,6 +1,6 @@
 # Build Your Second Agent: Tenant Triage
 
-> **Live code:** [`OrangeOnyx/support-triage-agent`](https://github.com/OrangeOnyx/support-triage-agent) — clone, run locally, then follow the walkthrough. See the [repos overview](../../repos/README.md) for how the four Stage 2 repos fit together.
+> **Live code:** [`OrangeOnyx/support-triage-agent`](https://github.com/OrangeOnyx/support-triage-agent): clone, run locally, then follow the walkthrough. See the [repos overview](../../repos/README.md) for how the four Stage 2 repos fit together.
 
 OTB tenant communications are a routing problem before they are a writing problem. A polished wrong reply is worse than no reply if a message describes a gas smell, water intrusion, a fair-housing issue, or a payment dispute. Build the triage layer first; only then let a model draft a response.
 

@@ -1,14 +1,14 @@
 # Stage 2 Intermediate
 
 **You are:** comfortable using AI daily.
-**You will become:** a builder — someone who can build agents, RAG systems, MCP servers, evals, and cost-controlled workflows.
+**You will become:** a builder, someone who can build agents, RAG systems, MCP servers, evals, and cost-controlled workflows.
 **The Curriculum's pace:** 60–90 days at 4–8 hours/week.
 
 ![Stage 2](../shared/graphics/stage-2.svg)
 
 ## Prerequisites
 
-- Stage 1 exit criteria met — see `../STAGE-MAP.md`
+- Stage 1 exit criteria met: see `../STAGE-MAP.md`
 - Comfortable in a terminal
 - Basic Python or TypeScript
 - Familiarity with git and GitHub
@@ -28,7 +28,7 @@ You've moved to Stage 3 when:
 
 - **`individual/`.** 12 core modules + 1 bonus for personal capability
 - **`company/`.** 8 modules for org-level capability
-- **`repos/`** — 4 public GitHub repos backing the core walkthroughs — [read the overview](repos/README.md)
+- **`repos/`.** 4 public GitHub repos backing the core walkthroughs. [Read the overview](repos/README.md)
 - **`shared/`.** Templates and briefs
 - **`eli10/`.** Plain-language companions for each big concept
 

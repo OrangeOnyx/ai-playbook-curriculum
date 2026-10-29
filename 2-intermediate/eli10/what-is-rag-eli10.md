@@ -8,4 +8,4 @@ This is better than hoping the AI remembers facts. But it only works if the libr
 
 RAG is not a truth machine. The AI can still choose the wrong page or make up a sentence that is not in the book. Good RAG makes it cite the page, reject weak evidence, and say it cannot find the answer.
 
-**Why it matters:** RAG lets AI answer questions from your current documents without pretending it has memorized them. The proof—the page and quote—is the valuable part.
+**Why it matters:** RAG lets AI answer questions from your current documents without pretending it has memorized them. The proof is the valuable part: the page and the quote.

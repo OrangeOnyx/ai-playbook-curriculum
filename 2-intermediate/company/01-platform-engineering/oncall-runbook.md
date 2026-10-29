@@ -1,12 +1,12 @@
 # On-call runbook: when the AI stack breaks
 
-**Read this if:** You are on call and an agent, RAG pipeline, or LLM gateway is misbehaving. You need the shortest path to "safe" — not a full incident write-up.
+**Read this if:** You are on call and an agent, RAG pipeline, or LLM gateway is misbehaving. You need the shortest path to "safe", not a full incident write-up.
 
 **Stand-alone.** You don't need the rest of this program to use it.
 
 ## Severity, in one paragraph
 
-- **SEV-1**: The agent is actively doing harm right now — sending wrong emails, leaking data, spending money. **Kill it. Then read the rest of this doc.**
+- **SEV-1**: The agent is actively doing harm right now, such as sending wrong emails, leaking data, or spending money. **Kill it. Then read the rest of this doc.**
 - **SEV-2**: The agent is producing bad output but not acting on it (drafts a human is reviewing). Contain, do not necessarily kill.
 - **SEV-3**: Cost, latency, or eval regression. Fix during business hours.
 - **SEV-4**: A single user complaint. File a ticket. Do not page anyone.
@@ -64,7 +64,7 @@ If any of those apply, treat the current state as the new baseline and fix forwa
 ## The 24-hour post-incident checklist
 
 - [ ] Timeline written (what happened, when, in UTC)
-- [ ] Root cause identified (not the trigger — the underlying reason a trigger caused this)
+- [ ] Root cause identified (not the trigger, but the underlying reason a trigger caused this)
 - [ ] Eval case added that would have caught it before ship
 - [ ] Kill-switch verified still works after the fix
 - [ ] Approval category re-checked (did we have this in the wrong category?)

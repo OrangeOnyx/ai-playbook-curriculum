@@ -6,6 +6,6 @@ Create a trust boundary. System instructions, application policy, tool schemas, 
 
 Use allowlisted tools, typed arguments, server-side authorization, row limits, and proposed writes with human approval. Strip or flag instruction-like text in retrieved chunks for reviewer visibility; do not silently alter source evidence. Separate retrieval from action: an untrusted message can lead to a draft or escalation, not a database write or an external send.
 
-Build red-team cases: direct override attempts, encoded instructions, document metadata tricks, cross-tenant data requests, tool-argument injection, and social-engineering requests for policy exceptions. Measure tool-call policy violations and unsafe-action proposals, not only refusal wording. Add canaries—fake secrets or forbidden record IDs—that must never appear in output.
+Build red-team cases: direct override attempts, encoded instructions, document metadata tricks, cross-tenant data requests, tool-argument injection, and social-engineering requests for policy exceptions. Measure tool-call policy violations and unsafe-action proposals, not only refusal wording. Add canaries: fake secrets or forbidden record IDs that must never appear in output.
 
 Prompt hardening is defense in depth. The strongest prompt cannot compensate for an MCP tool with excessive privileges.

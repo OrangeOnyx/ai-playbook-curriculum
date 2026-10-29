@@ -1,10 +1,10 @@
 # Agents are folders
 
-> Credit: this framing comes from **Jake Van Clief** and **David McDermott**, whose 2026 paper [Interpretable Context Methodology (ICM): Folder Structure as Agentic Architecture](https://arxiv.org/abs/2603.16021) formalizes what a lot of practitioners had converged on independently. Van Clief's video series and Substack ([Clief Notes](https://substack.com/@jakevanclief)) walk through it in accessible terms. The community has largely picked this up as **"agents are folders"** — a compressed slogan for a real idea.
+> Credit: this framing comes from **Jake Van Clief** and **David McDermott**, whose 2026 paper [Interpretable Context Methodology (ICM): Folder Structure as Agentic Architecture](https://arxiv.org/abs/2603.16021) formalizes what a lot of practitioners had converged on independently. Van Clief's video series and Substack ([Clief Notes](https://substack.com/@jakevanclief)) walk through it in accessible terms. The community has largely picked this up as **"agents are folders"**, a compressed slogan for a real idea.
 
 An AI agent is not a running process. It's a folder of markdown files that a model reads when you point it at them. The model is interchangeable. The folder is the asset.
 
-Everything else — frameworks, orchestration code, agent SDKs, multi-agent choreography — is optional plumbing built on top of that primitive.
+Everything else is optional plumbing built on top of that primitive: frameworks, orchestration code, agent SDKs, multi-agent choreography.
 
 ## Why this framing matters
 
@@ -19,12 +19,12 @@ If you believe "an agent is a running LangChain graph," then:
 If you believe "an agent is a folder," then:
 - The agent is a plain-text asset in Git
 - Behavior changes are pull requests against markdown
-- The runtime (Claude, GPT, Gemini, Grok, a local model) is interchangeable — pick per task
+- The runtime (Claude, GPT, Gemini, Grok, a local model) is interchangeable: pick per task
 - Non-programmers can read, review, and propose changes
 - Handoff between agents is: this folder's output directory is that folder's input directory
 - The whole thing is portable, forkable, and inspectable
 
-The 4 repos in this program are structured this way on purpose. Each has a small amount of TypeScript that hosts a tool surface, and the actual **agent** — the identity, the rules, the workflow — lives in markdown inside the repo.
+The 4 repos in this program are structured this way on purpose. Each has a small amount of TypeScript that hosts a tool surface, and the actual **agent** lives in markdown inside the repo: the identity, the rules, the workflow.
 
 ## The same agent, four ways
 
@@ -162,12 +162,12 @@ Uploaded via `save_custom_skill`. Same content once more.
 | Field | Claude Skills | Claude Code | OpenAI Assistant | Perplexity Skill |
 |---|---|---|---|---|
 | **Body of the instructions** | Identical | Identical | Identical | Identical |
-| **Frontmatter format** | `name` + `description` | `name` + `description` + `tools` + `model` | none — sent as JSON to API | `name` + `description` |
+| **Frontmatter format** | `name` + `description` | `name` + `description` + `tools` + `model` | none, sent as JSON to API | `name` + `description` |
 | **How the runtime finds it** | User invokes via slash / natural language | Auto-invoked from `.claude/agents/` | Fetched from OpenAI dashboard | Auto-invoked when description matches |
 | **Where tools are defined** | Host codebase (MCP or in-repo) | `tools:` list references built-ins | `tools.json` | Host codebase or connectors |
 | **How you edit it** | Edit markdown, restart | Edit markdown, next turn | Edit markdown, redeploy | Edit markdown, upload |
 
-Everything that matters is the same. The persistent asset — the thing that captures the agent's actual behavior — is the markdown body. Everything else is runtime tax.
+Everything that matters is the same. The persistent asset, the thing that captures the agent's actual behavior, is the markdown body. Everything else is runtime tax.
 
 ## Consequences
 
@@ -175,7 +175,7 @@ Everything that matters is the same. The persistent asset — the thing that cap
 
 **2. Version control your agents in Git, not in a vendor dashboard.** The dashboard is a cache. Git is the source of truth. If the vendor deletes your agent tomorrow, you clone your repo and redeploy.
 
-**3. Design for composition, not for cleverness.** The most interesting agents in this program are the ones that hand off structured data to each other (see [module 13 — combine two agents](../13-combine-two-agents)). That composition works because each agent is a folder with an input contract and an output contract, not because there's a fancy multi-agent framework wiring them together.
+**3. Design for composition, not for cleverness.** The most interesting agents in this program are the ones that hand off structured data to each other (see [module 13, combine two agents](../13-combine-two-agents)). That composition works because each agent is a folder with an input contract and an output contract, not because there's a fancy multi-agent framework wiring them together.
 
 **4. Read a stranger's agent by reading their folder.** No debugger, no dashboard, no framework knowledge required. `cd` in, `cat` the markdown, understand the agent. This is a form of literacy the whole industry underweights.
 
@@ -183,13 +183,13 @@ Everything that matters is the same. The persistent asset — the thing that cap
 
 Van Clief and McDermott's paper explicitly notes that ICM is **best for sequential workflows where a human reviews between stages**. When you need parallel agents coordinating in real time with shared mutable state, filesystem-as-orchestrator gets awkward and you probably do want a framework.
 
-But most real-world agent workflows — the ones this program teaches — are sequential with human review. That's the sweet spot. Ninety percent of the professional AI systems being deployed today are shaped like: input → agent stage 1 → human review → agent stage 2 → human review → output. For that shape, the folder IS the framework.
+But most real-world agent workflows, the ones this program teaches, are sequential with human review. That's the sweet spot. Ninety percent of the professional AI systems being deployed today are shaped like: input → agent stage 1 → human review → agent stage 2 → human review → output. For that shape, the folder IS the framework.
 
 ## Read more
 
-- [ICM paper — Van Clief & McDermott, 2026](https://arxiv.org/abs/2603.16021)
+- [ICM paper, Van Clief & McDermott, 2026](https://arxiv.org/abs/2603.16021)
 - [Clief Notes on Substack](https://substack.com/@jakevanclief)
-- [ICM Folder Structure — LLM Wiki](https://blog.imfsoftware.com/llm-wiki/docs/sources/icm-folder-structure/)
-- [Interpretable Context Methodology — AP0110 Wiki](https://ap0110.org/wiki/interpretable-context-methodology/)
+- [ICM Folder Structure, LLM Wiki](https://blog.imfsoftware.com/llm-wiki/docs/sources/icm-folder-structure/)
+- [Interpretable Context Methodology, AP0110 Wiki](https://ap0110.org/wiki/interpretable-context-methodology/)
 - Related in this program: [`../13-combine-two-agents`](../13-combine-two-agents) (composition through folders)
 - Related in this program: [starter-packs](../../../shared/starter-packs/) (folder templates for 8 platforms)

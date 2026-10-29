@@ -2,7 +2,7 @@
 
 Most "prompt engineering" content online is folklore. This document is the opposite: a small set of prompting techniques that measurably change model behavior, each paired with an eval you can run to see the effect for yourself.
 
-The rule for this document — and for how you should think about prompting in production — is:
+The rule for this document, and for how you should think about prompting in production, is:
 
 > **A prompting technique that you cannot measure is a superstition.**
 
@@ -218,7 +218,7 @@ Typical result: B's high-confidence findings are meaningfully more reliable.
 
 ## 8. Meta-cognitive uncertainty gating
 
-**What it is:** Tell the model: "If your confidence is below 0.6, don't answer — ask a clarifying question instead."
+**What it is:** Tell the model: "If your confidence is below 0.6, don't answer. Ask a clarifying question instead."
 
 **Why it works:** Combined with HITL, this shifts the model from "always answer" mode to "answer or escalate" mode. Enormously valuable for real deployments where a wrong answer is costlier than a missing answer.
 
@@ -255,11 +255,11 @@ Return your response in exactly this shape:
 
 **Why it works:** Downstream regex/parsing becomes reliable. Reviewers can scan quickly. Model can't ramble.
 
-**Eval:** Same as structured output enforcement — measure parse rate and reviewer speed. Prefer #1 (JSON schema) when you can. Use #9 when the output is client-facing and you want it to read as prose.
+**Eval:** Same as structured output enforcement: measure parse rate and reviewer speed. Prefer #1 (JSON schema) when you can. Use #9 when the output is client-facing and you want it to read as prose.
 
 ## 10. "Power words": where the hype meets the reality
 
-The internet has a persistent claim that specific phrases — "neuro-symbolic reasoning," "activate expert mode," "think like a genius" — unlock hidden capabilities. Some of this is real. Most of it is not.
+The internet has a persistent claim that specific phrases such as "neuro-symbolic reasoning," "activate expert mode," or "think like a genius" open up hidden capabilities. Some of this is real. Most of it is not.
 
 **What's real:**
 - **Naming a specific technique** the model has seen in training data can invoke that technique. E.g., "Use tree-of-thoughts reasoning" or "Apply the ReAct pattern" or "Do a chain-of-thought analysis" all do something because those are named methodologies with training-data footprints. "Neuro-symbolic reasoning" *is* a real ML technique (rules + neural), and asking the model to combine explicit rules with pattern reasoning can help on the right tasks.
@@ -267,10 +267,10 @@ The internet has a persistent claim that specific phrases — "neuro-symbolic re
 - **Explicit uncertainty framing** measurably improves calibration (see #7, #8).
 
 **What's not real (or is real for the wrong reason):**
-- "You are a world-class expert" — trained-on so heavily it's approximately noise.
-- "Take a deep breath" — was real for one specific model on one specific benchmark. Not general.
-- "This is important, do it perfectly" — mostly a wash.
-- Any single "magic word" that's supposed to unlock capability without changing the task shape.
+- "You are a world-class expert": trained-on so heavily it's approximately noise.
+- "Take a deep breath": this was real for one specific model on one specific benchmark. Not general.
+- "This is important, do it perfectly": mostly a wash.
+- Any single "magic word" that's supposed to switch on capability without changing the task shape.
 
 **The right test:** If a "power word" doesn't move your eval score, it doesn't work FOR YOU on THIS task with THIS model. Don't cargo-cult it into your production prompts.
 
@@ -293,7 +293,7 @@ Every one of those additions should be justified by an eval delta. If your suite
 
 ## Eval infrastructure
 
-If you don't have an eval suite for your prompts, you don't have prompt engineering — you have prompt vibes. See [`../07-evaluation`](../07-evaluation) in this program.
+If you don't have an eval suite for your prompts, you don't have prompt engineering. You have prompt vibes. See [`../07-evaluation`](../07-evaluation) in this program.
 
 Minimum viable eval:
 1. 20-100 real inputs
@@ -305,7 +305,7 @@ With that in place, every prompting technique above becomes a hypothesis you can
 
 ## Reading list
 
-- Anthropic's [prompt engineering docs](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) — vendor guidance, opinionated but honest
+- Anthropic's [prompt engineering docs](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview): vendor guidance, opinionated but honest
 - [Chain-of-Thought Prompting Elicits Reasoning in LLMs](https://arxiv.org/abs/2201.11903): the original CoT paper
 - [ReAct: Synergizing Reasoning and Acting](https://arxiv.org/abs/2210.03629)
 - [Constitutional AI](https://arxiv.org/abs/2212.08073): where the self-critique idea comes from

@@ -1,6 +1,6 @@
 # Build Your First Agent: Lease Clause Extractor
 
-> **Live code:** [`OrangeOnyx/lease-abstractor`](https://github.com/OrangeOnyx/lease-abstractor) — clone, run locally, then follow the walkthrough. See the [repos overview](../../repos/README.md) for how the four Stage 2 repos fit together.
+> **Live code:** [`OrangeOnyx/lease-abstractor`](https://github.com/OrangeOnyx/lease-abstractor): clone, run locally, then follow the walkthrough. See the [repos overview](../../repos/README.md) for how the four Stage 2 repos fit together.
 
 Build something narrow enough to trust: an agent that turns a Belle Realty lease PDF into cited, typed clause records. The output is not a summary. It is a machine-usable object such as `late_fee`, `pet_policy`, `notice_period`, `renewal`, and `maintenance_responsibility`, each with source page, exact quote, confidence, and review status.
 

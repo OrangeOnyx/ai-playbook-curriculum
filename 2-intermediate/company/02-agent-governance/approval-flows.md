@@ -6,7 +6,7 @@
 
 ## The one idea
 
-Every agent action falls into exactly one of three categories. The categories are not descriptive — they are prescriptive. The category decides whether a human is in the loop.
+Every agent action falls into exactly one of three categories. The categories are not descriptive. They are prescriptive. The category decides whether a human is in the loop.
 
 | Category | Rule | Human in loop? | Typical latency |
 |---|---|---|---|

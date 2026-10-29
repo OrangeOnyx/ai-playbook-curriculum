@@ -2,7 +2,7 @@
 
 Build one view per workflow with funnel, quality, safety, operations, and economics. Show eligible users, activated users, retained users, completed outcomes, approvals, overrides, escalations, time to completion, cost per successful task, and key business metric. Slice by role, property/deal, version, and risk category.
 
-Include a trace sample and a link to the eval baseline so numbers remain actionable. Highlight trends, not only totals: activation after a release, override spikes, retrieval degradation, or a route that is becoming expensive. Set an owner and review cadence.
+Include a trace sample and a link to the eval baseline so numbers remain useful. Highlight trends, not only totals: activation after a release, override spikes, retrieval degradation, or a route that is becoming expensive. Set an owner and review cadence.
 
 Do not rank people by chat volume. The dashboard exists to improve a workflow, not surveil employees. Qualitative feedback and observed workarounds belong beside the metrics.
 

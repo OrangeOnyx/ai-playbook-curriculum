@@ -8,6 +8,6 @@ The best defense is not just telling the AI to be careful. The software must kee
 
 Builders also test bad notes on purpose: requests for secrets, fake instructions in documents, and attempts to see another customer’s files. These tests make weak spots visible.
 
-**Why it matters:** AI reads untrusted words all day. Treating those words as data—not authority—keeps a clever note from becoming a command.
+**Why it matters:** AI reads untrusted words all day. Treating those words as data, not authority, keeps a clever note from becoming a command.
 
 The grown-up rule is to test the setup with real examples before trusting it with real people.

@@ -4,7 +4,7 @@
 
 Building one agent is a demo. Composing two is a system. This module walks through a real composition: use `lease-abstractor` to turn a folder of raw lease documents into structured JSON abstractions, then feed those abstractions into `diligence-agent` to answer portfolio-level diligence questions.
 
-This is what a professional AI workflow looks like — small, single-purpose agents chained by structured data, not by conversation.
+This is what a professional AI workflow looks like: small, single-purpose agents chained by structured data, not by conversation.
 
 ## The scenario
 
@@ -32,7 +32,7 @@ graph LR
     P[lease-portfolio.yaml playbook] --> F
 ```
 
-Every arrow between agents is a **structured JSON handoff** — never a natural-language summary. That's the design principle. When one agent's output is another agent's input, use a schema.
+Every arrow between agents is a **structured JSON handoff**, never a natural-language summary. That's the design principle. When one agent's output is another agent's input, use a schema.
 
 ## Step 1: Batch-abstract the portfolio
 
@@ -171,6 +171,6 @@ This is the shape of professional AI systems: **small agents, structured handoff
 
 ## Related
 
-- [Original module 02 — lease-abstractor](../02-build-first-agent)
-- [Original module 04 — diligence-agent](../04-build-third-agent)
+- [Original module 02, lease-abstractor](../02-build-first-agent)
+- [Original module 04, diligence-agent](../04-build-third-agent)
 - [Repos overview](../../repos/README.md)

@@ -8,4 +8,4 @@ The tools matter. Giving the intern a calculator is safe. Giving the intern keys
 
 Agents can make mistakes. They can misunderstand a message, pick the wrong document, or sound confident about something they do not know. That is why builders give them checklists, evidence, tests, and a way to say “I need a human.”
 
-**Why it matters:** agents can take repetitive investigation and drafting work off your plate, but only if they are built like supervised interns—not like magic robots.
+**Why it matters:** agents can take repetitive investigation and drafting work off your plate, but only if they are built like supervised interns, not like magic robots.

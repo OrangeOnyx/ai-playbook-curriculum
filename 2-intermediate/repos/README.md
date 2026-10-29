@@ -1,6 +1,6 @@
 # Stage 2: Working code repositories
 
-Four public GitHub repos back the four core walkthroughs in Stage 2. Each is a real, running codebase — not a snippet — meant to be cloned, run, and modified as you work through the stage.
+Four public GitHub repos back the four core walkthroughs in Stage 2. Each is a real, running codebase, not a snippet, meant to be cloned, run, and modified as you work through the stage.
 
 They're intentionally scoped:
 
@@ -24,7 +24,7 @@ You want to know these patterns, and you should not have to be a real-estate ope
 
 ## Personal use vs company use
 
-Every repo README has both a `docs/personal-use.md` and a `docs/company-use.md`. Same code, two ways to deploy — as a solo operator or as a team. That reflects how you'll actually use these; nothing about the code changes based on scale, only the deployment shape and the governance around it.
+Every repo README has both a `docs/personal-use.md` and a `docs/company-use.md`. Same code, two ways to deploy: as a solo operator or as a team. That reflects how you'll actually use these; nothing about the code changes based on scale, only the deployment shape and the governance around it.
 
 ## Common tech stack across the four
 
@@ -43,7 +43,7 @@ If you're building your own version of any of these, start from these choices an
 
 After you've cloned and modified at least one repo:
 
-- Combine two — e.g., feed `lease-abstractor` output into `diligence-agent` for a lease-portfolio review.
+- Combine two: for example, feed `lease-abstractor` output into `diligence-agent` for a lease-portfolio review.
 - Add a new tool to `belle-mcp-server` for a domain you actually care about.
 - Fork `support-triage-agent`, swap the brand-voice config, and point it at your real inbound support channel.
 

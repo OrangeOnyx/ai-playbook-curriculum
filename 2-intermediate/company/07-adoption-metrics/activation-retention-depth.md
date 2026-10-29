@@ -2,7 +2,7 @@
 
 Activation is the first completed valuable outcome: an operator accepts a cited lease clause, resolves a triaged message, or uses a diligence checklist row. It is not account creation or opening a chat panel. Define the event and time window per role.
 
-Retention asks whether activated users return to complete the workflow again in a meaningful interval. Segment by role, property, deal type, and training cohort. Depth measures appropriate repeated use: workflows completed, evidence views opened, proposals approved, and time saved—not raw prompt count.
+Retention asks whether activated users return to complete the workflow again in a meaningful interval. Segment by role, property, deal type, and training cohort. Depth measures appropriate repeated use: workflows completed, evidence views opened, proposals approved, and time saved, not raw prompt count.
 
 Track negative signals too: overrides, abandonments, manual rework, disable requests, and escalations. High escalation can be healthy for risky cases; interpret it alongside accuracy and workload. Product adoption means users rely on the system where it is designed to help, while retaining control where it should not decide.
 
