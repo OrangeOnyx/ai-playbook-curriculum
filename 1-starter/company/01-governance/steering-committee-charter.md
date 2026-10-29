@@ -1,4 +1,4 @@
-# AI Steering Committee — Charter
+# AI Steering Committee: Charter
 
 ## Purpose
 
@@ -24,10 +24,10 @@ Size cap: 8 voting members. Rotating seats change every 6 months.
 
 ## Cadence
 
-- **Weekly** — 30-min triage of new requests during initial rollout (first 90 days)
-- **Bi-weekly** — 60-min working session
-- **Monthly** — 60-min executive review
-- **Quarterly** — 2-hour full review + tool bake-off + policy refresh
+- **Weekly.** 30-min triage of new requests during initial rollout (first 90 days)
+- **Bi-weekly.** 60-min working session
+- **Monthly.** 60-min executive review
+- **Quarterly.** 2-hour full review + tool bake-off + policy refresh
 
 ## Decision types
 

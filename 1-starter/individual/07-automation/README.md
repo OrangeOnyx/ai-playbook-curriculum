@@ -1,11 +1,11 @@
-# 07 — Automation
+# 07: Automation
 
 Automation is where AI moves from "helpful tool" to "leverage." Start with three specific automations.
 
 ## Files in this folder
 
-1. `first-three-automations.md` — the exact three to build first
-2. `local-tools-setup.md` — Cursor, Claude Code, Raycast, ffmpeg, clipboard manager
+1. `first-three-automations.md`: the exact three to build first
+2. `local-tools-setup.md`: Cursor, Claude Code, Raycast, ffmpeg, clipboard manager
 
 ## The principle
 

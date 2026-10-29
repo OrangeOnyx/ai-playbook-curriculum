@@ -74,8 +74,8 @@ Retrieve using summary embeddings, return raw text.
 
 For any RAG deployment, verify chunking with:
 
-1. **Random inspection** — sample 20 chunks. Are they self-contained? Do they include enough context?
-2. **Reconstruction test** — retrieve the top 5 chunks for a real question. Does the LLM produce a correct answer?
-3. **Ground-truth eval** — for known answers, does the retrieval find the right chunk in top-5?
+1. **Random inspection**: sample 20 chunks. Are they self-contained? Do they include enough context?
+2. **Reconstruction test**: retrieve the top 5 chunks for a real question. Does the LLM produce a correct answer?
+3. **Ground-truth eval**: for known answers, does the retrieval find the right chunk in top-5?
 
 If retrieval@5 is below 80%, chunking or embedding needs work.

@@ -22,10 +22,10 @@ Describe the trigger, the agent's actions, and the outcome.
 ## Autonomy level
 
 Pick one:
-- **Suggest** — Agent produces drafts, human executes
-- **Confirm** — Agent produces actions, human approves each
-- **Execute** — Agent runs autonomously, human reviews after
-- **Full auto** — Agent runs, human reviews only exceptions
+- **Suggest.** Agent produces drafts, human executes
+- **Confirm.** Agent produces actions, human approves each
+- **Execute.** Agent runs autonomously, human reviews after
+- **Full auto.** Agent runs, human reviews only exceptions
 
 Rule: Start at Suggest. Earn each promotion.
 

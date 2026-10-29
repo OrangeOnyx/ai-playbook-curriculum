@@ -19,10 +19,10 @@ Note: Claude's Custom Instructions can be longer than ChatGPT's. Use 500-1500 wo
 
 Claude Projects hold a persistent knowledge base up to a large size cap. Prioritize:
 
-1. **Master reference doc** — one canonical document (glossary, playbook, or spec)
-2. **Style guide** — for voice
-3. **Prompt library** — folder of `.md` files
-4. **Domain docs** — 5–15 files max at first (add more only if quality holds)
+1. **Master reference doc**: one canonical document (glossary, playbook, or spec)
+2. **Style guide**: for voice
+3. **Prompt library**: folder of `.md` files
+4. **Domain docs**: 5–15 files max at first (add more only if quality holds)
 
 ## What NOT to upload
 - Anything ephemeral (weekly reports, transient status)
@@ -34,11 +34,11 @@ Claude Projects hold a persistent knowledge base up to a large size cap. Priorit
 
 Ask 5 questions that test the Project's ability to use its knowledge:
 
-1. A question directly answered by uploaded doc X — checks retrieval
-2. A question requiring synthesis across two docs — checks reasoning
-3. A question NOT in the docs — checks refusal/acknowledgment of limits
-4. A question with an ambiguous ask — checks clarification behavior
-5. A question that tests voice/tone — checks style guide adherence
+1. A question directly answered by uploaded doc X: checks retrieval
+2. A question requiring synthesis across two docs: checks reasoning
+3. A question NOT in the docs: checks refusal/acknowledgment of limits
+4. A question with an ambiguous ask: checks clarification behavior
+5. A question that tests voice/tone: checks style guide adherence
 
 ## Sharing
 

@@ -85,13 +85,13 @@ Terms specific to my work. Include the definition so the model uses them correct
 
 Include 3–5 real examples of your writing at the desired quality. Label each with context.
 
-### Example 1 — [context]
+### Example 1: [context]
 > [paste your best example]
 
-### Example 2 — [context]
+### Example 2: [context]
 > [paste example]
 
-### Example 3 — [context]
+### Example 3: [context]
 > [paste example]
 
 ## Anti-patterns

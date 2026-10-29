@@ -72,7 +72,7 @@ Three things changed in the last 18 months that make waiting far more expensive 
 
 1. **Cost per useful output dropped 10x.** What cost $1 to produce in 2024 costs $0.10 now. If you weren't using AI because "it's expensive," that reason is gone.
 2. **Reliability crossed a threshold.** Frontier models now handle complex multi-step reasoning, tool use, and long context reliably enough for production. What used to require prompt engineering hero moves now works out of the box.
-3. **Ecosystem matured.** MCP, agent frameworks, eval tools, observability platforms — the plumbing is now real. You don't have to build everything. You just have to install the pieces and configure them.
+3. **Ecosystem matured.** MCP, agent frameworks, eval tools, observability platforms: the plumbing is now real. You don't have to build everything. You just have to install the pieces and configure them.
 
 The excuses that were valid in 2023 — cost, reliability, tooling — are not valid in 2026.
 
@@ -96,11 +96,11 @@ The excuses that were valid in 2023 — cost, reliability, tooling — are not v
 
 Read the AI Fluency Program in this order:
 
-1. **This letter** — you're done.
-2. **`/README.md`** — 5 minutes. The map.
-3. **`/STAGE-MAP.md`** — 10 minutes. Where you're going.
-4. **`/1-starter/`** — 30 days. The foundation.
-5. **`/2-intermediate/`** — 60-90 days. You become a builder.
+1. **This letter**: you're done.
+2. **`/README.md`**: 5 minutes. The map.
+3. **`/STAGE-MAP.md`**: 10 minutes. Where you're going.
+4. **`/1-starter/`**: 30 days. The foundation.
+5. **`/2-intermediate/`**: 60-90 days. You become a builder.
 6. Everything above Stage 2 is optional depending on your goals.
 
 For companies, add:

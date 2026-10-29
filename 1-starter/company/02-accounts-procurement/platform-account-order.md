@@ -2,13 +2,13 @@
 
 Procure in this order. Skip to your relevant stack — you don't need everything.
 
-## Tier 1 — The core stack (get these first)
+## Tier 1: The core stack (get these first)
 
 ### 1. Enterprise chat platform (pick one primary + one backup)
-- **ChatGPT Enterprise** — broadest ecosystem, best for mixed workforce
-- **Claude for Enterprise** — best for reasoning-heavy work, engineering, legal
-- **Gemini for Workspace** — best if you're on Google Workspace
-- **Copilot for Microsoft 365** — best if you're on M365
+- **ChatGPT Enterprise.** Broadest ecosystem, best for mixed workforce
+- **Claude for Enterprise.** Best for reasoning-heavy work, engineering, legal
+- **Gemini for Workspace.** Best if you're on Google Workspace
+- **Copilot for Microsoft 365.** Best if you're on M365
 
 Recommendation: License one primary for all employees; a second smaller license for a power-user group.
 
@@ -17,27 +17,27 @@ Recommendation: License one primary for all employees; a second smaller license 
 - Give to all knowledge workers
 
 ### 3. Coding assistant
-- **GitHub Copilot Business/Enterprise** — best breadth
-- **Cursor Business** — best for developer preference
-- **Claude Code** — best for agentic multi-file work
+- **GitHub Copilot Business/Enterprise.** Best breadth
+- **Cursor Business.** Best for developer preference
+- **Claude Code.** Best for agentic multi-file work
 
 Give to every engineer. Pick two of these three; do not skimp.
 
-## Tier 2 — Domain-specific
+## Tier 2: Domain-specific
 
 ### 4. Image / video / voice (procure as needed)
-- **Midjourney Team** — brand-grade image
-- **Ideogram Enterprise** — text-in-image
-- **Runway Enterprise or Higgsfield** — video
-- **ElevenLabs Business** — voice
-- **Sora / Veo** — via primary chat platform enterprise tiers
+- **Midjourney Team.** Brand-grade image
+- **Ideogram Enterprise.** Text-in-image
+- **Runway Enterprise or Higgsfield.** Video
+- **ElevenLabs Business.** Voice
+- **Sora / Veo.** Via primary chat platform enterprise tiers
 
 ### 5. Specialized vertical AI
-- **Harvey / Spellbook** — legal
-- **Hebbia / Glean** — enterprise search
-- **Fireflies / Otter** — meeting transcription (enterprise plans)
+- **Harvey / Spellbook.** Legal
+- **Hebbia / Glean.** Enterprise search
+- **Fireflies / Otter.** Meeting transcription (enterprise plans)
 
-## Tier 3 — Infrastructure
+## Tier 3: Infrastructure
 
 ### 6. LLM Gateway (see `llm-gateway-selection.md`)
 - Portkey, LiteLLM (self-hosted), or Vercel AI Gateway
@@ -54,11 +54,11 @@ Give to every engineer. Pick two of these three; do not skimp.
 ### 9. Eval framework
 - Promptfoo (CLI, easy), Braintrust, or in-house on your observability stack
 
-## Tier 4 — Optional accelerators
+## Tier 4: Optional accelerators
 
-- **Zapier / Make / n8n Enterprise** — no-code automation
-- **Replit Teams** — quick internal AI apps
-- **v0 / Bolt / Lovable** — AI-generated internal tools
+- **Zapier / Make / n8n Enterprise.** No-code automation
+- **Replit Teams.** Quick internal AI apps
+- **v0 / Bolt / Lovable.** AI-generated internal tools
 - **Notion AI** or **Coda AI** — embedded in existing knowledge base
 
 ## Not on the approved list yet?

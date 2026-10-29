@@ -23,11 +23,11 @@
 
 ## Tracks
 
-- **`00-start-here/`** — kit philosophy, 30-day sequence, full index
-- **`individual/`** — 9 sections for personal capability
-- **`company/`** — 10 sections for organizational rollout
-- **`shared/`** — glossary, eval templates, checklists, templates
-- **`eli10/`** — plain-language companions for the essential concepts
+- **`00-start-here/`.** Kit philosophy, 30-day sequence, full index
+- **`individual/`.** 9 sections for personal capability
+- **`company/`.** 10 sections for organizational rollout
+- **`shared/`.** Glossary, eval templates, checklists, templates
+- **`eli10/`.** Plain-language companions for the essential concepts
 
 ## How to work Stage 1
 

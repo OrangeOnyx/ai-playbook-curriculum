@@ -76,7 +76,7 @@ Publish a quarterly ROI report. Kill any workflow with poor ROI.
 ## Cost optimization playbook
 
 When a budget line is over:
-1. Audit top 10 workflows by cost — is model choice appropriate?
+1. Audit top 10 workflows by cost: is model choice appropriate?
 2. Turn on prompt caching where supported
 3. Cache retrieval results
 4. Move batch workloads to batch API tier (50% off on major providers)

@@ -1,4 +1,4 @@
-# Incident Response Addendum — AI
+# Incident Response Addendum: AI
 
 This addendum extends the company's existing IR plan for AI-specific incidents.
 
@@ -16,7 +16,7 @@ This addendum extends the company's existing IR plan for AI-specific incidents.
 
 ## Response by class
 
-### A1 — Data exposure
+### A1: Data exposure
 1. Reporter contacts Security via [SECURITY EMAIL] within 24 hours
 2. Security confirms: what data, what tool, when, who else has access
 3. Security requests deletion from vendor (if enterprise) or notes as unrecoverable (if consumer)
@@ -24,13 +24,13 @@ This addendum extends the company's existing IR plan for AI-specific incidents.
 5. Affected parties notified per legal guidance
 6. Employee coaching (not punitive on first report)
 
-### A2 — Model output leak
+### A2: Model output leak
 1. Recall or retract the leaked output where possible
 2. Investigate: was it a hallucination, or actual data in the model context?
 3. If context-sourced, treat as A1
 4. If hallucinated, note as a quality issue; add to eval set
 
-### A3 — Prompt injection
+### A3: Prompt injection
 1. Isolate the affected agent immediately (kill switch)
 2. Determine blast radius: what tools did the agent have access to?
 3. Preserve logs
@@ -38,25 +38,25 @@ This addendum extends the company's existing IR plan for AI-specific incidents.
 5. Root cause: what input carried the injection? How did it evade defenses?
 6. Publish an incident report to the Steering Committee within 5 business days
 
-### A4 — Agent action error
+### A4: Agent action error
 1. Stop the agent
 2. Undo the action if reversible (recall email, restore deleted data)
 3. Notify the affected party if action reached outside the org
 4. Investigate the decision path
 5. Add a HITL checkpoint or guardrail before re-enabling
 
-### A5 — Model misuse
+### A5: Model misuse
 1. Preserve evidence
 2. Follow HR/legal escalation
 3. Steering Committee reviews for policy gap
 
-### A6 — Vendor incident
+### A6: Vendor incident
 1. Acknowledge vendor notification
 2. Assess: is our data affected? What data?
 3. Legal reviews vendor's breach report against contract commitments
 4. Follow through on any downstream customer notifications required
 
-### A7 — Bias / harm
+### A7: Bias / harm
 1. Suspend the affected workflow
 2. Convene bias review (Steering Committee + Legal + Ethics if applicable)
 3. Assess root cause: model, prompt, eval gap, data drift
@@ -82,10 +82,10 @@ Run a tabletop at least annually:
 ## Post-incident
 
 Every material incident produces:
-- **Incident report** — timeline, root cause, blast radius, remediation
+- **Incident report.** Timeline, root cause, blast radius, remediation
 - **AUP update** if a policy gap contributed
-- **Eval set update** — the incident scenario added as a regression test
-- **Training update** — the case incorporated into next quarterly refresh
+- **Eval set update.** The incident scenario added as a regression test
+- **Training update.** The case incorporated into next quarterly refresh
 
 ## Reporter protection
 

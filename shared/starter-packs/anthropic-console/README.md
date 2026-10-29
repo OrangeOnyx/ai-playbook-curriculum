@@ -4,10 +4,10 @@ For [console.anthropic.com](https://console.anthropic.com/) — direct API acces
 
 ## Files in this pack
 
-- [`system-prompt-base.md`](./system-prompt-base.md) — a generic base system prompt for a task-focused assistant
-- [`system-prompt-classifier.md`](./system-prompt-classifier.md) — for classification tasks (returns structured output)
-- [`system-prompt-extractor.md`](./system-prompt-extractor.md) — for data extraction from documents
-- [`system-prompt-agent.md`](./system-prompt-agent.md) — for tool-using agents
+- [`system-prompt-base.md`](./system-prompt-base.md): a generic base system prompt for a task-focused assistant
+- [`system-prompt-classifier.md`](./system-prompt-classifier.md): for classification tasks (returns structured output)
+- [`system-prompt-extractor.md`](./system-prompt-extractor.md): for data extraction from documents
+- [`system-prompt-agent.md`](./system-prompt-agent.md): for tool-using agents
 
 ## How to use
 
@@ -50,5 +50,5 @@ Model names shift. Check the [current models list](https://docs.anthropic.com/en
 
 ## Related program modules
 
-- [`2-intermediate/individual/02-build-first-agent`](../../../2-intermediate/individual/02-build-first-agent) — end-to-end example that uses the API
-- [`2-intermediate/individual/08-cost-engineering`](../../../2-intermediate/individual/08-cost-engineering) — prompt caching and token math
+- [`2-intermediate/individual/02-build-first-agent`](../../../2-intermediate/individual/02-build-first-agent): end-to-end example that uses the API
+- [`2-intermediate/individual/08-cost-engineering`](../../../2-intermediate/individual/08-cost-engineering): prompt caching and token math

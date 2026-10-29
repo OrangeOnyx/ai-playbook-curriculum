@@ -10,42 +10,42 @@ Standardized disclaimers to be appended to AI output in specific contexts. Curat
 
 ## Disclaimers
 
-### D-01 — External marketing content
+### D-01: External marketing content
 ```
 [COMPANY] makes no warranties regarding product outcomes described. Results may vary. See our full terms at [URL].
 ```
 
-### D-02 — Financial reference
+### D-02: Financial reference
 ```
 Information provided is for educational purposes only and does not constitute financial advice. Consult a licensed advisor before making financial decisions.
 ```
 
-### D-03 — Legal reference
+### D-03: Legal reference
 ```
 This information is provided for general reference only and is not legal advice. For advice on your specific situation, consult a licensed attorney.
 ```
 
-### D-04 — Medical reference (only if applicable)
+### D-04: Medical reference (only if applicable)
 ```
 This information is for educational purposes and is not medical advice. Consult a licensed healthcare provider for medical decisions.
 ```
 
-### D-05 — AI-generated content notice (customer-facing)
+### D-05: AI-generated content notice (customer-facing)
 ```
 This response was generated with assistance from AI and reviewed by our team.
 ```
 
-### D-06 — Forward-looking statements (public company)
+### D-06: Forward-looking statements (public company)
 ```
 Statements regarding future performance are forward-looking and subject to risks and uncertainties. See our most recent [FORM] for a description of risk factors.
 ```
 
-### D-07 — Confidentiality (internal only)
+### D-07: Confidentiality (internal only)
 ```
 This document is CONFIDENTIAL and intended only for [COMPANY] employees. Do not distribute externally.
 ```
 
-### D-08 — Personal opinion / non-representation
+### D-08: Personal opinion / non-representation
 ```
 Views expressed are those of the author and do not necessarily represent [COMPANY].
 ```

@@ -12,8 +12,8 @@ Before adding complexity, run this design through a small representative eval an
 
 ## In this module
 
-- [`prompting-techniques.md`](./prompting-techniques.md) — the 10 techniques that actually move the needle, each with an eval you can run
-- [`tree-of-thoughts.md`](./tree-of-thoughts.md) — branching exploration for multi-path reasoning
-- [`reflexion.md`](./reflexion.md) — self-critique + repair loops
-- [`dspy-primer.md`](./dspy-primer.md) — systematic prompt optimization
-- [`adversarial-hardening.md`](./adversarial-hardening.md) — defending against injection in untrusted input
+- [`prompting-techniques.md`](./prompting-techniques.md): the 10 techniques that actually move the needle, each with an eval you can run
+- [`tree-of-thoughts.md`](./tree-of-thoughts.md): branching exploration for multi-path reasoning
+- [`reflexion.md`](./reflexion.md): self-critique + repair loops
+- [`dspy-primer.md`](./dspy-primer.md): systematic prompt optimization
+- [`adversarial-hardening.md`](./adversarial-hardening.md): defending against injection in untrusted input

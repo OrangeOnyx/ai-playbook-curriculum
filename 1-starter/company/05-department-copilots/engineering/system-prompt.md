@@ -1,4 +1,4 @@
-# Engineering Copilot — System Prompt
+# Engineering Copilot: System Prompt
 
 **Purpose:** Accelerate code review, bug diagnosis, doc generation, and architecture discussions.
 **Users:** Software engineers, engineering managers, staff engineers, SREs

@@ -6,7 +6,7 @@ Each term has: definition, why it matters, and where it appears.
 
 ---
 
-## Cluster 1 — Model Mechanics
+## Cluster 1: Model Mechanics
 
 **Token** — The unit an LLM consumes. Roughly ¾ of an English word. Prices, context windows, and rate limits are all counted in tokens. *Why it matters: cost and length constraints are token-denominated.*
 
@@ -50,7 +50,7 @@ Each term has: definition, why it matters, and where it appears.
 
 ---
 
-## Cluster 2 — Reasoning
+## Cluster 2: Reasoning
 
 **Chain-of-Thought (CoT)** — Prompting technique: "think step by step" before answering. Improves accuracy on multi-step problems.
 
@@ -84,7 +84,7 @@ Each term has: definition, why it matters, and where it appears.
 
 ---
 
-## Cluster 3 — Retrieval (RAG)
+## Cluster 3: Retrieval (RAG)
 
 **RAG — Retrieval-Augmented Generation** — Pattern where you retrieve relevant documents from a knowledge base and inject them into the prompt before generation.
 
@@ -130,7 +130,7 @@ Each term has: definition, why it matters, and where it appears.
 
 ---
 
-## Cluster 4 — Agents
+## Cluster 4: Agents
 
 **Agent** — A model that operates in a loop: observe → decide → act (tool call) → observe → ... until the goal is met.
 
@@ -180,7 +180,7 @@ Each term has: definition, why it matters, and where it appears.
 
 ---
 
-## Cluster 5 — Training
+## Cluster 5: Training
 
 **Pretraining** — Training a model on massive text (trillions of tokens) to learn language. Base model.
 
@@ -232,7 +232,7 @@ Each term has: definition, why it matters, and where it appears.
 
 ---
 
-## Cluster 6 — Multimodal
+## Cluster 6: Multimodal
 
 **Multimodal model** — Handles more than one modality (text + image + audio + video).
 
@@ -288,7 +288,7 @@ Each term has: definition, why it matters, and where it appears.
 
 ---
 
-## Cluster 7 — Evaluation
+## Cluster 7: Evaluation
 
 **Eval / evaluation** — Structured tests that measure model performance. Automated where possible.
 
@@ -340,7 +340,7 @@ Each term has: definition, why it matters, and where it appears.
 
 ---
 
-## Cluster 8 — Deployment
+## Cluster 8: Deployment
 
 **Inference** — Running a trained model to produce outputs. The step you pay for.
 
@@ -390,7 +390,7 @@ Each term has: definition, why it matters, and where it appears.
 
 ---
 
-## Cluster 9 — Governance and Safety
+## Cluster 9: Governance and Safety
 
 **PII — Personally Identifiable Information** — Any data that identifies a person. Legally defined; treat carefully.
 
@@ -444,7 +444,7 @@ Each term has: definition, why it matters, and where it appears.
 
 ---
 
-## Cluster 10 — Product / Ecosystem terms
+## Cluster 10: Product / Ecosystem terms
 
 **LLM — Large Language Model** — The generic term for models like GPT, Claude, Gemini.
 
@@ -508,7 +508,7 @@ Each term has: definition, why it matters, and where it appears.
 
 ---
 
-## Cluster 11 — Neologisms and Jargon-of-the-moment
+## Cluster 11: Neologisms and Jargon-of-the-moment
 
 **Vibe coding** — Iterative coding with an AI, letting the AI drive with loose specs. Popularized 2024–2025.
 

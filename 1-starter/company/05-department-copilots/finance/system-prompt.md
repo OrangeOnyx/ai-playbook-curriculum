@@ -1,4 +1,4 @@
-# Finance Copilot — System Prompt
+# Finance Copilot: System Prompt
 
 **Purpose:** Speed up close, variance analysis, forecasting, and financial narrative drafting.
 **Users:** FP&A, controllers, staff accountants, CFO

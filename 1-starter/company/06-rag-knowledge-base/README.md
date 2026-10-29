@@ -1,4 +1,4 @@
-# 06 — RAG Knowledge Base
+# 06: RAG Knowledge Base
 
 The retrieval layer. Where department copilots get their grounded facts.
 

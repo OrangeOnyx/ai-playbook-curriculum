@@ -18,11 +18,11 @@ The pattern that works: **CLAUDE.md is short. Skills, subagents, and commands ho
 
 ## Files in this pack
 
-- [`CLAUDE.md`](./CLAUDE.md) — starter root config
-- [`agents/code-reviewer.md`](./agents/code-reviewer.md) — a subagent that reviews changes
-- [`agents/writer.md`](./agents/writer.md) — a subagent for prose writing
-- [`commands/plan.md`](./commands/plan.md) — a slash command for planning before doing
-- [`commands/eval.md`](./commands/eval.md) — a slash command for running eval suites
+- [`CLAUDE.md`](./CLAUDE.md): starter root config
+- [`agents/code-reviewer.md`](./agents/code-reviewer.md): a subagent that reviews changes
+- [`agents/writer.md`](./agents/writer.md): a subagent for prose writing
+- [`commands/plan.md`](./commands/plan.md): a slash command for planning before doing
+- [`commands/eval.md`](./commands/eval.md): a slash command for running eval suites
 
 ## How to install
 

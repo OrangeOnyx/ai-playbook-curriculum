@@ -1,4 +1,4 @@
-# 08 — Observability & Evals
+# 08: Observability & Evals
 
 You can't manage what you can't measure. Every LLM call is logged, every workflow has evals.
 

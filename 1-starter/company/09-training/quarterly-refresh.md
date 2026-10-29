@@ -1,4 +1,4 @@
-# Quarterly AI Refresh — All Employees
+# Quarterly AI Refresh: All Employees
 
 Every quarter, every employee attends a 60-minute refresh. This is how you keep pace with the field.
 
@@ -8,23 +8,23 @@ New models drop. New capabilities emerge. Old habits go stale. Without a forcing
 
 ## Structure
 
-### Segment 1 — What's new in the field (15 min)
+### Segment 1: What's new in the field (15 min)
 - Big model releases this quarter
 - New capabilities: vision, voice, tool use, longer context
 - Notable industry shifts
 
-### Segment 2 — What's new in our stack (15 min)
+### Segment 2: What's new in our stack (15 min)
 - Tools added, tools removed
 - Policy updates
 - New workflows launched
 - Retired workflows and why
 
-### Segment 3 — Team wins (15 min)
+### Segment 3: Team wins (15 min)
 - 3-5 short spotlights from different departments
 - Real workflow, real impact, real numbers
 - Q&A with the builder
 
-### Segment 4 — What's next quarter (15 min)
+### Segment 4: What's next quarter (15 min)
 - Roadmap for the AI program
 - Upcoming trainings
 - New tools in evaluation

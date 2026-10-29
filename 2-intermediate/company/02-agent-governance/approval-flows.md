@@ -109,8 +109,8 @@ If you already have a policy document, keep it, but put this three-tier table on
 
 ## Related
 
-- [agent-lifecycle.md](agent-lifecycle.md) — what happens between build and retirement
-- [agent-review-board.md](agent-review-board.md) — who decides category assignments
-- [kill-switch-playbook.md](kill-switch-playbook.md) — how to stop an agent that broke its category rules
-- [../06-cost-management/README.md](../06-cost-management/README.md) — budget rules that intersect with approval rules
-- [PLAYBOOK-AND-CURRICULUM.md](../../../PLAYBOOK-AND-CURRICULUM.md) — the individual analogue of this framework
+- [agent-lifecycle.md](agent-lifecycle.md): what happens between build and retirement
+- [agent-review-board.md](agent-review-board.md): who decides category assignments
+- [kill-switch-playbook.md](kill-switch-playbook.md): how to stop an agent that broke its category rules
+- [../06-cost-management/README.md](../06-cost-management/README.md): budget rules that intersect with approval rules
+- [PLAYBOOK-AND-CURRICULUM.md](../../../PLAYBOOK-AND-CURRICULUM.md): the individual analogue of this framework

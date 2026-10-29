@@ -1,20 +1,20 @@
-# 01 — Foundation
+# 01: Foundation
 
 Before you touch a single model, gather these inputs. This is the difference between a stack that feels like yours and a stack that feels like everyone's default ChatGPT.
 
 ## The rule
 
 You are configuring an assistant. An assistant needs to know:
-1. **Who you are** — role, background, expertise, tone
-2. **What you're working on** — projects, goals, deadlines
-3. **How you like to work** — formatting, length, when to push back
-4. **What you never want to touch** — the privacy line
+1. **Who you are**: role, background, expertise, tone
+2. **What you're working on**: projects, goals, deadlines
+3. **How you like to work**: formatting, length, when to push back
+4. **What you never want to touch**: the privacy line
 
 ## Files to produce in this folder
 
-1. `foundation-inputs-checklist.md` — checklist of raw materials to collect
-2. `privacy-line-worksheet.md` — decide what never gets pasted into a consumer model
-3. `about-me-draft.md` — the raw material for your system prompt (you'll refine in step 03)
+1. `foundation-inputs-checklist.md`: checklist of raw materials to collect
+2. `privacy-line-worksheet.md`: decide what never gets pasted into a consumer model
+3. `about-me-draft.md`: the raw material for your system prompt (you'll refine in step 03)
 
 ## Time budget
 

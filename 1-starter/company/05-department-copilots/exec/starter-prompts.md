@@ -1,4 +1,4 @@
-# Executive Copilot — Starter Prompts
+# Executive Copilot: Starter Prompts
 
 Copy-paste-ready prompts for the department. Deploy alongside the system prompt.
 

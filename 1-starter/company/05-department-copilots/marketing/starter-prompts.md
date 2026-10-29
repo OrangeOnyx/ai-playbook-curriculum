@@ -1,4 +1,4 @@
-# Marketing Copilot — Starter Prompts
+# Marketing Copilot: Starter Prompts
 
 Copy-paste-ready prompts for the department. Deploy alongside the system prompt.
 

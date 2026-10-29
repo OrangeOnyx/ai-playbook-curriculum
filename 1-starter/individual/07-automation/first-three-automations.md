@@ -2,7 +2,7 @@
 
 Build in this order. Each takes 30–60 minutes.
 
-## Automation 1 — Daily brief
+## Automation 1: Daily brief
 
 **What it does:** Every morning at 7am, you get a summary of:
 - Calendar for the day
@@ -39,7 +39,7 @@ Every weekday at 7am America/Chicago:
 Email the summary to me. Total under 250 words.
 ```
 
-## Automation 2 — End-of-week review
+## Automation 2: End-of-week review
 
 **What it does:** Every Friday at 4pm, generates your weekly review using the prompt from `04-prompt-library/19-weekly-review.md`, pulling from Calendar, Slack, GitHub, and your notes.
 
@@ -60,7 +60,7 @@ Then run the weekly-review prompt from my prompt library:
 Send the output to me by email and Slack DM.
 ```
 
-## Automation 3 — Inbox triage
+## Automation 3: Inbox triage
 
 **What it does:** Every 2 hours during working hours, scans unread email and:
 - Labels: `Reply-today`, `Reply-this-week`, `FYI-only`, `Newsletter`, `Trash`

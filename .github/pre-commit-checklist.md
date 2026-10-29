@@ -54,7 +54,7 @@ This runs the same checks CI runs. Fix every FAIL. Track WARN counts down over t
 
 The repo carries legacy Orange-Ocean-specific examples and Stage 3 and up module READMEs that don't index their sibling files. These are the warnings you'll see today. The cleanup path:
 
-1. Sweep brand names by directory, starting with `3-expert/eli10/` — replace named examples with generic ones
+1. Sweep brand names by directory, starting with `3-expert/eli10/`: replace named examples with generic ones
 2. For each Stage 3 module README, add the sibling-file index at the top
 3. Rerun `python3 .github/scripts/quality_check.py`, expect WARN count to drop
 4. When WARN count reaches zero, flip the CI workflow to `--strict` so warnings become failures

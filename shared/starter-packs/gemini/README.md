@@ -4,23 +4,23 @@ For [Gemini](https://gemini.google.com) — Google's assistant. Gemini's persist
 
 ## What Gemini gives you to configure
 
-1. **Gems** — named custom instruction sets you can pin to your Gemini sidebar
-2. **Workspace context** — Gemini can pull from Drive, Gmail, Calendar when you're signed into your Google account
-3. **Extensions** — third-party connectors (varies by tier)
+1. **Gems**: named custom instruction sets you can pin to your Gemini sidebar
+2. **Workspace context**: Gemini can pull from Drive, Gmail, Calendar when you're signed into your Google account
+3. **Extensions**: third-party connectors (varies by tier)
 
 ## Files in this pack
 
-- [`gem-writing-assistant.md`](./gem-writing-assistant.md) — a Gem for writing tasks
-- [`gem-code-helper.md`](./gem-code-helper.md) — a Gem for coding help
-- [`gem-research-analyst.md`](./gem-research-analyst.md) — a Gem for research and synthesis
-- [`gem-generic.md`](./gem-generic.md) — a Gem-generic starter you can adapt
+- [`gem-writing-assistant.md`](./gem-writing-assistant.md): a Gem for writing tasks
+- [`gem-code-helper.md`](./gem-code-helper.md): a Gem for coding help
+- [`gem-research-analyst.md`](./gem-research-analyst.md): a Gem for research and synthesis
+- [`gem-generic.md`](./gem-generic.md): a Gem-generic starter you can adapt
 
 ## How to install
 
 1. Go to [gemini.google.com](https://gemini.google.com)
 2. Sidebar → Gems → Create new Gem
 3. Paste one of the templates (edit the placeholders first)
-4. Name and description matter — Gemini uses them to help you pick
+4. Name and description matter: Gemini uses them to help you pick
 
 ## Gotchas
 

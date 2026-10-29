@@ -26,11 +26,11 @@ You've moved to Stage 3 when:
 
 ## Tracks
 
-- **`individual/`** — 12 core modules + 1 bonus for personal capability
-- **`company/`** — 8 modules for org-level capability
+- **`individual/`.** 12 core modules + 1 bonus for personal capability
+- **`company/`.** 8 modules for org-level capability
 - **`repos/`** — 4 public GitHub repos backing the core walkthroughs — [read the overview](repos/README.md)
-- **`shared/`** — templates and briefs
-- **`eli10/`** — plain-language companions for each big concept
+- **`shared/`.** Templates and briefs
+- **`eli10/`.** Plain-language companions for each big concept
 
 ## Working code repositories
 
@@ -49,7 +49,7 @@ You've moved to Stage 3 when:
 4. Then wrap the eval harness (`07`) around all of them.
 5. Then optimize cost (`08`).
 6. Everything else deepens what you've built.
-7. Bonus: [`individual/13-combine-two-agents`](individual/13-combine-two-agents) — chain two of your agents into a real system
+7. Bonus: [`individual/13-combine-two-agents`](individual/13-combine-two-agents): chain two of your agents into a real system
 
 If you finish this stage, you can build real AI systems on your own stack.
 

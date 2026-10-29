@@ -10,8 +10,8 @@ Read the pattern notes, then use the decision guide before building. Your defaul
 
 ## In this module
 
-- [`agent-patterns.md`](./agent-patterns.md) — the loops (router, planner, ReAct, worker)
-- [`when-to-use-what.md`](./when-to-use-what.md) — pattern selection guide
-- [`agents-are-folders.md`](./agents-are-folders.md) — the runtime-agnostic view: an agent is a folder, the model is interchangeable (credit: Jake Van Clief & David McDermott's ICM paper)
+- [`agent-patterns.md`](./agent-patterns.md): the loops (router, planner, ReAct, worker)
+- [`when-to-use-what.md`](./when-to-use-what.md): pattern selection guide
+- [`agents-are-folders.md`](./agents-are-folders.md): the runtime-agnostic view: an agent is a folder, the model is interchangeable (credit: Jake Van Clief & David McDermott's ICM paper)
 
 **Build standard:** typed inputs and outputs, idempotent tools, explicit retries, a small eval set before production, and a kill path for every side effect.

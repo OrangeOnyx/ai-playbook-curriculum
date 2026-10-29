@@ -1,4 +1,4 @@
-# Engineering Copilot — Starter Prompts
+# Engineering Copilot: Starter Prompts
 
 Copy-paste-ready prompts for the department. Deploy alongside the system prompt.
 

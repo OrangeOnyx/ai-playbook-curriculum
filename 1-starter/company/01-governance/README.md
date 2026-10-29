@@ -1,4 +1,4 @@
-# 01 — Governance
+# 01: Governance
 
 **Governance before tools. Always.**
 
@@ -6,12 +6,12 @@ A company with an AUP but no AI beats a company with AI but no AUP. Every incide
 
 ## Files in this folder
 
-1. `acceptable-use-policy.md` — the one-page AUP employees actually read
-2. `data-classification-matrix.md` — which data class goes to which tool
-3. `vendor-dpa-checklist.md` — DPAs to sign with each vendor
-4. `incident-response-addendum.md` — what to do when PII leaks
-5. `steering-committee-charter.md` — who sits on it, what they decide
-6. `zero-retention-configuration.md` — how to enable no-training on every provider
+1. `acceptable-use-policy.md`: the one-page AUP employees actually read
+2. `data-classification-matrix.md`: which data class goes to which tool
+3. `vendor-dpa-checklist.md`: DPAs to sign with each vendor
+4. `incident-response-addendum.md`: what to do when PII leaks
+5. `steering-committee-charter.md`: who sits on it, what they decide
+6. `zero-retention-configuration.md`: how to enable no-training on every provider
 
 ## The sequence
 

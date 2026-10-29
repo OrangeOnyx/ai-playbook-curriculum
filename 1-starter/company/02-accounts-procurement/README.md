@@ -1,17 +1,17 @@
-# 02 — Accounts & Procurement
+# 02: Accounts & Procurement
 
 The company's AI stack, in order of purchase.
 
 ## The purchasing order
 
-1. **Enterprise chat platform** — ChatGPT Enterprise or Claude Team/Enterprise (usually both)
-2. **Grounded search** — Perplexity Enterprise
-3. **Code assistant** — GitHub Copilot Business or Cursor site license
-4. **Meeting intelligence** — Otter, Fireflies, or Gong
-5. **LLM gateway** — Portkey / LiteLLM / OpenRouter (see `llm-gateway-selection.md`)
-6. **Vector DB** — pgvector to start; Pinecone/Weaviate/Qdrant at scale (see `vector-db-selection.md`)
-7. **Observability** — Langfuse / Helicone / LangSmith
-8. **Domain-specific** — CRM AI (Salesforce Einstein), legal AI (Harvey, Ironclad), etc.
+1. **Enterprise chat platform**: ChatGPT Enterprise or Claude Team/Enterprise (usually both)
+2. **Grounded search**: Perplexity Enterprise
+3. **Code assistant**: GitHub Copilot Business or Cursor site license
+4. **Meeting intelligence**: Otter, Fireflies, or Gong
+5. **LLM gateway**: Portkey / LiteLLM / OpenRouter (see `llm-gateway-selection.md`)
+6. **Vector DB**: pgvector to start; Pinecone/Weaviate/Qdrant at scale (see `vector-db-selection.md`)
+7. **Observability**: Langfuse / Helicone / LangSmith
+8. **Domain-specific**: CRM AI (Salesforce Einstein), legal AI (Harvey, Ironclad), etc.
 
 ## Contract requirements
 

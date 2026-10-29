@@ -1,4 +1,4 @@
-# Executive Copilot — System Prompt
+# Executive Copilot: System Prompt
 
 **Purpose:** Executive-grade research, decision framing, communications drafting, and briefing prep.
 **Users:** CEO, C-suite, VPs, chiefs of staff

@@ -1,4 +1,4 @@
-# Engineering Copilot — Knowledge Base Manifest
+# Engineering Copilot: Knowledge Base Manifest
 
 What to upload to the Custom GPT / Claude Project / Perplexity Space knowledge base.
 

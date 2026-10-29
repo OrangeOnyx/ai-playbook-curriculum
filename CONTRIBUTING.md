@@ -4,11 +4,11 @@ This program is open. Fork it, extend it, remix it. If you find something worth 
 
 ## What good contributions look like
 
-- **New sections** — a topic missing at the right stage
-- **Better examples** — anchored on real, working systems
-- **ELI10 companions** — new concepts explained plainly
-- **Corrections** — factual, stylistic, or structural
-- **Translations** — the whole program in another language
+- **New sections.** A topic missing at the right stage
+- **Better examples.** Anchored on real, working systems
+- **ELI10 companions.** New concepts explained plainly
+- **Corrections.** Factual, stylistic, or structural
+- **Translations.** The whole program in another language
 
 ## What contributions won't be merged
 

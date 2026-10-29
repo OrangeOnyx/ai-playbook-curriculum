@@ -2,7 +2,7 @@
 
 The first three agents to deploy. Each is high-ROI, bounded, and safe to start with HITL.
 
-## Agent 1 — Inbox Triage Agent
+## Agent 1: Inbox Triage Agent
 
 ### What it does
 Every 2 hours during working hours, scans each employee's inbox and:
@@ -32,7 +32,7 @@ Every 2 hours during working hours, scans each employee's inbox and:
 - Week 3: pilot with a full department
 - Week 4: broader rollout with per-user opt-in
 
-## Agent 2 — Meeting-Notes-to-CRM Agent
+## Agent 2: Meeting-Notes-to-CRM Agent
 
 ### What it does
 After every sales call (detected via calendar + transcription integration):
@@ -63,7 +63,7 @@ After every sales call (detected via calendar + transcription integration):
 - Week 3: measure adoption + accuracy
 - Week 4: refine based on feedback, promote to standard workflow
 
-## Agent 3 — Weekly Report Generator
+## Agent 3: Weekly Report Generator
 
 ### What it does
 Every Friday at 3pm, generates a personalized weekly report for each employee:
@@ -98,12 +98,12 @@ Every Friday at 3pm, generates a personalized weekly report for each employee:
 
 Notice the shape:
 
-1. **Bounded scope** — one job, well-defined
-2. **HITL by default** — earn autonomy
-3. **Read before write** — start read-only, add write behind approval
-4. **Eval set before ship** — 5+5 minimum, ground truth from real data
-5. **Staged rollout** — beta → pilot → department → org
-6. **Kill switch** — every agent can be paused per-user or globally
+1. **Bounded scope**: one job, well-defined
+2. **HITL by default**: earn autonomy
+3. **Read before write**: start read-only, add write behind approval
+4. **Eval set before ship**: 5+5 minimum, ground truth from real data
+5. **Staged rollout**: beta → pilot → department → org
+6. **Kill switch**: every agent can be paused per-user or globally
 
 ## Anti-patterns
 

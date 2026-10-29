@@ -1,6 +1,6 @@
 # The 15 Company-Wide Prompts
 
-## 01 — Company-voice email polisher
+## 01: Company-voice email polisher
 
 ```
 Polish this email to match our company voice.
@@ -21,7 +21,7 @@ Rules:
 Return the polished email in a code block, then a 2-line note on what changed.
 ```
 
-## 02 — Meeting notes → structured
+## 02: Meeting notes → structured
 
 ```
 Structure these meeting notes.
@@ -48,7 +48,7 @@ Bulleted questions raised but not resolved.
 Do not include attendee list unless asked.
 ```
 
-## 03 — Weekly team update
+## 03: Weekly team update
 
 ```
 Write this week's team update for {TEAM}.
@@ -70,7 +70,7 @@ Format:
 Under 200 words. No filler adjectives.
 ```
 
-## 04 — Quarterly OKR draft
+## 04: Quarterly OKR draft
 
 ```
 Draft OKRs for {TEAM} for {QUARTER}.
@@ -96,7 +96,7 @@ Rules:
 - Notes on cross-team dependencies at the bottom
 ```
 
-## 05 — Vendor evaluation
+## 05: Vendor evaluation
 
 ```
 Evaluate this vendor.
@@ -132,7 +132,7 @@ Sign / Explore further / Reject — with reasoning.
 Table across top options.
 ```
 
-## 06 — Incident post-mortem
+## 06: Incident post-mortem
 
 ```
 Draft an incident post-mortem.
@@ -169,7 +169,7 @@ Numbered action items with owner and due date.
 Blameless language throughout. Focus on systems, not individuals.
 ```
 
-## 07 — Customer feedback synthesis
+## 07: Customer feedback synthesis
 
 ```
 Synthesize this batch of customer feedback.
@@ -200,7 +200,7 @@ Bulleted with severity guess.
 3 bullet actions ranked by impact.
 ```
 
-## 08 — RFP response drafter
+## 08: RFP response drafter
 
 ```
 Draft a response to this RFP question.
@@ -219,7 +219,7 @@ Constraints:
 Return draft, then a "sources within our docs" list so a reviewer can verify.
 ```
 
-## 09 — Job description drafter
+## 09: Job description drafter
 
 ```
 Draft a job description for {ROLE}.
@@ -253,7 +253,7 @@ Comp range as stated, benefits summary, EEO statement.
 Inclusive language throughout. No "rockstar", "ninja", "10x".
 ```
 
-## 10 — Policy Q&A
+## 10: Policy Q&A
 
 ```
 Question about our policy: {QUESTION}
@@ -278,7 +278,7 @@ Who to contact for clarification.
 If the answer isn't in the policies, say so and route to a human.
 ```
 
-## 11 — Data classification checker
+## 11: Data classification checker
 
 ```
 Classify this data.
@@ -306,7 +306,7 @@ Where this class must NOT go.
 Any specific requirements (redaction, encryption, retention limits).
 ```
 
-## 12 — External communication reviewer
+## 12: External communication reviewer
 
 ```
 Review this external communication before it's sent.
@@ -342,7 +342,7 @@ Inline redlines.
 Which one, if any.
 ```
 
-## 13 — Presentation outliner
+## 13: Presentation outliner
 
 ```
 Outline a presentation.
@@ -372,7 +372,7 @@ What to keep in reserve for Q&A.
 Rule: pace at ~2 min per body slide.
 ```
 
-## 14 — Meeting agenda + pre-read
+## 14: Meeting agenda + pre-read
 
 ```
 Design a meeting.
@@ -407,7 +407,7 @@ One-page brief covering the essential context. Bullet list.
 Rule: default to shorter meetings. If the goal doesn't fit in the time, halve the scope, not the time.
 ```
 
-## 15 — Escalation summary
+## 15: Escalation summary
 
 ```
 Summarize this escalation for the receiving team.

@@ -1,4 +1,4 @@
-# Finance Copilot — Knowledge Base Manifest
+# Finance Copilot: Knowledge Base Manifest
 
 What to upload to the Custom GPT / Claude Project / Perplexity Space knowledge base.
 

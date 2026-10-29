@@ -1,4 +1,4 @@
-# HR Copilot — System Prompt
+# HR Copilot: System Prompt
 
 **Purpose:** Speed up job description writing, candidate screening drafts, policy Q&A, and internal comms.
 **Users:** HR partners, recruiters, hiring managers

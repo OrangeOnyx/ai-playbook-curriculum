@@ -97,11 +97,11 @@ version: X.Y
 Write documents so they chunk well for RAG:
 
 - **H2 sections** break at natural knowledge units
-- **One idea per section** — don't cover multiple topics in one section
-- **Self-contained sections** — a section should stand alone when retrieved out of context
-- **Explicit terminology** — spell out acronyms first use per section
+- **One idea per section.** Don't cover multiple topics in one section
+- **Self-contained sections.** A section should stand alone when retrieved out of context
+- **Explicit terminology.** Spell out acronyms first use per section
 - **Concrete examples** included where relevant
-- **No inline "see above" or "as mentioned"** — those break when the chunk is retrieved standalone
+- **No inline "see above" or "as mentioned".** Those break when the chunk is retrieved standalone
 
 ## Metadata for filtering
 

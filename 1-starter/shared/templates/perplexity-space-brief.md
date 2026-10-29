@@ -41,8 +41,8 @@ Enable those relevant to the Space:
 
 Same 5-question protocol as Claude Projects, plus:
 
-6. A question requiring current web data — checks live search
-7. A question spanning uploaded + web — checks source blending
+6. A question requiring current web data: checks live search
+7. A question spanning uploaded + web: checks source blending
 
 ## When Space beats Project
 

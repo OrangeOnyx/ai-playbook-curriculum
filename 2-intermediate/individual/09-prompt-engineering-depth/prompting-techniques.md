@@ -10,16 +10,16 @@ If adding "you are a world-class expert" to your prompt doesn't change your eval
 
 ## The techniques (ranked by ROI)
 
-1. **Structured output enforcement** — highest ROI, boring, essential
-2. **Few-shot with worked examples** — very high ROI, especially for stable output shapes
-3. **Chain-of-thought (for hard reasoning)** — high ROI on math/logic; can hurt on classification
-4. **Role and persona (targeted)** — moderate ROI, easy to misuse
-5. **Discipline/domain prefixes** — moderate ROI, best combined with few-shot
-6. **Quality-forcing (critique-then-improve)** — moderate ROI, doubles cost
-7. **Adversarial self-check** — moderate ROI on safety-critical work
-8. **Meta-cognitive uncertainty gating** — low-moderate ROI, high value on HITL
-9. **Output-shape scaffolds** — moderate ROI, overlaps with #1
-10. **"Power words" (neuro-symbolic, etc.)** — low ROI in isolation, sometimes real inside a system
+1. **Structured output enforcement**: highest ROI, boring, essential
+2. **Few-shot with worked examples**: very high ROI, especially for stable output shapes
+3. **Chain-of-thought (for hard reasoning)**: high ROI on math/logic; can hurt on classification
+4. **Role and persona (targeted)**: moderate ROI, easy to misuse
+5. **Discipline/domain prefixes**: moderate ROI, best combined with few-shot
+6. **Quality-forcing (critique-then-improve)**: moderate ROI, doubles cost
+7. **Adversarial self-check**: moderate ROI on safety-critical work
+8. **Meta-cognitive uncertainty gating**: low-moderate ROI, high value on HITL
+9. **Output-shape scaffolds**: moderate ROI, overlaps with #1
+10. **"Power words" (neuro-symbolic, etc.)**: low ROI in isolation, sometimes real inside a system
 
 Everything below the fold has an eval. Run it against your own model + task before you commit to it in a prompt.
 
@@ -257,7 +257,7 @@ Return your response in exactly this shape:
 
 **Eval:** Same as structured output enforcement — measure parse rate and reviewer speed. Prefer #1 (JSON schema) when you can. Use #9 when the output is client-facing and you want it to read as prose.
 
-## 10. "Power words" — where the hype meets the reality
+## 10. "Power words": where the hype meets the reality
 
 The internet has a persistent claim that specific phrases — "neuro-symbolic reasoning," "activate expert mode," "think like a genius" — unlock hidden capabilities. Some of this is real. Most of it is not.
 
@@ -306,8 +306,8 @@ With that in place, every prompting technique above becomes a hypothesis you can
 ## Reading list
 
 - Anthropic's [prompt engineering docs](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) — vendor guidance, opinionated but honest
-- [Chain-of-Thought Prompting Elicits Reasoning in LLMs](https://arxiv.org/abs/2201.11903) — the original CoT paper
+- [Chain-of-Thought Prompting Elicits Reasoning in LLMs](https://arxiv.org/abs/2201.11903): the original CoT paper
 - [ReAct: Synergizing Reasoning and Acting](https://arxiv.org/abs/2210.03629)
-- [Constitutional AI](https://arxiv.org/abs/2212.08073) — where the self-critique idea comes from
+- [Constitutional AI](https://arxiv.org/abs/2212.08073): where the self-critique idea comes from
 - Related in this program: [`../07-evaluation`](../07-evaluation), [`../08-cost-engineering`](../08-cost-engineering)
 - Deep dive on power-word combinations: your `neuro-power-stack` user skill

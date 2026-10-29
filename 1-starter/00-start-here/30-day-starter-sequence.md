@@ -2,7 +2,7 @@
 
 Same shape for individual and company — company items in [brackets].
 
-## Week 1 — Foundation
+## Week 1: Foundation
 
 **Day 1** — Gather foundation inputs (`individual/01-foundation/foundation-inputs-checklist.md`). [Company: publish AUP.]
 **Day 2** — Create accounts in priority order. [Company: sign DPAs, enable SSO.]
@@ -12,7 +12,7 @@ Same shape for individual and company — company items in [brackets].
 **Day 6** — Port same prompt + files to a Claude Project.
 **Day 7** — Port same prompt + files to a Perplexity Space.
 
-## Week 2 — Library and Routing
+## Week 2: Library and Routing
 
 **Day 8** — Copy in the 20 starter prompts. Pick your 5 most-used.
 **Day 9** — Rewrite those 5 in your voice.
@@ -22,7 +22,7 @@ Same shape for individual and company — company items in [brackets].
 **Day 13** — First automation: one scheduled task or one Zapier scenario.
 **Day 14** — Weekly review: what worked, what didn't, prune 3 things.
 
-## Week 3 — Automation and RAG
+## Week 3: Automation and RAG
 
 **Day 15** — Second automation. [Company: pilot department picks 3 workflows.]
 **Day 16** — Build first eval set (5 good, 5 bad artifacts per workflow).
@@ -32,7 +32,7 @@ Same shape for individual and company — company items in [brackets].
 **Day 20** — Try one model you don't normally use for a real task.
 **Day 21** — Weekly review.
 
-## Week 4 — Fluency and Ritualize
+## Week 4: Fluency and Ritualize
 
 **Day 22** — Jargon cluster 1: Model mechanics (see `shared/glossary/`).
 **Day 23** — Jargon cluster 2: Reasoning + Retrieval.

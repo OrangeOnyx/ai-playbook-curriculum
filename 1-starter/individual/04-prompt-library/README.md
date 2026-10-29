@@ -1,16 +1,16 @@
-# 04 — Prompt Library
+# 04: Prompt Library
 
 Twenty reusable prompts. Each one is a proven pattern for a common task.
 
 ## How prompts are organized here
 
 Each prompt is its own file: `NN-slug.md`. The file contains:
-1. **Purpose** — one sentence
-2. **When to use** — trigger conditions
-3. **The prompt** — copy-paste-ready
-4. **Variables** — what to fill in
-5. **Model recommendation** — which model handles this best
-6. **Example** — one filled-in example
+1. **Purpose**: one sentence
+2. **When to use**: trigger conditions
+3. **The prompt**: copy-paste-ready
+4. **Variables**: what to fill in
+5. **Model recommendation**: which model handles this best
+6. **Example**: one filled-in example
 
 ## The 20 starters
 

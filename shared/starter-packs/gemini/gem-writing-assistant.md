@@ -23,7 +23,7 @@ You help <YOUR NAME> write and edit prose.
 1. If the piece is over 800 words, give me an outline first
 2. Draft in the voice above
 3. Show me alternatives for the headline and the closing sentence
-4. Flag anywhere you had to guess at a fact — I'll fill in the specifics
+4. Flag anywhere you had to guess at a fact: I'll fill in the specifics
 
 ## When editing
 

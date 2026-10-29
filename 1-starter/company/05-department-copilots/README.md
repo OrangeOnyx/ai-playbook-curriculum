@@ -1,4 +1,4 @@
-# 05 — Department Copilots
+# 05: Department Copilots
 
 Each department gets a copilot: a scoped chat/agent surface with its own system prompt, prompt library, and knowledge base.
 

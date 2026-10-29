@@ -25,7 +25,7 @@ ai-kit/
 4. Total time to complete the starter path: **~10 hours over 30 days**
 
 ### If you're a company
-1. Read `company/01-governance/README.md` **first** — governance before tools, always
+1. Read `company/01-governance/README.md` **first**: governance before tools, always
 2. Work sequentially through folders 01 → 10
 3. Governance (01) and Accounts (02) are done by IT/Legal/Security
 4. Department copilots (05) are built by department leads with the AI champion
@@ -43,7 +43,7 @@ Six rules this kit is built on:
 1. **Governance before tools.** A team with policy but no AI beats a team with AI but no policy.
 2. **One prompt, three homes.** Every good prompt lives as a Custom GPT, a Claude Project, and a Perplexity Space.
 3. **Evals or it didn't happen.** No model change ships without running the eval set.
-4. **Route by strength, not by loyalty.** Use the right model for the job — the cheat sheet in `individual/05-model-routing/` tells you which.
+4. **Route by strength, not by loyalty.** Use the right model for the job: the cheat sheet in `individual/05-model-routing/` tells you which.
 5. **Memory is a feature, not a magic trick.** Curate what each model remembers; review monthly.
 6. **Jargon is leverage.** Fluency in the terms is 30% of the skill gap.
 

@@ -1,4 +1,4 @@
-# 07 — Agents & MCP
+# 07: Agents & MCP
 
 Model Context Protocol (MCP) servers and the first agentic workflows.
 
@@ -9,8 +9,8 @@ Model Context Protocol (MCP) servers and the first agentic workflows.
 
 ## Rules
 
-1. Least privilege — read before write
-2. HITL before autonomous — earn autonomy through eval history
+1. Least privilege: read before write
+2. HITL before autonomous: earn autonomy through eval history
 3. Every agent has an eval set (25 cases minimum)
 4. Every agent has a kill switch
-5. Staged rollout — beta, pilot, department, org
+5. Staged rollout: beta, pilot, department, org

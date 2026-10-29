@@ -1,4 +1,4 @@
-# NN — Prompt Title
+# NN: Prompt Title
 
 **Purpose:** One-sentence description of what this prompt produces.
 

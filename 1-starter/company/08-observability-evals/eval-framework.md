@@ -6,14 +6,14 @@ The framework the company uses to score AI workflows. Extends the individual fra
 
 For every deployed AI workflow, we track:
 
-1. **Correctness** — does it produce the right output?
-2. **Format compliance** — does it match the expected output shape?
-3. **Voice / brand** — does it sound like us?
-4. **Safety** — does it violate policy or reveal sensitive data?
-5. **Cost** — dollars per resolved item
-6. **Latency** — user-perceived speed
-7. **Adoption** — % of eligible users using it
-8. **ROI** — measured value against measured cost
+1. **Correctness**: does it produce the right output?
+2. **Format compliance**: does it match the expected output shape?
+3. **Voice / brand**: does it sound like us?
+4. **Safety**: does it violate policy or reveal sensitive data?
+5. **Cost**: dollars per resolved item
+6. **Latency**: user-perceived speed
+7. **Adoption**: % of eligible users using it
+8. **ROI**: measured value against measured cost
 
 ## Eval cadence
 
@@ -26,9 +26,9 @@ For every deployed AI workflow, we track:
 
 ## Ownership
 
-- **Workflow owner** — the department lead that uses it. Owns the eval set content.
-- **AI Champion** — technical partner that maintains the eval runner.
-- **Steering Committee** — reviews quarterly aggregate; approves model changes.
+- **Workflow owner.** The department lead that uses it. Owns the eval set content.
+- **AI Champion.** Technical partner that maintains the eval runner.
+- **Steering Committee.** Reviews quarterly aggregate; approves model changes.
 
 ## Eval set structure
 
@@ -50,10 +50,10 @@ evals/
 ## Minimum eval set
 
 Per workflow, minimum:
-- **10 core cases** — cover the workflow's main scenarios
-- **5 edge cases** — inputs that reveal drift
-- **5 adversarial cases** — prompt injection, boundary inputs, permission tests
-- **5 regression cases** — historical failures now fixed
+- **10 core cases.** Cover the workflow's main scenarios
+- **5 edge cases.** Inputs that reveal drift
+- **5 adversarial cases.** Prompt injection, boundary inputs, permission tests
+- **5 regression cases.** Historical failures now fixed
 
 Total: 25 cases minimum. Some workflows have 200+.
 

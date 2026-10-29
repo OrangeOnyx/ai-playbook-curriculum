@@ -1,4 +1,4 @@
-# 10 — Rollout Playbook
+# 10: Rollout Playbook
 
 How to go from Day 0 to a company-wide AI program in 90 days, then continue.
 

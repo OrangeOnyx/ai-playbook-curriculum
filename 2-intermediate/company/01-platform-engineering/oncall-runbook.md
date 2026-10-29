@@ -28,7 +28,7 @@ If you're reading this at 2 AM, the question is: is anything reaching external h
 The agent is drafting, not acting. You have time.
 
 1. **Flip auto-send to false** on every tool the agent has, if it isn't already.
-2. **Increase the sampling rate** on the human review — every draft gets reviewed, not one in ten.
+2. **Increase the sampling rate** on the human review: every draft gets reviewed, not one in ten.
 3. **Enable verbose logging** so you can see what changed.
 4. **Do not roll back yet.** You don't know what to roll back to. Diagnose first.
 
@@ -37,10 +37,10 @@ The agent is drafting, not acting. You have time.
 Work through these in order. Stop at the first one that explains the symptom.
 
 1. **Did anything deploy in the last 24 hours?** Model, prompt, retrieval index, tool permissions, config. Check the change log. Rollback beats debug.
-2. **Is the underlying model behaving?** Hit the model directly (no agent, no RAG) with a known-good prompt. If the raw model is bad, you have an upstream problem — check provider status page.
+2. **Is the underlying model behaving?** Hit the model directly (no agent, no RAG) with a known-good prompt. If the raw model is bad, you have an upstream problem: check provider status page.
 3. **Is retrieval returning garbage?** Log the top-K chunks for a failing query. If the chunks are irrelevant, the index is stale, poisoned, or the embedding model changed. See [../03-rag-at-scale/refresh-orchestration.md](../03-rag-at-scale/refresh-orchestration.md).
 4. **Did the tool interface change?** External APIs the agent calls sometimes silently change response shape. Check the tool call logs for HTTP 200 with unexpected payload shape.
-5. **Is a specific user or tenant triggering it?** Filter traces by user_id. If it's one tenant, you have a data problem in their scope — see [../03-rag-at-scale/multi-tenant-rag.md](../03-rag-at-scale/multi-tenant-rag.md).
+5. **Is a specific user or tenant triggering it?** Filter traces by user_id. If it's one tenant, you have a data problem in their scope: see [../03-rag-at-scale/multi-tenant-rag.md](../03-rag-at-scale/multi-tenant-rag.md).
 6. **Is it prompt injection?** If the failing inputs contain instructions targeting the agent ("ignore previous instructions", "forget your rules"), you're being attacked. Escalate to security.
 7. **Cost spike?** If the symptom is bill, not behavior, check for infinite tool-use loops. See [../06-cost-management/spend-alerting.md](../06-cost-management/spend-alerting.md).
 
@@ -79,7 +79,7 @@ If any of those apply, treat the current state as the new baseline and fix forwa
 
 ## Related
 
-- [../02-agent-governance/kill-switch-playbook.md](../02-agent-governance/kill-switch-playbook.md) — where the kill switch actually is
-- [../02-agent-governance/approval-flows.md](../02-agent-governance/approval-flows.md) — the categories you are enforcing
-- [observability-stack.md](observability-stack.md) — the traces you need for step 4 above
-- [sso-and-access.md](sso-and-access.md) — how to revoke access at the source in step 1 of SEV-1
+- [../02-agent-governance/kill-switch-playbook.md](../02-agent-governance/kill-switch-playbook.md): where the kill switch actually is
+- [../02-agent-governance/approval-flows.md](../02-agent-governance/approval-flows.md): the categories you are enforcing
+- [observability-stack.md](observability-stack.md): the traces you need for step 4 above
+- [sso-and-access.md](sso-and-access.md): how to revoke access at the source in step 1 of SEV-1

@@ -1,4 +1,4 @@
-# Scoring Rubric — Universal
+# Scoring Rubric: Universal
 
 Adapt per workflow. This is the base template.
 

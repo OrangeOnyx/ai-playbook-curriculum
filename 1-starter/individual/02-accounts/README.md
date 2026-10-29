@@ -1,12 +1,12 @@
-# 02 — Accounts
+# 02: Accounts
 
 Create accounts in this order. Each unlocks capabilities the next one builds on.
 
 ## Files in this folder
 
-1. `accounts-order.md` — the priority list with costs and rationale
-2. `api-keys-setup.md` — how to provision keys for each provider
-3. `password-manager-template.md` — how to store credentials
+1. `accounts-order.md`: the priority list with costs and rationale
+2. `api-keys-setup.md`: how to provision keys for each provider
+3. `password-manager-template.md`: how to store credentials
 
 ## The principle
 

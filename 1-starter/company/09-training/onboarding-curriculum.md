@@ -1,8 +1,8 @@
-# Onboarding Curriculum — New Employee AI Training
+# Onboarding Curriculum: New Employee AI Training
 
 Every new employee completes this within their first 30 days. Structured as five 45-minute modules.
 
-## Module 1 — What AI can and can't do here (Day 1)
+## Module 1: What AI can and can't do here (Day 1)
 
 **Objectives:**
 - Understand what tools we've approved
@@ -19,7 +19,7 @@ Every new employee completes this within their first 30 days. Structured as five
 - 10-question quiz on data classification
 - Must pass 90% to continue
 
-## Module 2 — Your first workflow (Week 1)
+## Module 2: Your first workflow (Week 1)
 
 **Objectives:**
 - Compose a good prompt
@@ -36,7 +36,7 @@ Every new employee completes this within their first 30 days. Structured as five
 - Complete 3 real tasks with AI assistance
 - Submit prompts + outputs to trainer for review
 
-## Module 3 — Personal setup (Week 1)
+## Module 3: Personal setup (Week 1)
 
 **Objectives:**
 - Configure your master system prompt
@@ -55,7 +55,7 @@ Every new employee completes this within their first 30 days. Structured as five
 - Show your Custom Instructions
 - Demonstrate memory is set correctly
 
-## Module 4 — Guardrails and safety (Week 2)
+## Module 4: Guardrails and safety (Week 2)
 
 **Objectives:**
 - Know what NOT to paste into AI
@@ -72,7 +72,7 @@ Every new employee completes this within their first 30 days. Structured as five
 - Complete 5 "spot the problem" case studies
 - Discuss with trainer
 
-## Module 5 — Your department's playbook (Week 3)
+## Module 5: Your department's playbook (Week 3)
 
 **Objectives:**
 - Deep dive on your department's copilot

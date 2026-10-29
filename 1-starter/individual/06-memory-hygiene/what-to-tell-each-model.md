@@ -46,22 +46,22 @@ When I ask for a decision or recommendation, pick one and justify. Do not list f
 ### ChatGPT (Plus/Pro)
 1. Settings → Personalization → Memory → toggle ON
 2. Open a new chat. Paste the universal memory block prefixed with "Please remember the following about me:"
-3. After it acknowledges, ask: "What do you know about me?" — verify accuracy.
+3. After it acknowledges, ask: "What do you know about me?": verify accuracy.
 4. Also fill Custom Instructions:
    - "What would you like ChatGPT to know about you?" — paste identity + projects
    - "How would you like ChatGPT to respond?" — paste voice + formatting + constraints
 
 ### Claude (Pro/Max)
 1. Claude does not have global memory like ChatGPT. Instead, use Projects.
-2. Create a Project called "Personal — Default"
+2. Create a Project called "Personal: Default"
 3. In Custom Instructions, paste the entire universal memory block
 4. Upload your `personal-style-guide.md` as a knowledge file
 5. Use this project as your default chat home
 
 ### Perplexity
 1. Settings → Preferences → AI Profile
-2. Fill "Introduce yourself" — paste identity + projects
-3. Fill "Your interests" — bullet your active projects and expertise areas
+2. Fill "Introduce yourself": paste identity + projects
+3. Fill "Your interests": bullet your active projects and expertise areas
 4. Enable web memory (opt-in per your privacy line)
 5. For projects that need persistent context, create Spaces per project
 
@@ -72,7 +72,7 @@ When I ask for a decision or recommendation, pick one and justify. Do not list f
 4. Set that Gem as your default in Gemini app
 
 ### Microsoft Copilot
-1. Copilot uses Microsoft Graph for context — no separate memory input required
+1. Copilot uses Microsoft Graph for context: no separate memory input required
 2. Connect Outlook, OneDrive, SharePoint if using enterprise
 3. For consumer Copilot, use the "Personalize" settings
 

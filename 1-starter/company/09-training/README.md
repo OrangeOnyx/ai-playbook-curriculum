@@ -1,4 +1,4 @@
-# 09 — Training
+# 09: Training
 
 The training program. Onboarding, deep-dives, quarterly refresh, and advanced tracks.
 
@@ -10,10 +10,10 @@ The training program. Onboarding, deep-dives, quarterly refresh, and advanced tr
 
 ## The learning ladder
 
-1. **Onboarding (Week 1-3)** — pass the 5 modules
-2. **Department deep-dive (biannual)** — 3 hours, mandatory
-3. **Quarterly refresh (quarterly)** — 60 min, mandatory
-4. **Certification tracks (optional)** — Prompt Engineer, Agent Builder, AI PM
+1. **Onboarding (Week 1-3)**: pass the 5 modules
+2. **Department deep-dive (biannual)**: 3 hours, mandatory
+3. **Quarterly refresh (quarterly)**: 60 min, mandatory
+4. **Certification tracks (optional)**: Prompt Engineer, Agent Builder, AI PM
 
 ## Ownership
 

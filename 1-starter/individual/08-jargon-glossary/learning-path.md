@@ -29,9 +29,9 @@ For each cluster:
 
 1. **Read** the cluster in the glossary
 2. **Star** terms you couldn't define confidently in one sentence
-3. **Speak** — for each starred term, say the definition out loud in your own words
-4. **Use** — write one sentence that uses the term in the context of your work
-5. **Test** — 24 hours later, quiz yourself with the term list (definitions hidden)
+3. **Speak**: for each starred term, say the definition out loud in your own words
+4. **Use**: write one sentence that uses the term in the context of your work
+5. **Test**: 24 hours later, quiz yourself with the term list (definitions hidden)
 
 ## Fluency test
 

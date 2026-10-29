@@ -8,10 +8,10 @@ Providers release new models constantly. A model that was best last quarter may 
 
 ## The protocol
 
-### Step 1 — Pick workflows to bake off
+### Step 1: Pick workflows to bake off
 Pick the top 3 workflows by cost or by strategic importance. Not every workflow needs a quarterly bake-off.
 
-### Step 2 — Identify candidate models
+### Step 2: Identify candidate models
 For each workflow:
 - **Baseline:** current production model
 - **Candidates:** 2–4 alternatives (usually 1 same-provider newer + 1 competitor + 1 open-weight cheaper option)
@@ -22,16 +22,16 @@ Example for a summarization workflow:
 - Candidate 2: GPT-5 (competitor)
 - Candidate 3: Llama 4 70B on Groq (open-weight cheap)
 
-### Step 3 — Freeze the eval set
+### Step 3: Freeze the eval set
 Use the workflow's current eval set. Do not add cases mid-bakeoff.
 
-### Step 4 — Run each candidate
+### Step 4: Run each candidate
 - Same system prompt
 - Same eval inputs
 - Fresh, not cached
 - Multiple runs to average out variance (3 runs minimum)
 
-### Step 5 — Score everything
+### Step 5: Score everything
 For each candidate:
 
 | Dimension | Baseline | Cand 1 | Cand 2 | Cand 3 |
@@ -43,7 +43,7 @@ For each candidate:
 | Latency (p50) | 2.1s | 1.8s | 2.4s | 0.9s |
 | Cost / 1k requests | $8.20 | $8.20 | $12.00 | $0.80 |
 
-### Step 6 — Decide
+### Step 6: Decide
 
 Ship the candidate if:
 - Zero safety regressions
@@ -62,13 +62,13 @@ Do NOT switch if:
 - Voice degrades on brand-critical workflows
 - Latency spike breaks user experience
 
-### Step 7 — Roll out safely
+### Step 7: Roll out safely
 - Canary: 5% of traffic for 3 days
 - If clean, expand to 50% for a week
 - If clean, full rollout
 - Keep baseline available for rollback for 30 days
 
-### Step 8 — Document
+### Step 8: Document
 Publish a bake-off report to Steering Committee:
 - Workflows evaluated
 - Candidates

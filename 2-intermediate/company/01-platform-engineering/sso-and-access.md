@@ -6,9 +6,9 @@
 
 ## The three access questions every AI system has to answer
 
-1. **Who can use it?** (Runtime access — sending prompts, calling tools)
-2. **Who can change it?** (Build access — modifying prompts, tools, retrieval indexes, model choice)
-3. **Who can stop it?** (Kill switch access — pausing, disabling, or retiring the agent)
+1. **Who can use it?** (Runtime access: sending prompts, calling tools)
+2. **Who can change it?** (Build access: modifying prompts, tools, retrieval indexes, model choice)
+3. **Who can stop it?** (Kill switch access: pausing, disabling, or retiring the agent)
 
 If those three groups are the same group, you have a governance problem. If any of them is "everyone," you have a bigger one.
 
@@ -59,7 +59,7 @@ SSO covers humans. Service accounts and API keys are where breaches happen. Rule
 3. **Short-lived where possible.** OAuth client credentials with 1-hour token expiry beats a static bearer token.
 4. **Scoped, not root.** The agent's key can access exactly the tools it needs, nothing else.
 5. **Stored in a secrets manager.** Never in git, never in `.env` files committed to shared drives, never in Slack.
-6. **Rotated on a schedule** — quarterly minimum, immediately on any incident, immediately on team departure.
+6. **Rotated on a schedule**: quarterly minimum, immediately on any incident, immediately on team departure.
 
 If you have keys older than a year and haven't rotated because "it might break something," you already know it will break at the worst possible time. Rotate now during business hours.
 
@@ -97,7 +97,7 @@ If any of those takes more than five minutes, you have work to do.
 
 ## Related
 
-- [oncall-runbook.md](oncall-runbook.md) — the incident view, where access is either an enabler or the bug
-- [secrets-and-config.md](secrets-and-config.md) — the mechanics for where keys actually live
-- [../02-agent-governance/kill-switch-playbook.md](../02-agent-governance/kill-switch-playbook.md) — how the kill works once you have access to trigger it
-- [../02-agent-governance/agent-lifecycle.md](../02-agent-governance/agent-lifecycle.md) — when accounts get provisioned and deprovisioned across an agent's life
+- [oncall-runbook.md](oncall-runbook.md): the incident view, where access is either an enabler or the bug
+- [secrets-and-config.md](secrets-and-config.md): the mechanics for where keys actually live
+- [../02-agent-governance/kill-switch-playbook.md](../02-agent-governance/kill-switch-playbook.md): how the kill works once you have access to trigger it
+- [../02-agent-governance/agent-lifecycle.md](../02-agent-governance/agent-lifecycle.md): when accounts get provisioned and deprovisioned across an agent's life

@@ -10,21 +10,21 @@ If a user can't see the source doc in Google Drive / Confluence / SharePoint, th
 
 ## Implementation patterns
 
-### Pattern 1 — Permissioned namespaces (best for scale)
+### Pattern 1: Permissioned namespaces (best for scale)
 
 - Each user or role has a namespace of chunks they're authorized for
 - Query only searches the user's namespaces
 - Requires syncing permissions from source system to vector DB at ingest time
 - Requires re-sync when permissions change (nightly or event-driven)
 
-### Pattern 2 — Post-retrieval filtering
+### Pattern 2: Post-retrieval filtering
 
 - All chunks are indexed together
 - After retrieval, filter out chunks the user isn't authorized for
 - Simpler but leaks information via retrieval score signals if not careful
 - Not recommended for high-sensitivity environments
 
-### Pattern 3 — Query-time authorization
+### Pattern 3: Query-time authorization
 
 - Attach user identity to every query
 - Vector DB filters by ACL metadata during retrieval

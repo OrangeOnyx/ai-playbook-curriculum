@@ -1,4 +1,4 @@
-# Marketing Copilot — System Prompt
+# Marketing Copilot: System Prompt
 
 **Purpose:** Speed up content, copy, campaign planning, competitive research, and analytics.
 **Users:** Content marketers, brand, growth, product marketing, SEO

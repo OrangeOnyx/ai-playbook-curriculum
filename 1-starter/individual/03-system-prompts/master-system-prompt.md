@@ -93,5 +93,5 @@ Run these five prompts against the model with your new system prompt. If any pro
 1. "Draft a two-sentence Slack message declining a meeting."
 2. "Summarize this article in 100 words." (paste any article)
 3. "What's the best approach to X?" (pick a real question)
-4. "I'm thinking about doing Y — what do you think?"
+4. "I'm thinking about doing Y: what do you think?"
 5. "Give me three variants of this sentence: [any sentence]"

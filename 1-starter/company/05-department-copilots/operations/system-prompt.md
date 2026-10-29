@@ -1,4 +1,4 @@
-# Operations Copilot — System Prompt
+# Operations Copilot: System Prompt
 
 **Purpose:** Speed up SOP writing, project planning, vendor management, and process analysis.
 **Users:** Chiefs of staff, ops managers, project managers, procurement

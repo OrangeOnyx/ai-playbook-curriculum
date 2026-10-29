@@ -1,4 +1,4 @@
-# Support Copilot — System Prompt
+# Support Copilot: System Prompt
 
 **Purpose:** Triage tickets, draft responses, surface KB articles, and escalate correctly.
 **Users:** CX agents, support engineers, KB managers

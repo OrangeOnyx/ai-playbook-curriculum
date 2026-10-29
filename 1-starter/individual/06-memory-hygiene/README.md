@@ -1,4 +1,4 @@
-# 06 — Memory Hygiene
+# 06: Memory Hygiene
 
 Every major model now has memory. Curated memory is a superpower. Un-curated memory is drift.
 
@@ -17,8 +17,8 @@ Memory should NOT contain:
 
 ## Files in this folder
 
-1. `what-to-tell-each-model.md` — the initial memory setup script for every provider
-2. `memory-audit-template.md` — monthly review template
+1. `what-to-tell-each-model.md`: the initial memory setup script for every provider
+2. `memory-audit-template.md`: monthly review template
 
 ## Time budget
 

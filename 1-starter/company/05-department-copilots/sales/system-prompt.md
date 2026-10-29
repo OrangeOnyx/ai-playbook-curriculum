@@ -1,4 +1,4 @@
-# Sales Copilot — System Prompt
+# Sales Copilot: System Prompt
 
 **Purpose:** Accelerate account research, personalize outreach, prep for calls, and shorten proposal cycles.
 **Users:** AEs, SDRs, sales engineers, sales ops

@@ -6,18 +6,18 @@ Every department gets a 3-hour deep-dive facilitated by its AI Champion, twice a
 
 Every deep-dive follows this structure:
 
-### Hour 1 — What we're using now
+### Hour 1: What we're using now
 - Live demo: the top 5 workflows in this department
 - Show real inputs, real outputs, real time saved
 - Metrics: adoption %, deflection %, quality scores
 
-### Hour 2 — What's new
+### Hour 2: What's new
 - New models (bake-off results)
 - New tools approved for this department
 - New workflows in beta
 - What other departments have built that this one could adapt
 
-### Hour 3 — Hands-on
+### Hour 3: Hands-on
 - Split into pairs
 - Each pair picks a real backlog task and tries to build a workflow for it
 - Present to group

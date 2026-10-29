@@ -1,4 +1,4 @@
-# Stage 2 — Working code repositories
+# Stage 2: Working code repositories
 
 Four public GitHub repos back the four core walkthroughs in Stage 2. Each is a real, running codebase — not a snippet — meant to be cloned, run, and modified as you work through the stage.
 
@@ -19,7 +19,7 @@ You want to know these patterns, and you should not have to be a real-estate ope
 
 1. **Read the code before the walkthrough.** Skim the README and `src/` tree of the relevant repo. 15 minutes.
 2. **Clone and run locally.** Every repo has a `Quick start` section in its README that ends with a working local process. Set the env vars, run the seed, see it work end-to-end.
-3. **Follow the walkthrough.** Open the corresponding module — the walkthrough refers to specific files and functions in the repo by path, not by copy-paste of the code.
+3. **Follow the walkthrough.** Open the corresponding module: the walkthrough refers to specific files and functions in the repo by path, not by copy-paste of the code.
 4. **Modify it on your data.** Replace the fixture with something from your own life or business. That's the exit criterion for the module.
 
 ## Personal use vs company use

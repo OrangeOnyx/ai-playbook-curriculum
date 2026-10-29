@@ -24,10 +24,10 @@ Stage 4 doesn't have exit criteria in the usual sense. You're contributing to th
 
 ## Tracks
 
-- **`individual/`** — 10 modules toward original contribution
-- **`company/`** — 6 modules for frontier lab operations
-- **`shared/`** — research templates
-- **`eli10/`** — plain-language companions
+- **`individual/`.** 10 modules toward original contribution
+- **`company/`.** 6 modules for frontier lab operations
+- **`shared/`.** Research templates
+- **`eli10/`.** Plain-language companions
 
 ## How to work Stage 4
 
@@ -36,7 +36,7 @@ Stage 4 is aspirational and non-linear. The map is a compass, not a checklist.
 1. Read papers seriously (`01`) and reproduce results
 2. Pick one or two areas where you'll go deep (`02`, `03`, or `04`)
 3. Publish or ship something original (`06`, `07`)
-4. Engage the community — reading, commenting, contributing
+4. Engage the community: reading, commenting, contributing
 5. Build your own agenda over years, not months
 
 If you engage seriously with this stage, you become someone the field takes seriously back.

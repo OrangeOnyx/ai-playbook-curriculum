@@ -1,8 +1,8 @@
-# Accounts — Priority Order
+# Accounts: Priority Order
 
 Prices are USD, monthly, as of August 2026. Confirm current pricing before subscribing.
 
-## Tier 1 — The core four (get these all)
+## Tier 1: The core four (get these all)
 
 | # | Service | Why | Approx cost |
 |---|---|---|---|
@@ -11,7 +11,7 @@ Prices are USD, monthly, as of August 2026. Confirm current pricing before subsc
 | 3 | Perplexity Pro | Best real-time research, Comet browser, Computer (this product), connectors | $20/mo |
 | 4 | Gemini Advanced | Google Workspace integration, Deep Research, Veo video, longest context | $20/mo |
 
-## Tier 2 — Stack-dependent
+## Tier 2: Stack-dependent
 
 | # | Service | When you need it | Approx cost |
 |---|---|---|---|
@@ -22,7 +22,7 @@ Prices are USD, monthly, as of August 2026. Confirm current pricing before subsc
 | 9 | ElevenLabs | Serious voice/TTS work | $5–$99/mo |
 | 10 | Runway or Higgsfield | Serious video generation | $12–$95/mo |
 
-## Tier 3 — API accounts (get all six, cap billing)
+## Tier 3: API accounts (get all six, cap billing)
 
 | # | Provider | Best for | Signup URL |
 |---|---|---|---|
@@ -33,7 +33,7 @@ Prices are USD, monthly, as of August 2026. Confirm current pricing before subsc
 | 5 | Groq | Fastest inference (LLaMA, Mixtral, Qwen) | console.groq.com |
 | 6 | OpenRouter | One key → 300+ models, easiest experimentation | openrouter.ai |
 
-## Tier 4 — Nice to have
+## Tier 4: Nice to have
 
 - Together AI, Fireworks, Replicate — additional inference options
 - Hugging Face Pro — dataset + model hub

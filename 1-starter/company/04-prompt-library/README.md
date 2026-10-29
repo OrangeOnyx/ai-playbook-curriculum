@@ -1,4 +1,4 @@
-# 04 — Company Prompt Library
+# 04: Company Prompt Library
 
 The company-wide prompt library. Versioned, reviewed, deployed across department copilots.
 

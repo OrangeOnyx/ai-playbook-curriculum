@@ -4,18 +4,18 @@ For [Grok](https://grok.com) — xAI's assistant, available on x.com and grok.co
 
 ## What Grok gives you to configure
 
-1. **Custom Instructions** — a single free-form field applied to every conversation
-2. **Personality modes** — Regular / Fun / Genius modes (via prompt selection or explicit toggles depending on client version)
+1. **Custom Instructions**: a single free-form field applied to every conversation
+2. **Personality modes**: Regular / Fun / Genius modes (via prompt selection or explicit toggles depending on client version)
 
 ## Files in this pack
 
-- [`custom-instructions.md`](./custom-instructions.md) — paste into Grok's settings
+- [`custom-instructions.md`](./custom-instructions.md): paste into Grok's settings
 
 ## How to install
 
 1. Open Grok (grok.com or x.com's Grok surface)
 2. Settings → Custom Instructions (exact path shifts with UI updates)
-3. Paste `custom-instructions.md` — edit the placeholders first
+3. Paste `custom-instructions.md`: edit the placeholders first
 4. Save
 
 ## Gotchas
@@ -28,4 +28,4 @@ For [Grok](https://grok.com) — xAI's assistant, available on x.com and grok.co
 ## Related program modules
 
 - [Stage 1 — Essentials](../../../1-starter/) — model-agnostic AI fluency
-- [`2-intermediate/individual/09-prompt-engineering-depth/prompting-techniques.md`](../../../2-intermediate/individual/09-prompt-engineering-depth/prompting-techniques.md) — which techniques transfer across models
+- [`2-intermediate/individual/09-prompt-engineering-depth/prompting-techniques.md`](../../../2-intermediate/individual/09-prompt-engineering-depth/prompting-techniques.md): which techniques transfer across models

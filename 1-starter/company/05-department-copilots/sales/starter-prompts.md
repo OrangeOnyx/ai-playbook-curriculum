@@ -1,4 +1,4 @@
-# Sales Copilot — Starter Prompts
+# Sales Copilot: Starter Prompts
 
 Copy-paste-ready prompts for the department. Deploy alongside the system prompt.
 

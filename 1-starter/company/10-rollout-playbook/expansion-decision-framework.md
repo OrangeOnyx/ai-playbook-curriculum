@@ -12,7 +12,7 @@ Three natural checkpoints:
 
 Do not skip stages. Each stage teaches you something you can't learn from the previous.
 
-## Gate criteria — Pilot → Department
+## Gate criteria: Pilot → Department
 
 Must have all:
 
@@ -30,7 +30,7 @@ Should have most:
 - [ ] At least 3 case studies from real users
 - [ ] Retrospective completed with lessons captured
 
-## Gate criteria — Department → Adjacent
+## Gate criteria: Department → Adjacent
 
 Same as above, plus:
 
@@ -39,7 +39,7 @@ Same as above, plus:
 - [ ] Playbook adjusted for new department's context
 - [ ] Steering Committee approval
 
-## Gate criteria — Adjacent → Company-wide
+## Gate criteria: Adjacent → Company-wide
 
 All previous gates, plus:
 
@@ -50,7 +50,7 @@ All previous gates, plus:
 - [ ] Formal exec sponsor for full rollout
 - [ ] Comms plan for company-wide announcement
 
-## Warning signs — Do NOT expand
+## Warning signs: Do NOT expand
 
 Any of these = pause:
 
@@ -66,12 +66,12 @@ Any of these = pause:
 
 If a workflow fails after expansion:
 
-1. **Contain** — pause the workflow immediately if quality/safety broken
-2. **Diagnose** — analyze eval regression, user complaints, incident logs
-3. **Fix** — revert to last known good version, or re-do the workflow
-4. **Communicate** — tell affected users honestly what happened
-5. **Post-mortem** — blameless, structural fixes
-6. **Re-launch** — after fixes, run pilot-scale again
+1. **Contain**: pause the workflow immediately if quality/safety broken
+2. **Diagnose**: analyze eval regression, user complaints, incident logs
+3. **Fix**: revert to last known good version, or re-do the workflow
+4. **Communicate**: tell affected users honestly what happened
+5. **Post-mortem**: blameless, structural fixes
+6. **Re-launch**: after fixes, run pilot-scale again
 
 ## Communication cadence during expansion
 

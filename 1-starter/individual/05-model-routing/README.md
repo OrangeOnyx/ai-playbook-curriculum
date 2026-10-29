@@ -1,11 +1,11 @@
-# 05 — Model Routing
+# 05: Model Routing
 
 Which model to use when. The single biggest power-user skill after prompting.
 
 ## Files in this folder
 
-1. `model-routing-cheat-sheet.md` — the one-page you print and keep near your monitor
-2. `provider-strengths-matrix.md` — the deeper table with reasoning
+1. `model-routing-cheat-sheet.md`: the one-page you print and keep near your monitor
+2. `provider-strengths-matrix.md`: the deeper table with reasoning
 
 ## The principle
 

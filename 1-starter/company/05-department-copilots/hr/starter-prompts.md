@@ -1,4 +1,4 @@
-# HR Copilot — Starter Prompts
+# HR Copilot: Starter Prompts
 
 Copy-paste-ready prompts for the department. Deploy alongside the system prompt.
 

@@ -1,4 +1,4 @@
-# 03 — System Prompts
+# 03: System Prompts
 
 The single highest-leverage move in this entire kit.
 
@@ -10,9 +10,9 @@ A system prompt is standing instructions that every conversation with a model st
 
 ## Files in this folder
 
-1. `master-system-prompt.md` — the paste-anywhere personal prompt
-2. `personal-style-guide.md` — the voice and formatting rulebook
-3. `about-me-block.md` — a compact identity block for models that limit system prompt size
+1. `master-system-prompt.md`: the paste-anywhere personal prompt
+2. `personal-style-guide.md`: the voice and formatting rulebook
+3. `about-me-block.md`: a compact identity block for models that limit system prompt size
 
 ## Where to install these
 
@@ -29,8 +29,8 @@ A system prompt is standing instructions that every conversation with a model st
 
 ## The three-layer approach
 
-- **Layer 1: Master System Prompt** — installed everywhere. Sets voice, tone, defaults.
-- **Layer 2: Personal Style Guide** — a longer document you reference in the master prompt and include as knowledge in Projects/Spaces.
+- **Layer 1: Master System Prompt.** Installed everywhere. Sets voice, tone, defaults.
+- **Layer 2: Personal Style Guide.** A longer document you reference in the master prompt and include as knowledge in Projects/Spaces.
 - **Layer 3: Per-project prompt** — overrides for a specific piece of work (e.g., "This project is about Belle Realty — always assume commercial real estate context").
 
 ## Time budget

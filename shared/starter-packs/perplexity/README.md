@@ -4,16 +4,16 @@ For [Perplexity](https://perplexity.ai) — search-native AI. This pack covers *
 
 ## What Perplexity Computer gives you to configure
 
-1. **Memory** — durable facts about you that get injected into every conversation
-2. **Custom Skills** — reusable instruction files that activate when their description matches your request
-3. **Projects** (formerly Spaces) — grouped sessions with shared context
-4. **Connectors** — third-party integrations (Gmail, Slack, Notion, etc.)
+1. **Memory**: durable facts about you that get injected into every conversation
+2. **Custom Skills**: reusable instruction files that activate when their description matches your request
+3. **Projects** (formerly Spaces): grouped sessions with shared context
+4. **Connectors**: third-party integrations (Gmail, Slack, Notion, etc.)
 
 ## Files in this pack
 
-- [`memory-seed.md`](./memory-seed.md) — durable facts to add to your Memory
-- [`custom-skill-starter.md`](./custom-skill-starter.md) — a starter custom skill you can adapt
-- [`project-context-template.md`](./project-context-template.md) — starter context file for a Project
+- [`memory-seed.md`](./memory-seed.md): durable facts to add to your Memory
+- [`custom-skill-starter.md`](./custom-skill-starter.md): a starter custom skill you can adapt
+- [`project-context-template.md`](./project-context-template.md): starter context file for a Project
 
 ## How to install
 
@@ -30,7 +30,7 @@ Create a Project, then paste `project-context-template.md` as the project descri
 
 ## Gotchas
 
-- **Perplexity Computer skills are Markdown with frontmatter** — very similar to Claude Skills. If you already have Claude Skills, they port with minor changes (see `custom-skill-starter.md`).
+- **Perplexity Computer skills are Markdown with frontmatter.** Very similar to Claude Skills. If you already have Claude Skills, they port with minor changes (see `custom-skill-starter.md`).
 - **Memory is opt-in and can be disabled.** If you want continuity, keep it on.
 - **Search happens automatically** for questions with a factual answer. You can't easily turn this off — write your prompt as an actual task if you don't want it to search.
 - **Connectors extend what skills can do.** A skill that references Gmail assumes your Gmail connector is connected.
@@ -38,4 +38,4 @@ Create a Project, then paste `project-context-template.md` as the project descri
 ## Related program modules
 
 - [Stage 1 — Essentials](../../../1-starter/) — the base fluency track
-- [`2-intermediate/individual/01-agent-architectures/agents-are-folders.md`](../../../2-intermediate/individual/01-agent-architectures/agents-are-folders.md) — why the skill file IS the agent
+- [`2-intermediate/individual/01-agent-architectures/agents-are-folders.md`](../../../2-intermediate/individual/01-agent-architectures/agents-are-folders.md): why the skill file IS the agent

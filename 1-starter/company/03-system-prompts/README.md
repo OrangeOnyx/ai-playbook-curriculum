@@ -1,4 +1,4 @@
-# 03 — Company System Prompts
+# 03: Company System Prompts
 
 Every AI tool at the company gets the same system-prompt foundation. This is how you enforce voice, guardrails, and legal disclaimers across every surface.
 

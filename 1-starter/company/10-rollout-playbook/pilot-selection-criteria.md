@@ -21,25 +21,25 @@ Total 40. Pick candidates scoring ≥ 30.
 
 ## The archetypes of good first pilots
 
-### Archetype 1 — High-volume drafting
+### Archetype 1: High-volume drafting
 - Sales follow-ups, support responses, marketing content
 - Well-defined output format
 - Human always reviews before send
 - Easy to measure time-per-task
 
-### Archetype 2 — Research and synthesis
+### Archetype 2: Research and synthesis
 - Weekly reports, competitive research, meeting briefs
 - Reads a lot, writes a summary
 - Low-risk (informational)
 - Individual productivity gain
 
-### Archetype 3 — Data extraction
+### Archetype 3: Data extraction
 - Contracts, receipts, resumes, forms
 - Structured output
 - Ground-truth easy to check
 - Bounded blast radius
 
-### Archetype 4 — Q&A over docs (RAG)
+### Archetype 4: Q&A over docs (RAG)
 - Employee handbook Q&A, policy Q&A, product-doc Q&A
 - Frequency: many small asks per day
 - Reduces load on subject-matter experts
@@ -47,11 +47,11 @@ Total 40. Pick candidates scoring ≥ 30.
 
 ## Archetypes to AVOID first
 
-- **Autonomous external communication** — sending emails, posting to social
-- **High-stakes irreversible decisions** — approvals, denials, pricing
-- **Regulated workflows without human review** — HIPAA, GLBA, GDPR-restricted
-- **Anything requiring long-horizon planning** — plans over 5-10 steps are still fragile
-- **Novel domains without eval data** — no way to know if it works
+- **Autonomous external communication.** Sending emails, posting to social
+- **High-stakes irreversible decisions.** Approvals, denials, pricing
+- **Regulated workflows without human review.** HIPAA, GLBA, GDPR-restricted
+- **Anything requiring long-horizon planning.** Plans over 5-10 steps are still fragile
+- **Novel domains without eval data.** No way to know if it works
 
 ## Department readiness scoring
 

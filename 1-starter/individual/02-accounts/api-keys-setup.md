@@ -28,7 +28,7 @@
 1. aistudio.google.com → Get API key → tied to a Google Cloud project
 2. In Google Cloud Console → Billing → set budget alert
 3. Enable Generative Language API on that project
-4. Note: Gemini has a free tier — use it for experimentation
+4. Note: Gemini has a free tier: use it for experimentation
 
 ### Perplexity
 1. perplexity.ai/settings/api → Generate key
@@ -43,7 +43,7 @@
 ### OpenRouter
 1. openrouter.ai → Keys → Create
 2. Add credits (one-time)
-3. This becomes your "try any model" playground — one key routes to 300+ models
+3. This becomes your "try any model" playground: one key routes to 300+ models
 4. Great for experimentation and fallback
 
 ## `.env.local` template

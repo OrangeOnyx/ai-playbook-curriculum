@@ -39,10 +39,10 @@ Fields:
 
 For any workflow you care about, produce **5 good + 5 bad**:
 
-- **5 good examples** — cases where you know what a great output looks like. These are your ground truth.
-- **5 bad examples** — cases where the current model tends to fail (long inputs, ambiguous asks, edge cases, adversarial inputs). These are your regression tests.
+- **5 good examples.** Cases where you know what a great output looks like. These are your ground truth.
+- **5 bad examples.** Cases where the current model tends to fail (long inputs, ambiguous asks, edge cases, adversarial inputs). These are your regression tests.
 
-## Sample eval set — Email triage
+## Sample eval set: Email triage
 
 ```jsonl
 {"id": "e-001", "input": "Hi Adam, following up on the lease terms we discussed Tuesday...", "expected": "Reply-today", "criteria": ["correct_label", "acknowledges_deadline"], "tags": ["client", "regression"]}
@@ -86,10 +86,10 @@ report(aggregate_scores)
 ```
 
 Frameworks that make this easier:
-- **Promptfoo** — CLI-first, YAML configs, LLM-as-judge built-in
-- **LangSmith** — Anthropic/OpenAI/Langchain integration
-- **Langfuse** — open source, self-hostable
-- **DeepEval** — Python-first
+- **Promptfoo.** CLI-first, YAML configs, LLM-as-judge built-in
+- **LangSmith.** Anthropic/OpenAI/Langchain integration
+- **Langfuse.** Open source, self-hostable
+- **DeepEval.** Python-first
 
 ## When to run
 

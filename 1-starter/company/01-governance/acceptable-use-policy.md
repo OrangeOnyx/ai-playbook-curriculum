@@ -19,18 +19,18 @@ Applies to:
 
 ## The four rules
 
-### Rule 1 — Only approved tools for work
+### Rule 1: Only approved tools for work
 The approved tool list is at `company/02-accounts-procurement/platform-account-order.md`. Anything else requires Steering Committee approval before use with company data.
 
-### Rule 2 — Data classification, then tool
+### Rule 2: Data classification, then tool
 Every piece of company data has a classification: **Public**, **Internal**, **Confidential**, **Restricted**. Match the classification to the tool tier per `data-classification-matrix.md`. When in doubt, treat as more sensitive, not less.
 
-### Rule 3 — You are responsible for AI output
+### Rule 3: You are responsible for AI output
 - AI is a tool; you are the author.
 - Review every AI-generated output before it is sent, published, or committed.
 - You are accountable for accuracy, tone, and legal compliance of anything you approve.
 
-### Rule 4 — Report incidents immediately
+### Rule 4: Report incidents immediately
 If you paste sensitive data into an unapproved tool, receive suspicious output, or suspect a prompt injection, notify [SECURITY EMAIL] within 24 hours. No blame for reporting; blame for not reporting.
 
 ## Explicit permissions
