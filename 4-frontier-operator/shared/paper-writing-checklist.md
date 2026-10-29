@@ -39,7 +39,7 @@ Start from the outcome rather than the technology. Specify the user or stakehold
 
 Keep an evidence log. Separate observations from interpretations, measured performance from anecdotes, and known risks from assumptions. Review representative failures by hand; aggregate metrics can hide the one pattern that matters. For high-impact work, assign a clear owner, predefine an escalation path, and decide what will cause a pause or rollback. Do not outsource accountability to a model, vendor, benchmark, or committee.
 
-The professional standard is legibility. Another capable person should be able to understand why this approach was chosen, rerun the evaluation, find its limits, and improve it without guessing. Build reusable artifacts so each project leaves the next one stronger: datasets, decision records, checklists, incident notes, and release criteria.
+The professional standard is legibility. Another capable person should be able to understand why this approach was chosen, rerun the evaluation, find its limits, and improve it without guessing. Build reusable artifacts, such as datasets, decision records, checklists, incident notes, and release criteria, so each project leaves the next one stronger.
 
 ## Working exercise
 
