@@ -1,24 +1,30 @@
 #!/usr/bin/env python3
 """Quality checks for the AI Fluency Program repo.
 
-Runs five checks:
-  1. Brand-name scan       [ WARN ] — no unapproved company/brand names
-  2. Link check            [ FAIL ] — all relative Markdown links resolve
-  3. Module coverage       [ WARN ] — files inside a module are linked from
+Runs eight checks:
+  1. Brand-name scan       [ WARN ] - no unapproved company/brand names
+  2. Link check            [ FAIL ] - all relative Markdown links resolve
+  3. Module coverage       [ WARN ] - files inside a module are linked from
                                      its README
-  4. Old numbering         [ FAIL ] — no retired Level/Phase/Layer/Order/
+  4. Old numbering         [ FAIL ] - no retired Level/Phase/Layer/Order/
                                      Interview numbering in headings, folder
                                      names, link text, or (Level N only) prose
-  5. Stale domain          [ FAIL ] — no links into the retired Groundwork
+  5. Stale domain          [ FAIL ] - no links into the retired Groundwork
                                      domain
+  6. Em dashes             [ FAIL ] - no U+2014 outside fenced code blocks
+  7. Banned words          [ FAIL ] - none of the words the Playbook site's
+                                     build rejects (same regex)
+  8. Percentage figures    [ WARN ] - count of N% figures in prose may not
+                                     grow past PERCENT_BASELINE
 
 Exit code is 0 unless a hard-fail check (link check, old numbering, stale
-domain) finds violations. Pass `--strict` to escalate warnings into hard
-failures.
+domain, em dashes, banned words, or percentages above baseline) finds
+violations. Pass `--strict` to escalate warnings into hard failures.
 
 Run from the repo root:
     python3 .github/scripts/quality_check.py
     python3 .github/scripts/quality_check.py --strict
+    python3 .github/scripts/quality_check.py --all     # print every hit
 
 The script is intentionally dependency-free (stdlib only).
 """
@@ -68,6 +74,19 @@ URL_ALLOWLIST_RE = re.compile(
     r"https?://[^\s\)]*(?:github\.com/OrangeOnyx|playbook\.adamabdalla\.com)[^\s\)]*",
     re.IGNORECASE,
 )
+
+# Voice gates. The banned-word regex is copied verbatim from the Playbook
+# site's build gate (playbook-site/scripts/gates.py, BANNED) so the two
+# repositories reject the same words. Keep them identical.
+EM_DASH = "\u2014"
+BANNED_RE = re.compile(
+    r"\bleverage|\bseamless|\bempower|\bunlock\b|\brobust\b|actionable|data-driven|game-changer|synergy|circle back|best practices|dive into|at the end of the day|\bdelve|\belevate\b|testament",
+    re.IGNORECASE,
+)
+PERCENT_RE = re.compile(r"\b\d{1,3}(?:\.\d+)?%")
+# Percentage figures in prose are a ratchet, not a ban: the author's own
+# thresholds stay as numbers, so the count may hold but never grow.
+PERCENT_BASELINE = 999
 
 
 def iter_markdown_files(root: Path):
@@ -229,15 +248,65 @@ def check_stale_domain(files, root: Path = REPO_ROOT) -> list[str]:
     return violations
 
 
+def strip_fences(text: str) -> str:
+    """Blank every fenced code block, keeping its newlines so line numbers survive."""
+    return FENCE_RE.sub(lambda m: "\n" * m.group(0).count("\n"), text)
+
+
+def _prose_lines(p: Path):
+    text = strip_fences(p.read_text(encoding="utf-8", errors="replace"))
+    return enumerate(text.splitlines(), 1)
+
+
+def check_em_dashes(files, root: Path = REPO_ROOT) -> list[str]:
+    """No em dash (U+2014) anywhere outside a fenced code block."""
+    violations = []
+    for p in files:
+        rel = str(p.relative_to(root)).replace("\\", "/")
+        if rel.startswith(EXEMPT_PREFIXES):
+            continue
+        for lineno, line in _prose_lines(p):
+            if EM_DASH in line:
+                violations.append(f"{rel}:{lineno}: em dash")
+    return violations
+
+
+def check_banned_words(files, root: Path = REPO_ROOT) -> list[str]:
+    """None of the words the Playbook site's build rejects, one hit per match."""
+    violations = []
+    for p in files:
+        rel = str(p.relative_to(root)).replace("\\", "/")
+        if rel.startswith(EXEMPT_PREFIXES):
+            continue
+        for lineno, line in _prose_lines(p):
+            for m in BANNED_RE.finditer(line):
+                violations.append(f"{rel}:{lineno}: banned word '{m.group(0)}'")
+    return violations
+
+
+def check_percentages(files, root: Path = REPO_ROOT) -> list[str]:
+    """Count lines carrying an N% figure outside fences; tables count as prose."""
+    violations = []
+    for p in files:
+        rel = str(p.relative_to(root)).replace("\\", "/")
+        if rel.startswith(EXEMPT_PREFIXES):
+            continue
+        for lineno, line in _prose_lines(p):
+            if PERCENT_RE.search(line):
+                violations.append(f"{rel}:{lineno}: percentage figure")
+    return violations
+
+
 # Which categories are hard-fail vs advisory. Broken links, old numbering, and
 # the stale domain block CI by default. Brand-name scrubs and module coverage
 # are cleanup work that the repo carries; the report tells you what to fix,
 # at your own pace.
-HARD_FAIL_CATEGORIES = {"broken links", "old numbering", "stale domain"}
+HARD_FAIL_CATEGORIES = {"broken links", "old numbering", "stale domain", "em dashes", "banned words"}
 
 
 def main() -> int:
     strict = "--strict" in sys.argv
+    cap = None if "--all" in sys.argv else 50
     files = list(iter_markdown_files(REPO_ROOT))
     print(f"-> scanning {len(files)} markdown files under {REPO_ROOT}")
     if strict:
@@ -249,6 +318,9 @@ def main() -> int:
         "unreferenced files": check_module_coverage(REPO_ROOT),
         "old numbering": check_numbering(files),
         "stale domain": check_stale_domain(files),
+        "em dashes": check_em_dashes(files),
+        "banned words": check_banned_words(files),
+        "percentage figures": check_percentages(files),
     }
 
     hard_fail = 0
@@ -259,16 +331,18 @@ def main() -> int:
             print(f"PASS  {category}: 0")
             continue
         is_hard = strict or category in HARD_FAIL_CATEGORIES
+        if category == "percentage figures" and len(items) > PERCENT_BASELINE:
+            is_hard = True
         label = "FAIL " if is_hard else "WARN "
         if is_hard:
             hard_fail += len(items)
         else:
             warn += len(items)
         print(f"{label} {category}: {len(items)}")
-        for item in items[:50]:
+        for item in items[:cap]:
             print(f"    {item}")
-        if len(items) > 50:
-            print(f"    ... and {len(items) - 50} more (rerun without cap to see all)")
+        if cap is not None and len(items) > cap:
+            print(f"    ... and {len(items) - cap} more (rerun with --all to see them)")
         print()
 
     print(f"summary: {hard_fail} failure(s), {warn} warning(s)")

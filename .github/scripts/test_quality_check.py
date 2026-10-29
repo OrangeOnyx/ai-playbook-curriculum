@@ -62,5 +62,38 @@ class Domain(unittest.TestCase):
             self.assertEqual(Q.check_brand_names([p], root), [])
 
 
+
+class Voice(unittest.TestCase):
+    def test_strip_fences_keeps_line_numbers(self):
+        t = "a\n```\nx — y\n50%\n```\nb — c\n"
+        s = Q.strip_fences(t)
+        self.assertEqual(s.count("\n"), t.count("\n"))
+        self.assertNotIn("x — y", s)
+        self.assertIn("b — c", s)
+
+    def test_em_dash_flagged_outside_fences_and_inside_inline_code(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            a = _write(root, "a.md", "plain — dash\n```\nfenced — dash\n```\n`inline — dash`\nen – dash\n")
+            h = _write(root, "history/x.md", "old — dash\n")
+            v = Q.check_em_dashes([a, h], root)
+        self.assertEqual([x.split(":")[1] for x in v], ["1", "5"])
+
+    def test_banned_words_use_site_regex(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            a = _write(root, "a.md", "We leverage this.\nA robust plan.\nrobustness is fine\nunlocking is fine\nBest Practices\n")
+            v = Q.check_banned_words([a], root)
+        self.assertEqual(len(v), 3)
+        self.assertIn("banned word 'leverage'", v[0])
+
+    def test_percentages_counted_in_prose_and_tables_not_fences(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            a = _write(root, "a.md", "Save 50% here.\n| cell | 95% |\n```\n100%\n```\n")
+            v = Q.check_percentages([a], root)
+        self.assertEqual(len(v), 2)
+
+
 if __name__ == "__main__":
     unittest.main()
