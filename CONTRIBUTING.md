@@ -33,6 +33,7 @@ This program is open. Fork it, extend it, remix it. If you find something worth 
 - [ ] Cross-references to related sections
 - [ ] Updated the stage's README index if adding a new section
 - [ ] Headings never carry the words Layer, Layers, Phase, or Phases, nor "Level N": the Playbook site's build rejects them, and the site compiles this repository verbatim.
+- [ ] Voice follows The AI Playbook's rules, enforced by CI: no em dashes, none of the banned words the site rejects, and numbers only where they are the reader's own standard rather than a claim about the world.
 
 ## Governance
 
