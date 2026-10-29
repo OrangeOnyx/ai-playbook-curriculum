@@ -10,7 +10,7 @@ If you're reading this in 2026, here's the honest picture:
 
 **The tools are no longer the moat. The habits are.** Anyone can buy ChatGPT Enterprise. Not everyone can run a weekly review with it, route the right task to the right model, evaluate outputs against a real eval set, or ship an agent that actually saves 20 hours a week.
 
-**Waiting is not neutral.** It is a decision to fall behind at 20-30% a year, compounding.
+**Waiting is not neutral.** It is a decision to fall behind a little more every year, compounding.
 
 ## The five things you lose by waiting
 

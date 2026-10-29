@@ -31,7 +31,7 @@ These are starting points. Actual = seats × usage × tool mix.
 1. **Subscriptions** (seats × per-seat cost)
 2. **API usage** (tokens × prices)
 
-Report both. Ratio typically 60–70% subs / 30–40% API for knowledge workers; inverse for engineering teams building AI features.
+Report both. The ratio usually tilts toward subscriptions for knowledge workers and toward API spend for engineering teams building AI features.
 
 ## Cost controls
 
@@ -79,6 +79,6 @@ When a budget line is over:
 1. Audit top 10 workflows by cost: is model choice appropriate?
 2. Turn on prompt caching where supported
 3. Cache retrieval results
-4. Move batch workloads to batch API tier (50% off on major providers)
+4. Move batch workloads to batch API tier (about half price on the major providers)
 5. Swap frontier → workhorse where quality allows
 6. Kill low-ROI automations

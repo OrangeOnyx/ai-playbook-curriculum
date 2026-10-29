@@ -86,7 +86,7 @@ BANNED_RE = re.compile(
 PERCENT_RE = re.compile(r"\b\d{1,3}(?:\.\d+)?%")
 # Percentage figures in prose are a ratchet, not a ban: the author's own
 # thresholds stay as numbers, so the count may hold but never grow.
-PERCENT_BASELINE = 999
+PERCENT_BASELINE = 46
 
 
 def iter_markdown_files(root: Path):

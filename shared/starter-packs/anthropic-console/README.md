@@ -42,7 +42,7 @@ system: [
 ],
 ```
 
-You'll pay 25% more on the first call and 90% less on subsequent calls within 5 minutes. For any workload calling the same system prompt more than 2× per 5 minutes, this pays for itself immediately.
+You'll pay a little more on the first call and a small fraction of the price on repeat calls within 5 minutes. For any workload calling the same system prompt more than 2× per 5 minutes, this pays for itself immediately.
 
 ## Model-name gotcha
 

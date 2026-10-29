@@ -374,7 +374,7 @@ Each term has: definition, why it matters, and where it appears.
 
 **Continuous batching**: Batch requests dynamically, not by fixed windows. Higher throughput.
 
-**Context caching / cached input**: Provider-level cache for reused system prompts. Cuts input token cost by 50–90%.
+**Context caching / cached input**: Provider-level cache for reused system prompts. Cuts input token cost by a large fraction.
 
 **Cold start**: First-request latency when infrastructure spins up.
 

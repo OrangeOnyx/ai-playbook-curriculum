@@ -20,7 +20,7 @@ And they compounded.
 
 **Year 1:** You save 30 minutes a day. That's 130 hours in a year.
 **Year 2:** Your prompts are 3x better. You save 90 minutes a day. That's 390 hours.
-**Year 3:** You have agents. Your team has agents. Some workflows are 80% automated. You save 3-4 hours a day. That's 900-1200 hours.
+**Year 3:** You have agents. Your team has agents. Some workflows run mostly on their own. You save 3-4 hours a day. That's 900-1200 hours.
 
 Meanwhile, the person who "tried it once" is still googling the same questions, writing the same emails, taking the same meeting notes.
 
@@ -43,7 +43,7 @@ If any of these describe you, you're already paying the cost of waiting.
 ### For companies
 
 - **Your top performers are already using AI on the side.** Some are 3x more productive quietly. Some are leaving for companies that let them use it openly.
-- **Your CX team is drowning.** 40% of tickets could be triaged or drafted by AI. Every ticket you don't automate is a hire you shouldn't have to make.
+- **Your CX team is drowning.** A large share of tickets could be triaged or drafted by AI. Every ticket you don't automate is a hire you shouldn't have to make.
 - **Your sales team is inconsistent.** New reps take 6 months to ramp. A sales copilot with your playbook and battle cards cuts that in half.
 - **Your legal team is a bottleneck.** Every contract review is manual. Clause extraction and NDA screening reduce turnaround from days to hours.
 - **Your finance team runs on tribal knowledge.** Month-end close, variance analysis, reconciliation: all repeatable, all automatable, all still manual.
@@ -58,11 +58,11 @@ If three or more of these describe your company, you are Level 0 and you are beh
 
 ## The three groups in the market right now
 
-**Group A: Frontier operators (5%).** Have been building since 2022. Multi-agent systems in production. Custom evals. Fine-tuned models. They win outsized market share.
+**Group A: Frontier operators, the few.** Have been building since 2022. Multi-agent systems in production. Custom evals. Fine-tuned models. They win outsized market share.
 
-**Group B: Active adopters (25%).** Started in 2023-2024. Have governance, copilots, and shipping workflows. They're keeping pace and closing on Group A.
+**Group B: Active adopters, a growing minority.** Started in 2023-2024. Have governance, copilots, and shipping workflows. They're keeping pace and closing on Group A.
 
-**Group C: Still figuring it out (70%).** Bought some licenses. Sent people to conferences. No policy, no evals, no shipping. They are losing ground quarterly, and most don't know it yet.
+**Group C: Still figuring it out, the majority.** Bought some licenses. Sent people to conferences. No policy, no evals, no shipping. They are losing ground quarterly, and most don't know it yet.
 
 The gap between Group B and Group C doubled in the last twelve months. The gap between Group A and Group B is widening. If you're in Group C, the window to close the gap by trying harder alone is closing. You now need a program, not effort.
 
@@ -80,7 +80,7 @@ Cost, reliability, tooling: the excuses that were valid in 2023 are not valid in
 
 **"But hallucinations."** Real. And solvable. Grounded generation (RAG), verified sources (Perplexity), and human-in-the-loop review reduce hallucination cost to near zero for production workflows. If you're still worried about hallucinations, you're using AI wrong.
 
-**"But security."** Real. And solvable. Enterprise contracts with zero-retention, data classification matrices, and tool tiering handle 95% of the risk. The other 5% is process, not technology.
+**"But security."** Real. And solvable. Enterprise contracts with zero-retention, data classification matrices, and tool tiering handle nearly all of the risk. What remains is process, not technology.
 
 **"But my team isn't ready."** They're readier than you think. The average person can be Stage 1 in 30 days. The blocker is not talent. It is a program.
 
@@ -118,7 +118,7 @@ For companies, add:
 - Day 21: Your team has a copilot. Two workflows are in beta.
 - Day 30: You have wins to show. You know what's next.
 
-None of this is theoretical. This is what the ~30% of adopters have already done. It is not hard. It just requires starting.
+None of this is theoretical. This is what the adopters have already done. It is not hard. It just requires starting.
 
 ## What Stage 2 buys you
 

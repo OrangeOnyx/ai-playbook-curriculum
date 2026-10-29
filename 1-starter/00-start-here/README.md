@@ -45,7 +45,7 @@ Six rules this kit is built on:
 3. **Evals or it didn't happen.** No model change ships without running the eval set.
 4. **Route by strength, not by loyalty.** Use the right model for the job: the cheat sheet in `individual/05-model-routing/` tells you which.
 5. **Memory is a feature, not a magic trick.** Curate what each model remembers; review monthly.
-6. **Jargon is a multiplier.** Fluency in the terms is 30% of the skill gap.
+6. **Jargon is a multiplier.** Fluency in the terms is a large share of the skill gap.
 
 ---
 
