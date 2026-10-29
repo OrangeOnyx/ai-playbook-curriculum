@@ -2,7 +2,7 @@
 
 Record the problem, alternatives, evidence, costs, risks, decision owner, expiry date, and rollback plan. A decision record preserves why a model was selected when providers and benchmarks change.
 
-Treat this as an operating document, not a reading assignment. For Belle Realty or a property-management assistant, define the unit of work, owner, allowed failure modes, and the customer-visible consequence before choosing a model or framework. A system that gives plausible answers but cannot be measured, contained, or recovered is not production-ready.
+Treat this as an operating document, not a reading assignment. For Harbor Point Operations or a property-management assistant, define the unit of work, owner, allowed failure modes, and the customer-visible consequence before choosing a model or framework. A system that gives plausible answers but cannot be measured, contained, or recovered is not production-ready.
 
 ## Design stance
 

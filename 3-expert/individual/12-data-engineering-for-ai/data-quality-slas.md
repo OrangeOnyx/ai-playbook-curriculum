@@ -2,7 +2,7 @@
 
 Set SLAs for completeness, correctness, freshness, uniqueness, lineage, and authorization. A 99.9% pipeline success rate is irrelevant if the missing 0.1% contains emergency maintenance records.
 
-Treat this as an operating document, not a reading assignment. For Belle Realty or a property-management assistant, define the unit of work, owner, allowed failure modes, and the customer-visible consequence before choosing a model or framework. A system that gives plausible answers but cannot be measured, contained, or recovered is not production-ready.
+Treat this as an operating document, not a reading assignment. For Harbor Point Operations or a property-management assistant, define the unit of work, owner, allowed failure modes, and the customer-visible consequence before choosing a model or framework. A system that gives plausible answers but cannot be measured, contained, or recovered is not production-ready.
 
 ## Design stance
 

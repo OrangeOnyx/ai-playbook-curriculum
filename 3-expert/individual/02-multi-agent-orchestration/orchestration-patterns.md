@@ -2,7 +2,7 @@
 
 A supervisor routes work, a swarm negotiates through a shared protocol, a hierarchy decomposes authority, and a sequential chain hands off explicit artifacts. Default to sequential or supervisor patterns for property workflows.
 
-Treat this as an operating document, not a reading assignment. For Belle Realty or a property-management assistant, define the unit of work, owner, allowed failure modes, and the customer-visible consequence before choosing a model or framework. A system that gives plausible answers but cannot be measured, contained, or recovered is not production-ready.
+Treat this as an operating document, not a reading assignment. For Harbor Point Operations or a property-management assistant, define the unit of work, owner, allowed failure modes, and the customer-visible consequence before choosing a model or framework. A system that gives plausible answers but cannot be measured, contained, or recovered is not production-ready.
 
 ## Design stance
 

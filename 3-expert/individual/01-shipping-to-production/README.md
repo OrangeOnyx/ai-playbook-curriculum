@@ -2,7 +2,7 @@
 
 Production is a promise about behavior under ordinary traffic, bad traffic, provider failures, and operator fatigue. Release the smallest useful slice, then earn broader access with evidence.
 
-Treat this as an operating document, not a reading assignment. For Belle Realty or a property-management assistant, define the unit of work, owner, allowed failure modes, and the customer-visible consequence before choosing a model or framework. A system that gives plausible answers but cannot be measured, contained, or recovered is not production-ready.
+Treat this as an operating document, not a reading assignment. For Harbor Point Operations or a property-management assistant, define the unit of work, owner, allowed failure modes, and the customer-visible consequence before choosing a model or framework. A system that gives plausible answers but cannot be measured, contained, or recovered is not production-ready.
 
 ## Design stance
 

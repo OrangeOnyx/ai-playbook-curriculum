@@ -55,6 +55,13 @@ class Domain(unittest.TestCase):
     def test_playbook_domain_is_allowlisted_for_brand_scan(self):
         self.assertIsNotNone(Q.URL_ALLOWLIST_RE.search("https://playbook.adamabdalla.com/x"))
 
+    def test_raw_github_bootstrap_url_is_allowlisted_for_brand_scan(self):
+        self.assertIsNotNone(Q.URL_ALLOWLIST_RE.search("https://raw.githubusercontent.com/OrangeOnyx/x/master/y.sh"))
+
+    def test_companion_repo_link_text_is_allowlisted_for_brand_scan(self):
+        self.assertIsNotNone(Q.URL_ALLOWLIST_RE.search("[`OrangeOnyx/lease-abstractor`](https://github.com/OrangeOnyx/lease-abstractor)"))
+        self.assertIsNone(Q.URL_ALLOWLIST_RE.search("built by OrangeOnyx for"))
+
     def test_brand_scan_allowlist_matches_windows_paths(self):
         with tempfile.TemporaryDirectory() as d:
             root = Path(d)

@@ -2,7 +2,7 @@
 
 On-call owns response, not every root cause. Provide runbooks, safe toggles, trace access, escalation contacts, and a rotation that covers product, platform, security, and domain expertise.
 
-Treat this as an operating document, not a reading assignment. For Belle Realty or a property-management assistant, define the unit of work, owner, allowed failure modes, and the customer-visible consequence before choosing a model or framework. A system that gives plausible answers but cannot be measured, contained, or recovered is not production-ready.
+Treat this as an operating document, not a reading assignment. For Harbor Point Operations or a property-management assistant, define the unit of work, owner, allowed failure modes, and the customer-visible consequence before choosing a model or framework. A system that gives plausible answers but cannot be measured, contained, or recovered is not production-ready.
 
 ## Design stance
 

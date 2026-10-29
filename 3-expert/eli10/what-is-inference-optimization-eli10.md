@@ -8,7 +8,7 @@ For models, the expensive work is reading a long prompt and producing words one 
 
 The trick is to make the promise visible. Write down what starts the process, what the system is allowed to use, what a good result looks like, and what happens when it cannot be sure. Then measure the real result, not just a convincing demo. If a resident gets a fast answer that sends them to the wrong vendor, the system did not succeed.
 
-For Belle Realty, test this with ordinary work and uncomfortable cases: a missing unit number, a resident who changes their story, an old lease PDF, a provider outage, a message that tries to trick the assistant, or a request involving private information. Good systems have a safe way to pause, ask, escalate, or hand off to a human.
+For Harbor Point Operations, test this with ordinary work and uncomfortable cases: a missing unit number, a resident who changes their story, an old lease PDF, a provider outage, a message that tries to trick the assistant, or a request involving private information. Good systems have a safe way to pause, ask, escalate, or hand off to a human.
 
 ## Why it matters
 

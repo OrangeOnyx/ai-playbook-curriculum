@@ -1,6 +1,6 @@
 # Fine-Tuning Decision
 
-Fine-tuning changes model behavior through training. It is not the default fix for weak retrieval, vague policy, bad tool design, or missing evals. For most Belle Realty and deal-diligence workflows, prompt discipline, structured outputs, RAG, and routing produce more value with less operational burden.
+Fine-tuning changes model behavior through training. It is not the default fix for weak retrieval, vague policy, bad tool design, or missing evals. For most Harbor Point Operations and deal-diligence workflows, prompt discipline, structured outputs, RAG, and routing produce more value with less operational burden.
 
 Fine-tune only when a stable, high-volume task has a large, lawful, high-quality labeled dataset; prompting has plateaued; and the gain is measurable on a locked eval set. You then own dataset provenance, privacy, training version, safety regressions, deployment, and rollback.
 

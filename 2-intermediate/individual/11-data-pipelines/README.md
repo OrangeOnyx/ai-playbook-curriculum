@@ -1,6 +1,6 @@
 # Data Pipelines: The Work Before AI Looks Smart
 
-Agents and RAG are downstream of data operations. If Belle Realty leases are duplicated, incorrectly scoped, stale, or missing page text, no model choice will produce trustworthy answers. The data pipeline owns ingestion, normalization, identity, versioning, enrichment, indexing, retries, and freshness.
+Agents and RAG are downstream of data operations. If Harbor Point Operations leases are duplicated, incorrectly scoped, stale, or missing page text, no model choice will produce trustworthy answers. The data pipeline owns ingestion, normalization, identity, versioning, enrichment, indexing, retries, and freshness.
 
 Treat every source file and record as an event with a stable ID, checksum, source timestamp, owner, access scope, and processing state. Make work idempotent: a retry should not create duplicate lease chunks, embeddings, or diligence rows. Separate the raw source, normalized representation, derived artifacts, and user-facing answer index. This makes reprocessing safe when OCR, chunking, embeddings, or policies change.
 

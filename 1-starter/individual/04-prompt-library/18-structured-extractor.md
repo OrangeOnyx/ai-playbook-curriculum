@@ -51,7 +51,7 @@ Format:
 
 ## Example use case
 
-Lease extraction for Belle Realty.
+Lease extraction for Harbor Point Operations.
 
 ## Expected output shape
 

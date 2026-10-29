@@ -2,7 +2,7 @@
 
 Every AI team needs a shared truth about production behavior. Centralize schemas, lineage, access controls, and core metrics while preserving each product team’s domain dashboards and experiment velocity.
 
-At company scale, AI is not a side project owned by the person who writes prompts. It is a production capability spanning product, domain operations, platform engineering, security, privacy, finance, and support. Belle Realty should make the operating decision visible: what is authorized, who is accountable, what evidence is required, and how the system is stopped when reality disagrees.
+At company scale, AI is not a side project owned by the person who writes prompts. It is a production capability spanning product, domain operations, platform engineering, security, privacy, finance, and support. Harbor Point Operations should make the operating decision visible: what is authorized, who is accountable, what evidence is required, and how the system is stopped when reality disagrees.
 
 ## Operating model
 

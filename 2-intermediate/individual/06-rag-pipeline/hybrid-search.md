@@ -1,6 +1,6 @@
 # Hybrid Search: Keywords and Meaning Together
 
-Vector search understands paraphrases. Keyword search is excellent at exact tokens: unit numbers, clause names, “Section 14,” dollar amounts, vendor IDs, and unusual legal terms. Belle Realty needs both. A tenant asking “Can I have a dog?” should find a pet clause even if the lease says “domestic animals.” An operator asking for “$75 late fee” should find the exact amount.
+Vector search understands paraphrases. Keyword search is excellent at exact tokens: unit numbers, clause names, “Section 14,” dollar amounts, vendor IDs, and unusual legal terms. Harbor Point Operations needs both. A tenant asking “Can I have a dog?” should find a pet clause even if the lease says “domestic animals.” An operator asking for “$75 late fee” should find the exact amount.
 
 Run lexical and vector retrieval over the same authorized corpus. Normalize each result score independently, then combine them with a weighted method such as reciprocal rank fusion. Start with equal influence; tune only against an eval set. Apply metadata filters before both searches, not after. If a request concerns a specific lease, a perfect semantic match in another tenant’s lease is still an invalid result.
 

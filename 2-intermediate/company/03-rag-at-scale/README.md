@@ -2,7 +2,7 @@
 
 Scaling RAG means preserving access boundaries and retrieval quality while documents, tenants, versions, and workloads grow. It does not mean adding more vectors. Multi-tenant isolation, refresh orchestration, and retrieval SLOs are the operating foundation.
 
-Belle Realty’s primary rule is scoped retrieval: authorization and organization filters happen before search, and every result preserves document version and citation. Deal rooms need equivalent deal-level isolation. Shared knowledge requires explicit publication and ownership, not accidental visibility through embeddings.
+Harbor Point Operations’s primary rule is scoped retrieval: authorization and organization filters happen before search, and every result preserves document version and citation. Deal rooms need equivalent deal-level isolation. Shared knowledge requires explicit publication and ownership, not accidental visibility through embeddings.
 
 The supporting documents cover tenancy, refreshes, and service objectives. Treat relevance and groundedness as reliability metrics, not UX decoration.
 

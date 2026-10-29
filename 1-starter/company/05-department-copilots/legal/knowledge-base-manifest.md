@@ -8,7 +8,7 @@ What to upload to the Custom GPT / Claude Project / Perplexity Space knowledge b
 - [ ] MSA template
 - [ ] SOW template
 - [ ] Approved counterparty positions playbook
-- [ ] Louisiana commercial lease law reference (for Belle Realty)
+- [ ] Louisiana commercial lease law reference (for Harbor Point Operations)
 - [ ] GDPR and CCPA reference guides
 - [ ] Prior redline history for common counterparties
 

@@ -1,6 +1,6 @@
 # RAG Pipeline: Lease Knowledge That Can Prove Its Work
 
-Retrieval-augmented generation (RAG) is the system behind answers grounded in your documents. It is not “put PDFs in a vector database.” A usable Belle Realty lease RAG system must ingest documents correctly, preserve versions and page citations, retrieve the right chunks, reject weak evidence, and show the answer’s support.
+Retrieval-augmented generation (RAG) is the system behind answers grounded in your documents. It is not “put PDFs in a vector database.” A usable Harbor Point Operations lease RAG system must ingest documents correctly, preserve versions and page citations, retrieve the right chunks, reject weak evidence, and show the answer’s support.
 
 Start with leases because they are high-value, repetitive, and version-sensitive. A tenant or operator question should retrieve the current signed lease and governing addenda for that tenant, not a semantically similar lease from another property. Metadata filters and authorization are as important as embeddings.
 

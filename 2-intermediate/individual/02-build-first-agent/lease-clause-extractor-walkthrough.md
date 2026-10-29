@@ -1,4 +1,4 @@
-# Belle Realty Lease Clause Extractor: Real Build Walkthrough
+# Harbor Point Operations Lease Clause Extractor: Real Build Walkthrough
 
 ## Job and boundary
 Input is a lease PDF and `lease_id`. Output is one JSON object per target clause: `{clause_type, value, normalized_value, quote, page, confidence, evidence_chunk_id, status}`. Target fields: rent, term dates, late fee, grace period, deposit, pets, smoking, notice, renewal, utilities, maintenance, subletting, and HOA restrictions. The agent proposes; the app writes only validated proposals.

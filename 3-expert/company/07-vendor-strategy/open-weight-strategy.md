@@ -2,7 +2,7 @@
 
 Adopt open weights only for a clear reason: data locality, predictable volume, customization, or resilience. Fund model serving, security patching, safety testing, capacity planning, and incident ownership from day one.
 
-At company scale, AI is not a side project owned by the person who writes prompts. It is a production capability spanning product, domain operations, platform engineering, security, privacy, finance, and support. Belle Realty should make the operating decision visible: what is authorized, who is accountable, what evidence is required, and how the system is stopped when reality disagrees.
+At company scale, AI is not a side project owned by the person who writes prompts. It is a production capability spanning product, domain operations, platform engineering, security, privacy, finance, and support. Harbor Point Operations should make the operating decision visible: what is authorized, who is accountable, what evidence is required, and how the system is stopped when reality disagrees.
 
 ## Operating model
 

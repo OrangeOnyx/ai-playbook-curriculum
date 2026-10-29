@@ -2,7 +2,7 @@
 
 Select approved models per region using capability, latency, data terms, language coverage, safety evidence, and capacity. Model choice is a policy decision that should be encoded in the router.
 
-At company scale, AI is not a side project owned by the person who writes prompts. It is a production capability spanning product, domain operations, platform engineering, security, privacy, finance, and support. Belle Realty should make the operating decision visible: what is authorized, who is accountable, what evidence is required, and how the system is stopped when reality disagrees.
+At company scale, AI is not a side project owned by the person who writes prompts. It is a production capability spanning product, domain operations, platform engineering, security, privacy, finance, and support. Harbor Point Operations should make the operating decision visible: what is authorized, who is accountable, what evidence is required, and how the system is stopped when reality disagrees.
 
 ## Operating model
 

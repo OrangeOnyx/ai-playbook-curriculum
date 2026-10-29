@@ -6,6 +6,6 @@ AI costs can come from reading lots of words, writing lots of words, searching d
 
 Builders save money by skipping unnecessary AI calls, sending only the important pages, remembering safe repeated answers, and using a small helper for easy jobs. But they should not save pennies by skipping safety checks or using a weak model for an emergency message.
 
-For Belle Realty, the useful number is cost per correct outcome: how much did it cost to extract a lease correctly or route a tenant safely, not how cheap was one chat message?
+For Harbor Point Operations, the useful number is cost per correct outcome: how much did it cost to extract a lease correctly or route a tenant safely, not how cheap was one chat message?
 
 **Why it matters:** cost engineering helps AI stay useful as people use it more, instead of becoming a surprise bill or a low-quality shortcut.

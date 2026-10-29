@@ -1,6 +1,6 @@
 # Team Budgets and Showback
 
-Assign cost centers by product and workflow: Belle Realty ingestion, lease RAG, tenant triage, deal diligence, shared platform, and experiments. Record model, embedding, OCR, storage, reranker, cache, and human-review costs. Showback reports usage to owners even before formal chargeback.
+Assign cost centers by product and workflow: Harbor Point Operations ingestion, lease RAG, tenant triage, deal diligence, shared platform, and experiments. Record model, embedding, OCR, storage, reranker, cache, and human-review costs. Showback reports usage to owners even before formal chargeback.
 
 Define monthly envelopes plus per-request ceilings for expensive paths. Separate production, staging, and experimentation. Budget alerts should identify the route and version causing change, not merely say “AI spend rose.” Review cost per successful workflow alongside raw spend; adoption can legitimately raise total cost while reducing unit cost.
 

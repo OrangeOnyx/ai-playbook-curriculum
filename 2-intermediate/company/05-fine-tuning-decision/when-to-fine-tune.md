@@ -1,6 +1,6 @@
 # When to Fine-Tune
 
-Fine-tune when the task is narrow, repeated, and stable: classify a well-defined OTB message taxonomy, extract a consistent internal document format, or produce a tightly controlled output style. Do not fine-tune to memorize current leases, replace retrieval, solve live factual questions, or bypass human approval.
+Fine-tune when the task is narrow, repeated, and stable: classify a well-defined Harbor Point message taxonomy, extract a consistent internal document format, or produce a tightly controlled output style. Do not fine-tune to memorize current leases, replace retrieval, solve live factual questions, or bypass human approval.
 
 Before training, prove a baseline using prompt, few-shot examples, retrieval, and a capable model. Identify the persistent error slice and estimate volume. If a prompt/routing change fixes it, do that. If a model repeatedly misses domain conventions despite clear examples and the workflow has thousands of runs, training may be justified.
 

@@ -1,4 +1,4 @@
-# Build RAG Over Belle Realty Leases
+# Build RAG Over Harbor Point Operations Leases
 
 ## Ingest and normalize
 Create a document record with tenant, property, lease, document type, version, effective date, checksum, access scope, and extraction status. Extract page text; retain source PDF and page offsets. For scanned files, store OCR confidence per page. Do not embed a lease until its identity and scope are known. Addenda must link to the base lease and carry a precedence field.

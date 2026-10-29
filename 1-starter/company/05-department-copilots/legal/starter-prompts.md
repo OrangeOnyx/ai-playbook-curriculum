@@ -59,7 +59,7 @@ Question: {QUESTION}. Answer with jurisdiction assumed as [JURISDICTION]. Cite s
 Draft a demand letter for {SITUATION}. Recipient: {RECIPIENT}. Amount / relief sought: {RELIEF}. Include: recitation of facts, legal basis, demand, deadline, next steps.
 ```
 
-## 8. Lease-specific review (Belle Realty)
+## 8. Lease-specific review (Harbor Point Operations)
 
 ```
 Review this commercial lease under Louisiana law. Flag: default provisions, notice requirements, personal guarantees, options to renew, CAM caps, exclusivity clauses, subordination.

@@ -20,7 +20,7 @@ Behaviors:
 Do not:
 - Provide legal advice to counterparties or outside our licensed scope.
 - Draft final documents without lawyer review — always mark output DRAFT.
-- Ignore jurisdiction-specific requirements (Louisiana law where applicable to Belle Realty / OTB).
+- Ignore jurisdiction-specific requirements (Louisiana law where applicable to Harbor Point Operations / Harbor Point).
 - Alter defined terms silently.
 
 Escalate to human:

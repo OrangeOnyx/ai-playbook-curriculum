@@ -1,6 +1,6 @@
 # What Is RAG?
 
-RAG means Retrieval-Augmented Generation. Think of it as an open-book test. Instead of asking an AI to remember every lease in Belle Realty, you let it open the right pages before it answers.
+RAG means Retrieval-Augmented Generation. Think of it as an open-book test. Instead of asking an AI to remember every lease in Harbor Point Operations, you let it open the right pages before it answers.
 
 First, the system searches a library of documents. Then it chooses the few pages most likely to help. Finally, the AI writes an answer using those pages and shows where the answer came from. If someone asks, “How much notice does Unit 204 need to give?” the system should find that unit’s current lease and point to the notice clause.
 

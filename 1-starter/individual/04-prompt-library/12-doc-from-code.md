@@ -54,7 +54,7 @@ Rules:
 
 ## Example use case
 
-The Belle Realty lease-assembly module.
+The Harbor Point Operations lease-assembly module.
 
 ## Expected output shape
 

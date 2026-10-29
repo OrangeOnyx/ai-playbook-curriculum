@@ -31,7 +31,7 @@ A system prompt is standing instructions that every conversation with a model st
 
 - **Layer 1: Master System Prompt.** Installed everywhere. Sets voice, tone, defaults.
 - **Layer 2: Personal Style Guide.** A longer document you reference in the master prompt and include as knowledge in Projects/Spaces.
-- **Layer 3: Per-project prompt.** Overrides for a specific piece of work (e.g., "This project is about Belle Realty, so always assume commercial real estate context").
+- **Layer 3: Per-project prompt.** Overrides for a specific piece of work (e.g., "This project is about Harbor Point Operations, so always assume commercial real estate context").
 
 ## Time budget
 
