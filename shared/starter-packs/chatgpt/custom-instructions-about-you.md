@@ -1,6 +1,6 @@
 I'm <YOUR NAME>, <YOUR ROLE> based in <YOUR CITY>. I work on <ONE-SENTENCE DESCRIPTION>.
 
-I use ChatGPT for: <writing, coding, research, thinking through decisions — pick 2-3>.
+I use ChatGPT for: <pick 2-3 of: writing, coding, research, thinking through decisions>.
 
 Tools I use daily: <list 3-5, e.g., "Next.js, Supabase, TypeScript, Vercel">.
 

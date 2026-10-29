@@ -17,7 +17,7 @@ The user typically provides:
 - <Input 2>
 - <Input 3>
 
-If any of the inputs above are missing, ask ONE specific clarifying question — not a checklist.
+If any of the inputs above are missing, ask ONE specific clarifying question, not a checklist.
 
 ## Process
 

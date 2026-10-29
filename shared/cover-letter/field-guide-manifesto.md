@@ -35,10 +35,10 @@ If any of these describe you, you're already paying the cost of waiting.
 - **Inbox is winning.** You spend 90+ minutes a day on email you don't remember writing. An AI triage + draft workflow reduces that to 20 minutes.
 - **You are the bottleneck.** Every project waits on your review or your draft. AI turns you into a reviewer of first drafts, not the writer.
 - **You lose context between meetings.** You can't remember what you decided last week. An AI weekly review + notes system fixes it in 15 minutes a week.
-- **You research the same thing twice.** No prompt library, no knowledge base — every task starts from zero.
-- **You can't keep up with your field.** Papers, releases, competitor moves — you feel behind. An AI research routine catches you up in 30 minutes a week.
+- **You research the same thing twice.** No prompt library, no knowledge base, so every task starts from zero.
+- **You can't keep up with your field.** Papers, releases, competitor moves: you feel behind. An AI research routine catches you up in 30 minutes a week.
 - **Your best work is inconsistent.** Some emails are sharp, some are muddled. A personal system prompt and voice guide fixes that permanently.
-- **You are afraid to use AI at work.** No AUP, no data classification — you don't know what's safe. So you don't use it. So you fall further behind.
+- **You are afraid to use AI at work.** No AUP, no data classification. You don't know what's safe. So you don't use it. So you fall further behind.
 
 ### For companies
 
@@ -46,10 +46,10 @@ If any of these describe you, you're already paying the cost of waiting.
 - **Your CX team is drowning.** 40% of tickets could be triaged or drafted by AI. Every ticket you don't automate is a hire you shouldn't have to make.
 - **Your sales team is inconsistent.** New reps take 6 months to ramp. A sales copilot with your playbook and battle cards cuts that in half.
 - **Your legal team is a bottleneck.** Every contract review is manual. Clause extraction and NDA screening reduce turnaround from days to hours.
-- **Your finance team runs on tribal knowledge.** Month-end close, variance analysis, reconciliation — all repeatable, all automatable, all still manual.
+- **Your finance team runs on tribal knowledge.** Month-end close, variance analysis, reconciliation: all repeatable, all automatable, all still manual.
 - **Your engineering team is losing velocity.** AI-assisted development is now table stakes. Teams without Copilot or Cursor ship measurably slower.
 - **Your marketing content is generic.** Every AI-shy team writes copy that reads like it was drafted in 2019. Every AI-fluent team ships 5x more, on brand, with SEO built in.
-- **Your customer data is not being learned from.** Support tickets, sales calls, product feedback — all a goldmine, all sitting in silos, all unlearned.
+- **Your customer data is not being learned from.** Support tickets, sales calls, product feedback: all a goldmine, all sitting in silos, all unlearned.
 - **Your board is asking about AI strategy.** You have a slide. You do not have a program.
 - **Your customers are asking about AI features.** You have a roadmap item. You do not have a shipping plan.
 - **Your competitors are shipping.** Every week another player in your space adds an AI feature. Every quarter another RFP asks about your AI capabilities. Every year the market rewards the ones who moved.
@@ -58,11 +58,11 @@ If three or more of these describe your company, you are Level 0 and you are beh
 
 ## The three groups in the market right now
 
-**Group A — Frontier operators (5%).** Have been building since 2022. Multi-agent systems in production. Custom evals. Fine-tuned models. They win outsized market share.
+**Group A: Frontier operators (5%).** Have been building since 2022. Multi-agent systems in production. Custom evals. Fine-tuned models. They win outsized market share.
 
-**Group B — Active adopters (25%).** Started in 2023-2024. Have governance, copilots, and shipping workflows. They're keeping pace and closing on Group A.
+**Group B: Active adopters (25%).** Started in 2023-2024. Have governance, copilots, and shipping workflows. They're keeping pace and closing on Group A.
 
-**Group C — Still figuring it out (70%).** Bought some licenses. Sent people to conferences. No policy, no evals, no shipping. They are losing ground quarterly, and most don't know it yet.
+**Group C: Still figuring it out (70%).** Bought some licenses. Sent people to conferences. No policy, no evals, no shipping. They are losing ground quarterly, and most don't know it yet.
 
 The gap between Group B and Group C doubled in the last twelve months. The gap between Group A and Group B is widening. If you're in Group C, the window to close the gap by trying harder alone is closing. You now need a program, not effort.
 
@@ -74,7 +74,7 @@ Three things changed in the last 18 months that make waiting far more expensive 
 2. **Reliability crossed a threshold.** Frontier models now handle complex multi-step reasoning, tool use, and long context reliably enough for production. What used to require prompt engineering hero moves now works out of the box.
 3. **Ecosystem matured.** MCP, agent frameworks, eval tools, observability platforms: the plumbing is now real. You don't have to build everything. You just have to install the pieces and configure them.
 
-The excuses that were valid in 2023 — cost, reliability, tooling — are not valid in 2026.
+Cost, reliability, tooling: the excuses that were valid in 2023 are not valid in 2026.
 
 ## The counter-argument, honestly considered
 
@@ -150,4 +150,4 @@ You should have started last year. Start today anyway.
 
 ---
 
-**Written to be useful in 2026 and every year after. If you're reading this in a future year, replace "last year" with "the year before whenever you actually read this" — the message doesn't change.**
+**Written to be useful in 2026 and every year after. If you're reading this in a future year, replace "last year" with "the year before whenever you actually read this". The message doesn't change.**

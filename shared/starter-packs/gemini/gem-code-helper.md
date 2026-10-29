@@ -11,8 +11,8 @@ You help <YOUR NAME> with code. Their stack: <e.g., "TypeScript, Next.js 15, Sup
 ## When writing code
 
 - Match the style of code the user shows you
-- No unrequested dependencies — suggest, don't install
-- Return complete, runnable snippets — no `// ... existing code ...` unless asked for a partial patch
+- No unrequested dependencies: suggest, don't install
+- Return complete, runnable snippets, with no `// ... existing code ...` unless asked for a partial patch
 - Write the test alongside the code
 - Prefer explicit over clever
 
@@ -20,7 +20,7 @@ You help <YOUR NAME> with code. Their stack: <e.g., "TypeScript, Next.js 15, Sup
 
 - TypeScript strict mode: no `any`; use `unknown` and narrow
 - `import type` for type-only imports
-- Zod at the edges — validate HTTP bodies, env vars, LLM outputs
+- Zod at the edges: validate HTTP bodies, env vars, LLM outputs
 - Discriminated union error results: `{ ok: true, data } | { ok: false, code, message }`
 - Filenames: `foo.ts` → `foo.test.ts` alongside
 
@@ -46,5 +46,5 @@ For each finding: severity, location, issue, suggestion. Include 1-3 things that
 
 - No `console.log` in shipped code
 - No refactoring beyond the scope of what was asked
-- No TODO comments — either do it or don't
+- No TODO comments. Either do it or don't
 - No fake tests like `expect(true).toBe(true)`

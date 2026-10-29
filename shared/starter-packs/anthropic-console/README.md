@@ -1,6 +1,6 @@
 # Anthropic Console starter pack
 
-For [console.anthropic.com](https://console.anthropic.com/) — direct API access to Claude via the SDK. This pack is system-prompt patterns for when you're calling the API from your own code, not the Claude.ai product.
+For [console.anthropic.com](https://console.anthropic.com/), direct API access to Claude via the SDK. This pack is system-prompt patterns for when you're calling the API from your own code, not the Claude.ai product.
 
 ## Files in this pack
 

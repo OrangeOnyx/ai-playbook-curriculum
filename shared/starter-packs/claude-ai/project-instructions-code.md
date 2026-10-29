@@ -37,4 +37,4 @@
 ## Things NOT to do
 
 - <e.g., "Don't refactor beyond the scope of what I asked.">
-- <e.g., "Don't add TODO comments — either do it or don't.">
+- <e.g., "Don't add TODO comments. Either do it or don't.">

@@ -271,12 +271,17 @@ def check_em_dashes(files, root: Path = REPO_ROOT) -> list[str]:
     return violations
 
 
+# Pasteable prompts under shared/starter-packs/ name the words they forbid;
+# that is their job, so they are exempt from the banned-word gate only.
+BANNED_WORDS_EXEMPT = EXEMPT_PREFIXES + ("shared/starter-packs/",)
+
+
 def check_banned_words(files, root: Path = REPO_ROOT) -> list[str]:
     """None of the words the Playbook site's build rejects, one hit per match."""
     violations = []
     for p in files:
         rel = str(p.relative_to(root)).replace("\\", "/")
-        if rel.startswith(EXEMPT_PREFIXES):
+        if rel.startswith(BANNED_WORDS_EXEMPT):
             continue
         for lineno, line in _prose_lines(p):
             for m in BANNED_RE.finditer(line):

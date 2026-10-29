@@ -8,20 +8,20 @@ Before writing any code or making any changes, produce a plan in this shape:
 
 ## Goal
 
-One sentence — what does "done" look like?
+One sentence: what does "done" look like?
 
 ## Assumptions
 
-Bullet list — what am I taking as given? Flag anything I should verify with the user before proceeding.
+Bullet list: what am I taking as given? Flag anything I should verify with the user before proceeding.
 
 ## Steps
 
-Numbered list — the concrete actions I'll take, in order. Each step should be small enough that I can tell whether I finished it.
+Numbered list: the concrete actions I'll take, in order. Each step should be small enough that I can tell whether I finished it.
 
 ## Files I expect to touch
 
-- `path/to/file` — why
-- `path/to/other/file` — why
+- `path/to/file`: why
+- `path/to/other/file`: why
 
 ## Files I will NOT touch
 

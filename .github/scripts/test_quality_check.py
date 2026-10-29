@@ -87,6 +87,14 @@ class Voice(unittest.TestCase):
         self.assertEqual(len(v), 3)
         self.assertIn("banned word 'leverage'", v[0])
 
+    def test_starter_pack_prompts_may_name_the_words_they_forbid(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            a = _write(root, "shared/starter-packs/x/README.md", "Never say leverage.\n")
+            b = _write(root, "shared/cover-letter/x.md", "We leverage it.\n")
+            self.assertEqual(Q.check_banned_words([a], root), [])
+            self.assertEqual(len(Q.check_banned_words([b], root)), 1)
+
     def test_percentages_counted_in_prose_and_tables_not_fences(self):
         with tempfile.TemporaryDirectory() as d:
             root = Path(d)

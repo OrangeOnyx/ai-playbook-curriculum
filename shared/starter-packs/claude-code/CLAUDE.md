@@ -48,13 +48,13 @@ docs/           architecture, decisions, runbooks
 
 ## Available subagents
 
-- `code-reviewer` — invoke by asking for a review of recent changes
-- `writer` — invoke for docs, READMEs, changelogs
+- `code-reviewer`: invoke by asking for a review of recent changes
+- `writer`: invoke for docs, READMEs, changelogs
 
 ## Available slash commands
 
-- `/plan` — write a plan before executing a task
-- `/eval` — run the eval suite against a change
+- `/plan`: write a plan before executing a task
+- `/eval`: run the eval suite against a change
 
 ## Where things live
 

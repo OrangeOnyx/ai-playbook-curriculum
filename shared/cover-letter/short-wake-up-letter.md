@@ -17,7 +17,7 @@ If you're reading this in 2026, here's the honest picture:
 1. **Time.** The average knowledge worker with a functional AI setup saves 5-10 hours a week. That's 250-500 hours a year. Every year you wait, you leave that on the table.
 2. **Judgment.** The instinct for "what's a good AI task, what's a bad AI task, what's a hallucination risk" only develops through use. You cannot cram it before a deadline.
 3. **Institutional knowledge.** Your codified prompts, department copilots, and RAG systems compound. A company that started in 2024 has 2 years of eval sets, prompt versions, and observed failure modes. You cannot buy that.
-4. **Leverage on your best people.** Your top performers are already using AI on the side. Without a program, they either become 3x more productive quietly (and get poached) or they leave for a company that lets them use it openly.
+4. **A multiplier on your best people.** Your top performers are already using AI on the side. Without a program, they either become 3x more productive quietly (and get poached) or they leave for a company that lets them use it openly.
 5. **Bargaining power with vendors.** Companies with active AI programs get better contracts, roadmap input, and early access. Late arrivals pay list and take defaults.
 
 ## What "started last year" actually looks like

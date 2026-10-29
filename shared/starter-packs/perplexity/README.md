@@ -1,6 +1,6 @@
 # Perplexity starter pack
 
-For [Perplexity](https://perplexity.ai) — search-native AI. This pack covers **Perplexity Computer** (the agentic surface with custom skills, memory, and connectors), not just the Q&A search product.
+For [Perplexity](https://perplexity.ai), search-native AI. This pack covers **Perplexity Computer** (the agentic surface with custom skills, memory, and connectors), not just the Q&A search product.
 
 ## What Perplexity Computer gives you to configure
 
@@ -32,10 +32,10 @@ Create a Project, then paste `project-context-template.md` as the project descri
 
 - **Perplexity Computer skills are Markdown with frontmatter.** Very similar to Claude Skills. If you already have Claude Skills, they port with minor changes (see `custom-skill-starter.md`).
 - **Memory is opt-in and can be disabled.** If you want continuity, keep it on.
-- **Search happens automatically** for questions with a factual answer. You can't easily turn this off — write your prompt as an actual task if you don't want it to search.
+- **Search happens automatically** for questions with a factual answer. You can't easily turn this off, so write your prompt as an actual task if you don't want it to search.
 - **Connectors extend what skills can do.** A skill that references Gmail assumes your Gmail connector is connected.
 
 ## Related program modules
 
-- [Stage 1 — Essentials](../../../1-starter/) — the base fluency track
+- [Stage 1: Essentials](../../../1-starter/), the base fluency track
 - [`2-intermediate/individual/01-agent-architectures/agents-are-folders.md`](../../../2-intermediate/individual/01-agent-architectures/agents-are-folders.md): why the skill file IS the agent

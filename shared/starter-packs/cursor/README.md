@@ -1,6 +1,6 @@
 # Cursor starter pack
 
-For [Cursor](https://cursor.com) — the AI-first IDE. Configuration lives in your repo as `.cursorrules` (legacy) or `.cursor/rules/` (newer, per-context rule files).
+For [Cursor](https://cursor.com), the AI-first IDE. Configuration lives in your repo as `.cursorrules` (legacy) or `.cursor/rules/` (newer, per-context rule files).
 
 ## What Cursor gives you to configure
 

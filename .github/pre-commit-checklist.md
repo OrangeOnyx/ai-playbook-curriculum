@@ -4,7 +4,7 @@ Run through this before every commit. The CI workflow (`.github/workflows/qualit
 
 ## Voice and neutrality
 
-- [ ] **[WARN]** No unapproved brand names in content (`Belle Realty`, `Orange Ocean`, `On The Blvd`, `On The Boulevard`, `OrangeOnyx`, `Deal Leverage`, `OTB`)
+- [ ] **[WARN]** No unapproved brand names in content (`Belle Realty`, `Orange Ocean`, `On The Blvd`, `On The Boulevard`, `OrangeOnyx`, `OTB`, and the rest of `BRAND_TERMS` in `.github/scripts/quality_check.py`)
   - Exceptions: the OrangeOnyx GitHub URL in cross-links to companion repos is allowed
 - [ ] Adam is not referenced by name outside of a small number of hero examples and the shared cover-letter files
 - [ ] Every doc reads generically enough that a stranger could apply it to their own work
@@ -12,7 +12,7 @@ Run through this before every commit. The CI workflow (`.github/workflows/qualit
 ## Content quality
 
 - [ ] Every new module has a README that a reader can enter without having read anything else
-- [ ] Any technique or practice recommended has an eval, a measurement, or a check — not "vibes"
+- [ ] Any technique or practice recommended has an eval, a measurement, or a check, not "vibes"
 - [ ] Every HITL-shaped example ships with `auto_send: false` or an equivalent default-off flag
 - [ ] Every claim about a paper, tool, or vendor has a link
 
@@ -24,7 +24,7 @@ Run through this before every commit. The CI workflow (`.github/workflows/qualit
 
 ## Any-stage entry
 
-- [ ] Someone jumping into your new file cold can act on it — no hidden prerequisites
+- [ ] Someone jumping into your new file cold can act on it, with no hidden prerequisites
 - [ ] Cross-refs are one-click, not "see section 3.2"
 
 ## Attribution
@@ -59,4 +59,4 @@ The repo carries legacy Orange-Ocean-specific examples and Stage 3 and up module
 3. Rerun `python3 .github/scripts/quality_check.py`, expect WARN count to drop
 4. When WARN count reaches zero, flip the CI workflow to `--strict` so warnings become failures
 
-New content added from this point on **must ship green** — use the scanner locally before committing new files.
+New content added from this point on **must ship green**: use the scanner locally before committing new files.

@@ -1,6 +1,6 @@
 # Claude.ai starter pack
 
-For [claude.ai](https://claude.ai) — Anthropic's consumer product with Projects, Custom Instructions, and Artifacts.
+For [claude.ai](https://claude.ai), Anthropic's consumer product with Projects, Custom Instructions, and Artifacts.
 
 ## What Claude.ai gives you to configure
 

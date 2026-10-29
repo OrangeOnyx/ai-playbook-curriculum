@@ -6,8 +6,8 @@
 
 ## Files uploaded to this project
 
-- `<filename>` — <what's in it>
-- `<filename>` — <what's in it>
+- `<filename>`: <what's in it>
+- `<filename>`: <what's in it>
 
 ## How to help me in this project
 
@@ -19,7 +19,7 @@
 
 - <e.g., "Assume TypeScript with strict mode.">
 - <e.g., "Assume the reader is a paralegal, not a lawyer.">
-- <e.g., "Never propose new features — I'm shipping, not expanding.">
+- <e.g., "Never propose new features. I'm shipping, not expanding.">
 
 ## Non-goals
 

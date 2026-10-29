@@ -13,7 +13,7 @@ Look for one of these, in order:
 - A `pytest tests/eval/` pattern
 - A `Makefile` target starting with `eval`
 
-If none exists, tell the user and stop — don't invent one.
+If none exists, tell the user and stop. Don't invent one.
 
 ## Step 2: Run it
 

@@ -1,6 +1,6 @@
 # ChatGPT starter pack
 
-For [chatgpt.com](https://chatgpt.com) — OpenAI's consumer product with Custom Instructions, Projects (formerly GPTs), and Memory.
+For [chatgpt.com](https://chatgpt.com), OpenAI's consumer product with Custom Instructions, Projects (formerly GPTs), and Memory.
 
 ## What ChatGPT gives you to configure
 

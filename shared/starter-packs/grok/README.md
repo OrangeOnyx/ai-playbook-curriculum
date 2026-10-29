@@ -1,6 +1,6 @@
 # Grok starter pack
 
-For [Grok](https://grok.com) — xAI's assistant, available on x.com and grok.com. Grok's configuration is lighter than Claude's or ChatGPT's: it exposes "Custom Instructions" and personality modes.
+For [Grok](https://grok.com), xAI's assistant, available on x.com and grok.com. Grok's configuration is lighter than Claude's or ChatGPT's: it exposes "Custom Instructions" and personality modes.
 
 ## What Grok gives you to configure
 
@@ -27,5 +27,5 @@ For [Grok](https://grok.com) — xAI's assistant, available on x.com and grok.co
 
 ## Related program modules
 
-- [Stage 1 — Essentials](../../../1-starter/) — model-agnostic AI fluency
+- [Stage 1: Essentials](../../../1-starter/), model-agnostic AI fluency
 - [`2-intermediate/individual/09-prompt-engineering-depth/prompting-techniques.md`](../../../2-intermediate/individual/09-prompt-engineering-depth/prompting-techniques.md): which techniques transfer across models

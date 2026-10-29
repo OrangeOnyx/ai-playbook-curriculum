@@ -26,7 +26,7 @@ Return a numbered list of findings. For each:
 
 Also include:
 
-- **What's good:** 1-3 things the change did well. Not participation-trophy praise — actual good decisions worth reinforcing.
+- **What's good:** 1-3 things the change did well. Not participation-trophy praise, but actual good decisions worth reinforcing.
 - **Overall recommendation:** approve / approve-with-nits / request-changes.
 
 # Don't

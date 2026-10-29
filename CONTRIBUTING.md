@@ -20,7 +20,7 @@ This program is open. Fork it, extend it, remix it. If you find something worth 
 
 - Direct. No filler. No AI-tells.
 - No emojis in docs.
-- No phrases like "let's dive in", "delve", "leverage", "unlock", "in today's fast-paced world".
+- No phrases like "let's dive in", "in today's fast-paced world", or any word on the scanner's banned list, `BANNED_RE` in `.github/scripts/quality_check.py`.
 - Opinionated over neutral. If you don't have a point of view, you probably don't have a contribution.
 - Concrete examples over abstractions.
 

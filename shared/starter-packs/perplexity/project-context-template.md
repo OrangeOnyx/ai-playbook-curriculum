@@ -6,15 +6,15 @@
 
 ## Key people
 
-- **<Name>** — <role, why they matter>
-- **<Name>** — <role, why they matter>
+- **<Name>**: <role, why they matter>
+- **<Name>**: <role, why they matter>
 
 ## Key documents
 
 Perplexity should reference these when relevant (they're in this project's files or in the Notion/Drive connectors):
 
-- <Document name> — <what it contains>
-- <Document name> — <what it contains>
+- <Document name>: <what it contains>
+- <Document name>: <what it contains>
 
 ## Current status
 

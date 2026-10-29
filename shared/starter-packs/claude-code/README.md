@@ -1,6 +1,6 @@
 # Claude Code starter pack
 
-For [Claude Code](https://docs.anthropic.com/en/docs/claude-code) — Anthropic's terminal coding agent. Configuration lives in your repo as plain files, which is the whole point.
+For [Claude Code](https://docs.anthropic.com/en/docs/claude-code), Anthropic's terminal coding agent. Configuration lives in your repo as plain files, which is the whole point.
 
 ## What Claude Code reads
 
@@ -10,9 +10,9 @@ At the start of every session, Claude Code auto-loads (in order):
 3. Any subfolder `CLAUDE.md` it navigates into
 
 It also discovers, on demand:
-- **Subagents** in `.claude/agents/*.md` — invoked by description match
-- **Slash commands** in `.claude/commands/*.md` — invoked by name
-- **Skills** in `.claude/skills/<name>/SKILL.md` — invoked by description match
+- **Subagents** in `.claude/agents/*.md`, invoked by description match
+- **Slash commands** in `.claude/commands/*.md`, invoked by name
+- **Skills** in `.claude/skills/<name>/SKILL.md`, invoked by description match
 
 The pattern that works: **CLAUDE.md is short. Skills, subagents, and commands hold the detail.**
 

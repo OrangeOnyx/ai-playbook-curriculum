@@ -1,6 +1,6 @@
 # Gemini starter pack
 
-For [Gemini](https://gemini.google.com) — Google's assistant. Gemini's persistent configuration lives in **Gems** (custom persistent instructions) and in Google Workspace integration.
+For [Gemini](https://gemini.google.com), Google's assistant. Gemini's persistent configuration lives in **Gems** (custom persistent instructions) and in Google Workspace integration.
 
 ## What Gemini gives you to configure
 
@@ -31,5 +31,5 @@ For [Gemini](https://gemini.google.com) — Google's assistant. Gemini's persist
 
 ## Related
 
-- [Stage 1 — Essentials](../../../1-starter/)
+- [Stage 1: Essentials](../../../1-starter/)
 - Other packs in this directory

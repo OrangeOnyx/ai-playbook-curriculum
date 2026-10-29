@@ -18,7 +18,7 @@
 ## Structural preferences
 
 - Hook is one sentence, not a paragraph
-- No numbered lists as the whole post — mix prose and lists
+- No numbered lists as the whole post: mix prose and lists
 - Headings are short (< 6 words) and use sentence case
 - No em-dashes
 - No AI tells: "delve", "tapestry", "in essence", "it's not just X, it's Y"
