@@ -1,6 +1,6 @@
 # AI User Experience
 
-The interface must make the system’s limits legible without making users read a lecture. Design for uncertainty, interruption, correction, latency, and recovery—not the happy-path screenshot.
+The interface must make the system’s limits legible without making users read a lecture. Design for uncertainty, interruption, correction, latency, and recovery, not the happy-path screenshot.
 
 Treat this as an operating document, not a reading assignment. For Belle Realty or a property-management assistant, define the unit of work, owner, allowed failure modes, and the customer-visible consequence before choosing a model or framework. A system that gives plausible answers but cannot be measured, contained, or recovered is not production-ready.
 

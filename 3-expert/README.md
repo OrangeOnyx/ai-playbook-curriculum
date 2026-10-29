@@ -19,7 +19,7 @@
 - You've shipped an AI product or feature to real users with SLOs met
 - You've orchestrated a multi-agent workflow in production
 - You've handled a real drift or incident (or run a realistic dry-run)
-- You've done a model bake-off with a data-driven decision
+- You've done a model bake-off with a decision based on the data
 - You've hardened one workflow against adversarial input
 - You've fine-tuned a model with measurable impact
 - You've led a red-team exercise

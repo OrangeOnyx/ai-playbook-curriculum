@@ -1,6 +1,6 @@
 # Provider Arbitrage
 
-Route by required capability, latency, geography, availability, and price—not a single leaderboard. Maintain comparable evals, data-processing terms, fallback behavior, and a migration-tested abstraction layer.
+Route by required capability, latency, geography, availability, and price, not a single leaderboard. Maintain comparable evals, data-processing terms, fallback behavior, and a migration-tested abstraction layer.
 
 Treat this as an operating document, not a reading assignment. For Belle Realty or a property-management assistant, define the unit of work, owner, allowed failure modes, and the customer-visible consequence before choosing a model or framework. A system that gives plausible answers but cannot be measured, contained, or recovered is not production-ready.
 

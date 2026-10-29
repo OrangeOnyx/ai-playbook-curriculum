@@ -10,7 +10,7 @@ For an early applied-AI team, interview across five signals:
 - **Security and safety judgment:** Do they recognize prompt injection, data leakage, authorization boundaries, and escalation paths?
 - **Learning velocity:** Can they explain a failed approach, the evidence that killed it, and what they changed?
 
-Use a work sample that resembles your reality. Give the candidate a short, messy set of property documents or CRM records, a user goal, a prohibited action, and an evaluation rubric. Ask for a system design, failure analysis, and a staged rollout—not a polished demo. Score the reasoning independently before discussing style.
+Use a work sample that resembles your reality. Give the candidate a short, messy set of property documents or CRM records, a user goal, a prohibited action, and an evaluation rubric. Ask for a system design, failure analysis, and a staged rollout, not a polished demo. Score the reasoning independently before discussing style.
 
 Avoid the false binary between “researcher” and “engineer.” Early teams need builders who can read a paper, reproduce the essential result, and decide it is not worth productionizing. Add specialists later when their depth removes a proven bottleneck.
 

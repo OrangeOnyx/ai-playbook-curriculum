@@ -1,6 +1,6 @@
 # SLO Definition for AI Features
 
-Define SLOs around the user journey: a resident receives a safe, actionable maintenance response; a leasing lead receives a verified answer. Measure availability, latency, grounded-answer rate, and escalation correctness separately.
+Define SLOs around the user journey: a resident receives a safe, concrete maintenance response; a leasing lead receives a verified answer. Measure availability, latency, grounded-answer rate, and escalation correctness separately.
 
 Treat this as an operating document, not a reading assignment. For Belle Realty or a property-management assistant, define the unit of work, owner, allowed failure modes, and the customer-visible consequence before choosing a model or framework. A system that gives plausible answers but cannot be measured, contained, or recovered is not production-ready.
 

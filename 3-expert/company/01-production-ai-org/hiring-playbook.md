@@ -1,6 +1,6 @@
 # Hiring for Production AI
 
-Hire for judgment under constraints. Interview candidates on incident handling, evaluation design, permissions, data contracts, cost tradeoffs, and systems debugging—not just prompt demos or benchmark recall.
+Hire for judgment under constraints. Interview candidates on incident handling, evaluation design, permissions, data contracts, cost tradeoffs, and systems debugging, not just prompt demos or benchmark recall.
 
 At company scale, AI is not a side project owned by the person who writes prompts. It is a production capability spanning product, domain operations, platform engineering, security, privacy, finance, and support. Belle Realty should make the operating decision visible: what is authorized, who is accountable, what evidence is required, and how the system is stopped when reality disagrees.
 
@@ -10,7 +10,7 @@ Name one directly responsible individual for the outcome and one executive spons
 
 ## Control cadence
 
-Review leading indicators weekly: reliability, safety interventions, access denials, cost, drift, user corrections, and unresolved incidents. Review material changes before launch and at a fixed expiry date after launch. The agenda should end in decisions, owners, and dates—not a dashboard tour.
+Review leading indicators weekly: reliability, safety interventions, access denials, cost, drift, user corrections, and unresolved incidents. Review material changes before launch and at a fixed expiry date after launch. The agenda should end in decisions, owners, and dates, not a dashboard tour.
 
 ## Evidence standard
 
