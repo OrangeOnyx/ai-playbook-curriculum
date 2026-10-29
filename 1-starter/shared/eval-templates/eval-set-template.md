@@ -29,11 +29,11 @@ Each line is a test case:
 ```
 
 Fields:
-- `id` — stable identifier
-- `input` — the prompt input (raw text, or a reference to a file)
-- `expected` — the ideal answer OR the criteria for what a good answer looks like
-- `criteria` — array of rubric dimensions
-- `tags` — for filtering (regression, high-priority, edge-case, etc.)
+- `id`: stable identifier
+- `input`: the prompt input (raw text, or a reference to a file)
+- `expected`: the ideal answer OR the criteria for what a good answer looks like
+- `criteria`: array of rubric dimensions
+- `tags`: for filtering (regression, high-priority, edge-case, etc.)
 
 ## Minimum viable eval set
 

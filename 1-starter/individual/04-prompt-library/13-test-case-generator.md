@@ -6,7 +6,7 @@
 
 **Category:** Engineering
 
-**Model recommendation:** Claude Sonnet — deliberate about edge cases.
+**Model recommendation:** Claude Sonnet, deliberate about edge cases.
 
 ---
 

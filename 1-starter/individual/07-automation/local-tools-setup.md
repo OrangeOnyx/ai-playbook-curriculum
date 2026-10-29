@@ -65,7 +65,7 @@ The five tools every AI power-user should have installed locally.
 
 ## 4. A clipboard manager
 
-Essential when prompt-engineering — you copy and paste dozens of times per day.
+Essential when prompt-engineering: you copy and paste dozens of times per day.
 
 - **macOS:** Raycast Clipboard History, Alfred, or Paste.app
 - **Windows:** Windows+V (built-in), or Ditto

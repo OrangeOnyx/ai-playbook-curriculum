@@ -2,11 +2,11 @@
 
 **Purpose:** Produce a short decision memo with the recommendation up front, then supporting logic.
 
-**When to use:** You need to write up a decision for a stakeholder — a peer, boss, or client.
+**When to use:** You need to write up a decision for a stakeholder: a peer, boss, or client.
 
 **Category:** Communication
 
-**Model recommendation:** Claude Sonnet — cleanest at inverted-pyramid structure.
+**Model recommendation:** Claude Sonnet, cleanest at inverted-pyramid structure.
 
 ---
 

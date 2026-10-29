@@ -6,7 +6,7 @@
 
 **Category:** Communication
 
-**Model recommendation:** Any model — this is fast and cheap. Use Groq or Haiku.
+**Model recommendation:** Any model. This is fast and cheap. Use Groq or Haiku.
 
 ---
 
@@ -32,8 +32,8 @@ Return only the polished message. No commentary.
 
 ## Variables
 
-- `{DRAFT}` — your rough draft
-- `{CHANNEL_TONE}` — casual / professional / exec
+- `{DRAFT}`: your rough draft
+- `{CHANNEL_TONE}`: casual / professional / exec
 
 ## Example use case
 

@@ -6,7 +6,7 @@
 
 **Category:** Communication
 
-**Model recommendation:** Claude Opus or GPT-5 — best at extracting structure from long transcripts.
+**Model recommendation:** Claude Opus or GPT-5, best at extracting structure from long transcripts.
 
 ---
 
@@ -42,7 +42,7 @@ Rules:
 
 ## Variables
 
-- `{TRANSCRIPT}` — the raw meeting text
+- `{TRANSCRIPT}`: the raw meeting text
 
 ## Example use case
 

@@ -28,10 +28,10 @@ Every AI vendor contract requires:
 
 ## Files in this section
 
-- `platform-account-order.md` — Which platforms and in what order
-- `llm-gateway-selection.md` — Comparison of gateway options
-- `vector-db-selection.md` — Vector DB tradeoffs and recommendation matrix
-- `budget-and-billing-model.md` — Budget setup, cost centers, chargeback
+- `platform-account-order.md`: Which platforms and in what order
+- `llm-gateway-selection.md`: Comparison of gateway options
+- `vector-db-selection.md`: Vector DB tradeoffs and recommendation matrix
+- `budget-and-billing-model.md`: Budget setup, cost centers, chargeback
 
 ## Ownership
 

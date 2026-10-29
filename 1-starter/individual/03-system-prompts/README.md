@@ -1,6 +1,6 @@
 # 03: System Prompts
 
-The single highest-leverage move in this entire kit.
+The single highest-payoff move in this entire kit.
 
 ## What a system prompt does
 
@@ -31,7 +31,7 @@ A system prompt is standing instructions that every conversation with a model st
 
 - **Layer 1: Master System Prompt.** Installed everywhere. Sets voice, tone, defaults.
 - **Layer 2: Personal Style Guide.** A longer document you reference in the master prompt and include as knowledge in Projects/Spaces.
-- **Layer 3: Per-project prompt** — overrides for a specific piece of work (e.g., "This project is about Belle Realty — always assume commercial real estate context").
+- **Layer 3: Per-project prompt.** Overrides for a specific piece of work (e.g., "This project is about Belle Realty, so always assume commercial real estate context").
 
 ## Time budget
 

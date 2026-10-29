@@ -4,8 +4,8 @@ Model Context Protocol (MCP) servers and the first agentic workflows.
 
 ## Files
 
-- `mcp-server-inventory.md` — the priority list of MCP servers to build
-- `agent-workflow-designs.md` — the three starter agents (Inbox Triage, Meeting-to-CRM, Weekly Report)
+- `mcp-server-inventory.md`: the priority list of MCP servers to build
+- `agent-workflow-designs.md`: the three starter agents (Inbox Triage, Meeting-to-CRM, Weekly Report)
 
 ## Rules
 

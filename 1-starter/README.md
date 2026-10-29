@@ -1,7 +1,7 @@
 # Stage 1 Starter
 
 **You are:** new to AI, or an occasional user without a system.
-**You will become:** a competent power user — knows the jargon, has personal system prompts, routes tasks to the right model, ships real work with AI.
+**You will become:** a competent power user who knows the jargon, has personal system prompts, routes tasks to the right model, ships real work with AI.
 **The Curriculum's pace:** 30 days at 30-60 min/day.
 
 ![Stage 1](../shared/graphics/stage-1.svg)
@@ -10,7 +10,7 @@
 
 - None enforced
 - Willingness to spend 30-60 minutes a day for a month
-- **Recommended (not required):** If your files, notes, and knowledge are not yet in a system AI can reach (Markdown, cloud drive, or vault), consider running [The AI Playbook, Stage 1](https://playbook.adamabdalla.com/1-starter/) Layers 1–3 first. Stage 1 will work either way — but the modules on files, RAG, and context assume you have a knowledge base to point at. See [PLAYBOOK-AND-CURRICULUM.md](../PLAYBOOK-AND-CURRICULUM.md) for the full mapping.
+- **Recommended (not required):** If your files, notes, and knowledge are not yet in a system AI can reach (Markdown, cloud drive, or vault), consider running [The AI Playbook, Stage 1](https://playbook.adamabdalla.com/1-starter/) Layers 1–3 first. Stage 1 will work either way, but the modules on files, RAG, and context assume you have a knowledge base to point at. See [PLAYBOOK-AND-CURRICULUM.md](../PLAYBOOK-AND-CURRICULUM.md) for the full mapping.
 
 ## Exit criteria
 

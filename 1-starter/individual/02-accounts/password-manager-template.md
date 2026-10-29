@@ -30,12 +30,12 @@ Notes:
 
 Add these to your calendar as recurring events:
 
-- Every 90 days: "Rotate API keys" — walk through password manager, regenerate each
-- Every 30 days: "Review AI spending" — check each provider dashboard
-- Every 7 days: "Check billing alerts" — during Friday weekly review
+- Every 90 days: "Rotate API keys." Walk through password manager, regenerate each
+- Every 30 days: "Review AI spending." Check each provider dashboard
+- Every 7 days: "Check billing alerts" during Friday weekly review
 
 ## Sharing model
 
 - **Never share** a personal API key
-- For a company, use the LLM gateway pattern (see `company/02-accounts-procurement/llm-gateway-selection.md`) — no one gets raw keys
+- For a company, use the LLM gateway pattern (see `company/02-accounts-procurement/llm-gateway-selection.md`), so no one gets raw keys
 - For a family, each person gets their own key on the same billing account (where the provider supports this)

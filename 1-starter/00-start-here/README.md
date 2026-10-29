@@ -1,6 +1,6 @@
 # AI Essentials Kit
 
-A complete, opinionated system for taking a novice from zero to power-user across every major AI platform — and giving a company the governance, tooling, and rollout playbook to do the same at scale.
+A complete, opinionated system for taking a novice from zero to power-user across every major AI platform, and giving a company the governance, tooling, and rollout playbook to do the same at scale.
 
 Built by Adam Abdalla · v1.0 · August 2026
 
@@ -32,7 +32,7 @@ ai-kit/
 5. Total time to a full rollout: **~90 days** (see `10-rollout-playbook/`)
 
 ### If you want the jargon first
-Skip to `shared/glossary/master-glossary.md` — it's the canonical 200-term reference.
+Skip to `shared/glossary/master-glossary.md`. It's the canonical 200-term reference.
 
 ---
 
@@ -45,13 +45,13 @@ Six rules this kit is built on:
 3. **Evals or it didn't happen.** No model change ships without running the eval set.
 4. **Route by strength, not by loyalty.** Use the right model for the job: the cheat sheet in `individual/05-model-routing/` tells you which.
 5. **Memory is a feature, not a magic trick.** Curate what each model remembers; review monthly.
-6. **Jargon is leverage.** Fluency in the terms is 30% of the skill gap.
+6. **Jargon is a multiplier.** Fluency in the terms is 30% of the skill gap.
 
 ---
 
 ## Version and update cadence
 
-- v1.0 — August 2026 — initial release
+- v1.0, August 2026: initial release
 - Review release notes weekly (see `individual/09-rituals/weekly-monthly-rituals.md`)
 - Rebuild the eval set every quarter
 - Rotate API keys every 90 days

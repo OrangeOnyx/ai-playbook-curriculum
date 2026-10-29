@@ -14,8 +14,8 @@ Read this before using any AI tool for company work. Sign the acknowledgment at 
 
 Applies to:
 - All employees, contractors, and interns
-- All AI tools — consumer, enterprise, API, open-source, embedded features
-- All company data — whether accessed at work, at home, or on personal devices
+- All AI tools: consumer, enterprise, API, open-source, embedded features
+- All company data, whether accessed at work, at home, or on personal devices
 
 ## The four rules
 

@@ -97,12 +97,12 @@ When model or prompt changes:
 
 ## Metric definitions
 
-**Correctness** — output matches ground truth (exact for structured, judged for open-ended)
-**Aggregate score** — mean 0-3 across dimensions, safety-fail excluded
-**Pass rate** — % of cases where aggregate score ≥ 80% of max
-**Cost per resolved item** — total tokens × price + amortized platform cost / resolved items
-**Adoption rate** — % of eligible users making ≥ 1 call per week
-**Deflection rate** — % of tasks completed without human hand-off (for agentic workflows)
+**Correctness:** output matches ground truth (exact for structured, judged for open-ended)
+**Aggregate score:** mean 0-3 across dimensions, safety-fail excluded
+**Pass rate:** % of cases where aggregate score ≥ 80% of max
+**Cost per resolved item:** total tokens × price + amortized platform cost / resolved items
+**Adoption rate:** % of eligible users making ≥ 1 call per week
+**Deflection rate:** % of tasks completed without human hand-off (for agentic workflows)
 
 ## Publishing eval results
 

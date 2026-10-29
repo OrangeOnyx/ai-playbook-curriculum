@@ -15,7 +15,7 @@ Every 2 hours during working hours, scans each employee's inbox and:
 **Suggest + partial execute.** Drafts saved, obvious trash archived, but nothing sent.
 
 ### Tools required
-- MCP-03 Email (read, draft, archive — not send)
+- MCP-03 Email (read, draft, archive, but not send)
 - Slack DM to owner
 
 ### Guardrails
@@ -73,7 +73,7 @@ Every Friday at 3pm, generates a personalized weekly report for each employee:
 - Optionally rolls up to team dashboards
 
 ### Autonomy level
-**Full auto.** Report is generated and delivered without human intervention. But it's read-only — no external actions.
+**Full auto.** Report is generated and delivered without human intervention. But it's read-only: no external actions.
 
 ### Tools required
 - MCP-02 Calendar (read)
@@ -111,7 +111,7 @@ Notice the shape:
 - Anything that sends external communications autonomously
 - Anything that modifies shared systems (CRM records, financials) without HITL
 - Anything with a false-positive cost the organization can't tolerate
-- "Agent that does everything" — narrow beats broad
+- "Agent that does everything": narrow beats broad
 
 ## Progression: what to build next
 

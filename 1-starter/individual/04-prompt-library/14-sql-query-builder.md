@@ -6,7 +6,7 @@
 
 **Category:** Engineering
 
-**Model recommendation:** GPT-5 or Claude — both strong at SQL if given the schema.
+**Model recommendation:** GPT-5 or Claude, both strong at SQL if given the schema.
 
 ---
 

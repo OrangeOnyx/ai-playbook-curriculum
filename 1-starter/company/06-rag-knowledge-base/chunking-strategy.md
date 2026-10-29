@@ -65,7 +65,7 @@ Anthropic-recommended pattern: prepend each chunk with a short LLM-generated con
 Store multiple representations of each chunk:
 - Raw text (as-is)
 - Cleaned text (whitespace normalized)
-- Summary (LLM-generated 1-line summary — searched with a different embedding)
+- Summary (LLM-generated 1-line summary, searched with a different embedding)
 - Entities extracted (for filter-based retrieval)
 
 Retrieve using summary embeddings, return raw text.

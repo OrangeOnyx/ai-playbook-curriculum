@@ -1,6 +1,6 @@
 # Code Reviewer
 
-**Purpose:** Review code like a senior engineer — correctness, security, readability, and idiomatic style.
+**Purpose:** Review code like a senior engineer: correctness, security, readability, and idiomatic style.
 
 **When to use:** Before opening a PR, or when reviewing a teammate's PR.
 

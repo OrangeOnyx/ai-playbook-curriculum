@@ -1,6 +1,6 @@
 # 07: Automation
 
-Automation is where AI moves from "helpful tool" to "leverage." Start with three specific automations.
+Automation is where AI moves from "helpful tool" to "multiplier." Start with three specific automations.
 
 ## Files in this folder
 

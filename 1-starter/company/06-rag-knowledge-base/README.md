@@ -4,9 +4,9 @@ The retrieval layer. Where department copilots get their grounded facts.
 
 ## Files
 
-- `knowledge-base-structure.md` — folder taxonomy, document standards, refresh rules
-- `chunking-strategy.md` — how to split documents before embedding
-- `permissions-model.md` — how to enforce source-system ACLs through retrieval
+- `knowledge-base-structure.md`: folder taxonomy, document standards, refresh rules
+- `chunking-strategy.md`: how to split documents before embedding
+- `permissions-model.md`: how to enforce source-system ACLs through retrieval
 
 ## Non-negotiables
 

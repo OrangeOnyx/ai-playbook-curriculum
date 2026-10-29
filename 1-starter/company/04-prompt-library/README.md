@@ -4,7 +4,7 @@ The company-wide prompt library. Versioned, reviewed, deployed across department
 
 ## Structure
 
-Prompts are tagged by function and role. The individual prompt library (`individual/04-prompt-library/`) is the base — this folder adds the 15 role-agnostic company prompts every team should have.
+Prompts are tagged by function and role. The individual prompt library (`individual/04-prompt-library/`) is the base. This folder adds the 15 role-agnostic company prompts every team should have.
 
 ## The 15 company-wide prompts
 
@@ -29,7 +29,7 @@ Prompts are tagged by function and role. The individual prompt library (`individ
 ## Governance
 
 - Every prompt has: purpose, when to use, model recommendation, variables, example, owner
-- Prompts versioned like code — commits, PRs, review
+- Prompts versioned like code: commits, PRs, review
 - Owner reviews quarterly
 - Retirements go into `retired/` folder with reason
 

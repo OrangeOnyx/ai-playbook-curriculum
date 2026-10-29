@@ -4,14 +4,14 @@
 
 ## Security
 - [ ] Rotate all API keys
-- [ ] Review vendor DPAs — any expired?
+- [ ] Review vendor DPAs. Any expired?
 - [ ] Confirm zero-retention settings still enabled
-- [ ] Audit connected apps — remove any not used in 90 days
+- [ ] Audit connected apps. Remove any not used in 90 days
 - [ ] 2FA verified on every AI account
 
 ## Cost
-- [ ] Total AI spend last quarter — over budget?
-- [ ] Per-provider breakdown — any surprises?
+- [ ] Total AI spend last quarter. Over budget?
+- [ ] Per-provider breakdown. Any surprises?
 - [ ] Any subscriptions to cancel or renegotiate?
 - [ ] Any API workloads that should move to a cheaper model or provider?
 
@@ -22,16 +22,16 @@
 
 ## Skills
 - [ ] Full glossary re-read (60 min)
-- [ ] Take fluency test — record score
+- [ ] Take fluency test, record score
 - [ ] Learn one new technique (fine-tuning, MCP server, agent framework)
 
 ## System
-- [ ] Master System Prompt — rewrite from scratch, compare
-- [ ] Personal Style Guide — updated with recent voice shifts
-- [ ] Model routing cheat sheet — updated
-- [ ] All automations reviewed — kill or promote
+- [ ] Master System Prompt: rewrite from scratch, compare
+- [ ] Personal Style Guide: updated with recent voice shifts
+- [ ] Model routing cheat sheet: updated
+- [ ] All automations reviewed: kill or promote
 
 ## Governance (if applicable)
 - [ ] Team AUP updated for new tools
 - [ ] Data classification matrix updated
-- [ ] Incident log reviewed — any patterns?
+- [ ] Incident log reviewed. Any patterns?

@@ -10,7 +10,7 @@ The glossary lives at `../../shared/glossary/master-glossary.md`. This file tell
 |---|---|---|
 | 1 | Model Mechanics | 30 min |
 | 2 | Reasoning | 30 min |
-| 3 | Retrieval (RAG) | 45 min — this is the hardest cluster |
+| 3 | Retrieval (RAG) | 45 min, the hardest cluster |
 | 4 | Agents | 45 min |
 | 5 | Training | 30 min |
 | 6 | Multimodal | 30 min |
@@ -19,9 +19,9 @@ The glossary lives at `../../shared/glossary/master-glossary.md`. This file tell
 | 9 | Governance and Safety | 30 min |
 | 10 | Product / Ecosystem | 20 min |
 | 11 | Neologisms | 20 min |
-| 12 | REVIEW day 1 — Model Mechanics, Reasoning, Retrieval | 45 min |
-| 13 | REVIEW day 2 — Agents, Training, Multimodal | 45 min |
-| 14 | REVIEW day 3 — Eval, Deployment, Governance, Product, Neologisms | 45 min |
+| 12 | REVIEW day 1: Model Mechanics, Reasoning, Retrieval | 45 min |
+| 13 | REVIEW day 2: Agents, Training, Multimodal | 45 min |
+| 14 | REVIEW day 3: Eval, Deployment, Governance, Product, Neologisms | 45 min |
 
 ## Study method that actually works
 
@@ -60,4 +60,4 @@ If you can answer 12/15 without looking, you're fluent.
 - Read at least one release-notes page per week (OpenAI, Anthropic, Google, Perplexity all publish regularly)
 - Follow the arXiv daily list or Papers with Code for one new paper per week
 - Attend one AI-focused podcast or newsletter (Latent Space, The Neuron, Ben's Bites)
-- Refresh the glossary quarterly — add new terms as the field moves
+- Refresh the glossary quarterly. Add new terms as the field moves

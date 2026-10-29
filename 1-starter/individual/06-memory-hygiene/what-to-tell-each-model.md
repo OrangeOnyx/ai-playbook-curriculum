@@ -48,8 +48,8 @@ When I ask for a decision or recommendation, pick one and justify. Do not list f
 2. Open a new chat. Paste the universal memory block prefixed with "Please remember the following about me:"
 3. After it acknowledges, ask: "What do you know about me?": verify accuracy.
 4. Also fill Custom Instructions:
-   - "What would you like ChatGPT to know about you?" — paste identity + projects
-   - "How would you like ChatGPT to respond?" — paste voice + formatting + constraints
+   - "What would you like ChatGPT to know about you?" Paste identity + projects
+   - "How would you like ChatGPT to respond?" Paste voice + formatting + constraints
 
 ### Claude (Pro/Max)
 1. Claude does not have global memory like ChatGPT. Instead, use Projects.

@@ -18,7 +18,7 @@ Collect these into one folder on your machine (call it `~/ai-inputs/`).
 
 ## Voice and style
 - [ ] 5 writing samples across tones (formal email, Slack message, blog post, technical doc, casual note)
-- [ ] Your top 10 banned words/phrases (e.g., "leverage", "synergy", "at the end of the day")
+- [ ] Your top 10 banned words/phrases (e.g., "utilize", "low-hanging fruit", "going forward")
 - [ ] Formatting preferences: bullets vs prose, header depth, table use, code fence style
 - [ ] Length defaults for common outputs (email reply length, memo length, summary length)
 
@@ -30,7 +30,7 @@ Collect these into one folder on your machine (call it `~/ai-inputs/`).
 
 ## Prompt history
 - [ ] 10–20 real past prompts you've used, with the ideal answer you wish you'd gotten
-- [ ] 5 prompts that produced bad output — save the bad output too (these become your eval set later)
+- [ ] 5 prompts that produced bad output. Save the bad output too (these become your eval set later)
 
 ## Personal glossary
 - [ ] Names and one-line context for your people, teams, clients, vendors

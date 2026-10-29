@@ -6,7 +6,7 @@
 
 **Category:** Communication
 
-**Model recommendation:** Claude Sonnet — best at matching voice and tone from examples.
+**Model recommendation:** Claude Sonnet, best at matching voice and tone from examples.
 
 ---
 
@@ -34,8 +34,8 @@ Return the draft in a code block, then a two-line note on what tone I picked and
 
 ## Variables
 
-- `{EMAIL_BODY}` — the full incoming email
-- `{CONTEXT}` — anything the model needs to know (relationship, prior thread, deadline)
+- `{EMAIL_BODY}`: the full incoming email
+- `{CONTEXT}`: anything the model needs to know (relationship, prior thread, deadline)
 
 ## Example use case
 

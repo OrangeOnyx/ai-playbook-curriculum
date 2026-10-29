@@ -6,7 +6,7 @@ Before you swap in a new model version, run this.
 
 **No model change ships without running the eval set.**
 
-Even if the vendor says the new model is "10% better on benchmarks" — your workflow may be different. Verify on your data.
+Even if the vendor says the new model is "10% better on benchmarks," your workflow may be different. Verify on your data.
 
 ## Protocol
 

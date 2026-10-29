@@ -2,9 +2,9 @@
 
 **Purpose:** One-sentence description of what this prompt produces.
 
-**When to use:** Trigger conditions — the situation where you should reach for this prompt.
+**When to use:** Trigger conditions, the situation where you should reach for this prompt.
 
-**Model recommendation:** [ChatGPT / Claude / Perplexity / Gemini] — [why]
+**Model recommendation:** [ChatGPT / Claude / Perplexity / Gemini], [why]
 
 ---
 
@@ -16,8 +16,8 @@
 
 ## Variables
 
-- `{VAR_1}` — description
-- `{VAR_2}` — description
+- `{VAR_1}`: description
+- `{VAR_2}`: description
 
 ## Example
 

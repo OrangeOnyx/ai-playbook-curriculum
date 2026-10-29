@@ -6,7 +6,7 @@
 
 **Category:** Engineering
 
-**Model recommendation:** Claude Sonnet — long context handles multi-file reads.
+**Model recommendation:** Claude Sonnet. Long context handles multi-file reads.
 
 ---
 

@@ -42,6 +42,6 @@ Ask 5 questions that test the Project's ability to use its knowledge:
 
 ## Sharing
 
-- Personal projects — keep private
-- Team projects — share within your Anthropic workspace
+- Personal projects: keep private
+- Team projects: share within your Anthropic workspace
 - Never share a project containing sensitive knowledge without a DPA in place

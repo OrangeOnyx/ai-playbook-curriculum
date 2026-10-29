@@ -2,7 +2,7 @@
 
 ## The unit of accountability
 
-Cost should be attributable to a **team, project, or user** — never a black hole. Set this up before you scale.
+Cost should be attributable to a **team, project, or user**, never a black hole. Set this up before you scale.
 
 ## Attribution model
 

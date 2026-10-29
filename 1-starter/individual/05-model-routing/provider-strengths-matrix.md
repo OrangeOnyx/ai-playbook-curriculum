@@ -54,7 +54,7 @@ The deep version. Read once, refer back quarterly.
 - Native Google Workspace integration (Docs, Sheets, Gmail, Meet)
 - Deep Research mode
 - Veo 3 for video
-- Multimodal — best at video *input*
+- Multimodal, best at video *input*
 - Free tier is generous
 
 **Signature weaknesses**
@@ -71,15 +71,15 @@ The deep version. Read once, refer back quarterly.
 ## Perplexity
 
 **Signature strengths**
-- Search-grounded by default — every answer cites sources
+- Search-grounded by default: every answer cites sources
 - Real-time facts
-- Comet browser + Computer (this product) — agentic web workflows
+- Comet browser + Computer (this product): agentic web workflows
 - Spaces (persistent contexts with connectors)
 - Deep Research
 - API returns citations natively
 
 **Signature weaknesses**
-- Less "raw" LLM power — it's a search-tuned system
+- Less "raw" LLM power: it's a search-tuned system
 - Long-doc reasoning is not its strength
 - Some models better for pure generation tasks
 
@@ -133,7 +133,7 @@ The deep version. Read once, refer back quarterly.
 - Great free tier
 
 **Signature weaknesses**
-- Only serves open models — no Claude, GPT, Gemini
+- Only serves open models: no Claude, GPT, Gemini
 - Model catalog rotates
 
 **Best for**

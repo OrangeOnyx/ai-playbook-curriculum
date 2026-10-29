@@ -6,7 +6,7 @@
 
 **Category:** Communication
 
-**Model recommendation:** GPT-5 — best at compression.
+**Model recommendation:** GPT-5, best at compression.
 
 ---
 
@@ -34,7 +34,7 @@ Rules:
 
 ## Variables
 
-- `{RAW_LOG}` — dump of the week's work
+- `{RAW_LOG}`: dump of the week's work
 
 ## Example use case
 

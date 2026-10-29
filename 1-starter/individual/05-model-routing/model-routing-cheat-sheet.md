@@ -7,21 +7,21 @@ Print this. Tape it above your monitor.
 | Task | First choice | Second choice | Notes |
 |---|---|---|---|
 | Long-doc reasoning (contracts, deep analysis) | Claude Opus | Gemini 2.x Pro | Claude wins at nuance; Gemini wins on context length |
-| Coding — small changes | Claude Sonnet in Cursor | GPT-5 in Cursor | Sonnet is the daily driver |
-| Coding — large refactor | Claude Code (agent) | Cursor Composer | Agent mode for multi-file |
+| Coding: small changes | Claude Sonnet in Cursor | GPT-5 in Cursor | Sonnet is the daily driver |
+| Coding: large refactor | Claude Code (agent) | Cursor Composer | Agent mode for multi-file |
 | Web research with citations | Perplexity Sonar/Pro | Perplexity Deep Research | Search-grounded by default |
 | Real-time facts (news, prices, sports) | Perplexity | Grok (X data) | Never trust a non-grounded model on live facts |
 | Google Workspace tasks | Gemini in Workspace | Copilot 365 (Microsoft) | Native integration wins |
 | Microsoft Office tasks | Copilot 365 | Gemini in Workspace | Native integration wins |
-| Image generation — realistic | GPT (Sora/Images), Midjourney | Ideogram | Midjourney for hero art |
-| Image generation — with text in image | Ideogram | GPT Images | Ideogram nails typography |
+| Image generation: realistic | GPT (Sora/Images), Midjourney | Ideogram | Midjourney for hero art |
+| Image generation: with text in image | Ideogram | GPT Images | Ideogram nails typography |
 | Video generation | Sora, Veo 3 | Higgsfield, Runway | Model-specific look; test both |
 | Voice / TTS | ElevenLabs | OpenAI TTS | ElevenLabs for characters |
 | Transcription | Whisper (OpenAI API) | AssemblyAI, Otter | Whisper is baseline; Otter for meetings |
 | Structured extraction (JSON) | GPT-5 JSON mode | Claude with structured output | Both strong |
 | Quick chat / drafting | ChatGPT (any) | Claude Sonnet | Whichever tab is open |
 | Cheap batch inference | Groq (LLaMA, Mixtral) | OpenRouter with cheap models | Groq for speed |
-| Uncensored generation | Grok, local models | — | For legit adult / edgy use cases |
+| Uncensored generation | Grok, local models | none | For legit adult / edgy use cases |
 | Agent orchestration | Perplexity Computer, Claude Code | Custom (LangGraph) | This product; Claude Code for local |
 | Deep research (multi-source) | Perplexity Deep Research | Gemini Deep Research | Both are strong; different styles |
 | Long context (>200k tokens) | Gemini 2.x Pro (2M), Claude (1M) | GPT-5 (400k) | Gemini has the longest |
@@ -50,7 +50,7 @@ If your first-choice model is rate-limited, down, or the output is bad:
 
 ## Cost mental model
 
-Approximate cost per million tokens output (as of August 2026 — verify current pricing):
+Approximate cost per million tokens output (as of August 2026, so verify current pricing):
 
 | Tier | Models | Cost / MTok output |
 |---|---|---|

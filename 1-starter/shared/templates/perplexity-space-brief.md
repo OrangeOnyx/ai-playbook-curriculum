@@ -24,7 +24,7 @@ Perplexity Spaces uniquely combine web search + uploaded files + connectors. Con
 - [ ] Focus mode: default / academic / social / video / SEC
 
 ### Uploaded files
-- Same as Claude — 5–15 curated docs to start
+- Same as Claude: 5–15 curated docs to start
 - Add: master reference, style guide, prompt library, domain docs
 
 ### Connectors

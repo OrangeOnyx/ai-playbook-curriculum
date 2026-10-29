@@ -6,7 +6,7 @@
 
 **Category:** Engineering
 
-**Model recommendation:** Claude Opus — best at reasoning over unfamiliar code.
+**Model recommendation:** Claude Opus, best at reasoning over unfamiliar code.
 
 ---
 

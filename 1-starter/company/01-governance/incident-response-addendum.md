@@ -6,13 +6,13 @@ This addendum extends the company's existing IR plan for AI-specific incidents.
 
 | Class | Definition | Example |
 |---|---|---|
-| **A1 — Data exposure** | Sensitive data pasted into unapproved tool | Client PII into ChatGPT free tier |
-| **A2 — Model output leak** | AI output published containing sensitive data | Hallucinated PII appears in customer email |
-| **A3 — Prompt injection** | Adversarial input hijacked an AI agent | Malicious doc caused agent to exfiltrate |
-| **A4 — Agent action error** | AI took a wrong action (sent, deleted, purchased) | Agent sent draft as final |
-| **A5 — Model misuse** | Employee used AI to violate policy | Deceptive AI-generated content sent externally |
-| **A6 — Vendor incident** | Vendor breach affecting our data | Provider notifies us of security event |
-| **A7 — Bias / harm** | AI output caused discriminatory or harmful outcome | Screening tool produced biased scores |
+| **A1: Data exposure** | Sensitive data pasted into unapproved tool | Client PII into ChatGPT free tier |
+| **A2: Model output leak** | AI output published containing sensitive data | Hallucinated PII appears in customer email |
+| **A3: Prompt injection** | Adversarial input hijacked an AI agent | Malicious doc caused agent to exfiltrate |
+| **A4: Agent action error** | AI took a wrong action (sent, deleted, purchased) | Agent sent draft as final |
+| **A5: Model misuse** | Employee used AI to violate policy | Deceptive AI-generated content sent externally |
+| **A6: Vendor incident** | Vendor breach affecting our data | Provider notifies us of security event |
+| **A7: Bias / harm** | AI output caused discriminatory or harmful outcome | Screening tool produced biased scores |
 
 ## Response by class
 

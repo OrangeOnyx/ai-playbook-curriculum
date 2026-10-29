@@ -51,7 +51,7 @@ A vector database stores embeddings for RAG. Pick one based on your existing sta
 Ask three questions:
 
 1. **How many vectors?**
-   - < 1M: pgvector, Chroma, or anything else — all work
+   - < 1M: pgvector, Chroma, or anything else. They all work
    - 1M–100M: Pinecone, Weaviate, Qdrant
    - 100M+: Milvus, Weaviate, Pinecone Enterprise
    - Continuous growth: managed (Pinecone, Weaviate Cloud)

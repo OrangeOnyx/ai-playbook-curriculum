@@ -6,7 +6,7 @@
 
 **Category:** Personal ops
 
-**Model recommendation:** Any model — this is short.
+**Model recommendation:** Any model. This is short.
 
 ---
 

@@ -22,18 +22,18 @@ Add 10–20:
 
 ## Words I never use
 
-Common banned list — add your own:
-- leverage (as a verb)
-- synergy, synergize
-- circle back, touch base, ping
+Common banned list. Add your own:
+- utilize (as a verb)
+- low-hanging fruit
+- touch base, ping, loop in
 - deep dive
-- at the end of the day
+- going forward
 - literally (as intensifier)
-- delve, delve into
+- unpack, dig into
 - ever-evolving, rapidly-changing
 - it's important to note
 - as an AI
-- game-changer
+- paradigm shift
 - move the needle
 - best practice (singular, without context)
 

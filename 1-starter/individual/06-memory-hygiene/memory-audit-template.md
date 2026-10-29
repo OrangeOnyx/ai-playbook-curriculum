@@ -36,9 +36,9 @@ Copy the output into this file, one section per model.
 ## Step 2: Score each memory item
 
 For every stored fact, decide:
-- ✅ Keep — still true and useful
-- ✏️ Update — needs revision
-- 🗑️ Delete — outdated, ephemeral, or shouldn't have been stored
+- ✅ Keep: still true and useful
+- ✏️ Update: needs revision
+- 🗑️ Delete: outdated, ephemeral, or shouldn't have been stored
 
 ## Step 3: Common corruption patterns to look for
 

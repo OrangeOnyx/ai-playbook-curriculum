@@ -1,12 +1,12 @@
 # Research Brief Generator
 
-**Purpose:** Produce a research brief on a topic — background, key facts, sources, open questions.
+**Purpose:** Produce a research brief on a topic: background, key facts, sources, open questions.
 
 **When to use:** You need a fast primer on an unfamiliar topic before a meeting or decision.
 
 **Category:** Research
 
-**Model recommendation:** Perplexity Sonar Pro — search-grounded. Or Perplexity Computer with research subagent for depth.
+**Model recommendation:** Perplexity Sonar Pro, search-grounded. Or Perplexity Computer with research subagent for depth.
 
 ---
 

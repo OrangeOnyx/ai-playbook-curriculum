@@ -34,7 +34,7 @@ See `legal-disclaimer-library.md`. Disclaimers are keyed D-01 through D-08.
 - Marketing owns voice
 - Legal owns disclaimers
 - Steering Committee approves changes
-- Version controlled — changes require PR + review
+- Version controlled: changes require PR + review
 
 ## Change management
 

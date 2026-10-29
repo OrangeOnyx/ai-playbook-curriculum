@@ -42,7 +42,7 @@ Verify after configuring; screenshot the settings for the audit file.
 
 ### Google AI Studio / Vertex AI (paid tier)
 - Vertex AI paid tier: no training on your data
-- AI Studio free tier: data may be used to improve models — DO NOT use for company data on free tier
+- AI Studio free tier: data may be used to improve models. DO NOT use for company data on free tier
 - Verify: Vertex AI console → project settings
 - Contract: Google Cloud DPA
 
@@ -68,18 +68,18 @@ Verify after configuring; screenshot the settings for the audit file.
 - Contract: Perplexity Enterprise Agreement + DPA
 
 ### Perplexity API
-- Configure per contract — request zero-retention explicitly
+- Configure per contract. Request zero-retention explicitly
 
 ## xAI Grok
 
-- Read current terms — default has changed multiple times
+- Read current terms: default has changed multiple times
 - If used: only for Public data unless zero-retention is contractually confirmed
 - Verify quarterly
 
 ## Groq / Together / Fireworks / OpenRouter
 
 - These providers route to open-weight models
-- Read each provider's data policy — most claim no training, but certifications vary
+- Read each provider's data policy: most claim no training, but certifications vary
 - Suitable for Public / Internal data by default; Confidential only with contract review
 
 ## Local / self-hosted (Ollama, vLLM, TensorRT-LLM)

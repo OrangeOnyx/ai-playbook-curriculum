@@ -4,9 +4,9 @@ The training program. Onboarding, deep-dives, quarterly refresh, and advanced tr
 
 ## Files
 
-- `onboarding-curriculum.md` — 5-module new-hire curriculum
-- `department-deep-dives.md` — 3-hour biannual deep-dive template
-- `quarterly-refresh.md` — 60-min quarterly all-hands refresh + certification tracks
+- `onboarding-curriculum.md`: 5-module new-hire curriculum
+- `department-deep-dives.md`: 3-hour biannual deep-dive template
+- `quarterly-refresh.md`: 60-min quarterly all-hands refresh + certification tracks
 
 ## The learning ladder
 

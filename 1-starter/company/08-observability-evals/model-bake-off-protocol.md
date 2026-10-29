@@ -53,9 +53,9 @@ Ship the candidate if:
 - Latency within SLO
 
 Reasonable trade-offs:
-- Small quality bump for material cost savings — often yes
-- Material quality bump for equal cost — yes
-- Large cost cut for small quality drop — case by case (only for low-stakes workflows)
+- Small quality bump for material cost savings: often yes
+- Material quality bump for equal cost: yes
+- Large cost cut for small quality drop: case by case (only for low-stakes workflows)
 
 Do NOT switch if:
 - Any safety fail
@@ -94,8 +94,8 @@ publish(report, to="steering-committee-slack")
 ```
 
 ## Anti-patterns
-- Baking off with a tiny eval set (< 25 cases) — noisy signal
-- Baking off only on benchmark data — not your real workflow
-- Judging with the same model family that's being tested — biased
-- Ignoring cost or latency — they're real user impact
-- Making the decision by vibes — write it down
+- Baking off with a tiny eval set (< 25 cases): noisy signal
+- Baking off only on benchmark data: not your real workflow
+- Judging with the same model family that's being tested: biased
+- Ignoring cost or latency: they're real user impact
+- Making the decision by vibes: write it down

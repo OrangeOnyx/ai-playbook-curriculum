@@ -1,6 +1,6 @@
 # Company Platform Account Order
 
-Procure in this order. Skip to your relevant stack — you don't need everything.
+Procure in this order. Skip to your relevant stack. You don't need everything.
 
 ## Tier 1: The core stack (get these first)
 
@@ -13,7 +13,7 @@ Procure in this order. Skip to your relevant stack — you don't need everything
 Recommendation: License one primary for all employees; a second smaller license for a power-user group.
 
 ### 2. Perplexity Enterprise Pro
-- Real-time research grounding — no other tool substitutes
+- Real-time research grounding: no other tool substitutes
 - Give to all knowledge workers
 
 ### 3. Coding assistant
@@ -59,7 +59,7 @@ Give to every engineer. Pick two of these three; do not skimp.
 - **Zapier / Make / n8n Enterprise.** No-code automation
 - **Replit Teams.** Quick internal AI apps
 - **v0 / Bolt / Lovable.** AI-generated internal tools
-- **Notion AI** or **Coda AI** — embedded in existing knowledge base
+- **Notion AI** or **Coda AI**, embedded in existing knowledge base
 
 ## Not on the approved list yet?
 

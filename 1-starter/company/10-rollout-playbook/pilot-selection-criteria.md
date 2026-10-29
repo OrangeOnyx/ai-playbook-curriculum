@@ -76,8 +76,8 @@ Departments scoring ≥ 20 are ready. Below 15, wait or invest in readiness firs
 
 Two departments, chosen to demonstrate range:
 
-- **One customer-facing** (Sales or Support) — validates external-quality workflow
-- **One internal-facing** (Ops, Finance, or HR) — validates safer internal workflow
+- **One customer-facing** (Sales or Support): validates external-quality workflow
+- **One internal-facing** (Ops, Finance, or HR): validates safer internal workflow
 
 Total 4-6 workflows across those two departments in the first pilot.
 

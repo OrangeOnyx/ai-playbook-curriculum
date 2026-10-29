@@ -55,16 +55,16 @@ The kit is not one-and-done. It needs a rhythm.
 
 Put these on repeat:
 
-- Monday 8:30am — "AI release notes skim" (10 min)
-- Wednesday 3pm — "AI experiment of the week" (15 min)
-- Friday 3:30pm — "Weekly AI review" (30 min)
-- Last Friday of month, 3pm — "Monthly AI audit" (60 min)
-- First Monday of quarter, 2pm — "Quarterly AI audit" (90 min)
-- Every 90 days — "Rotate API keys"
+- Monday 8:30am: "AI release notes skim" (10 min)
+- Wednesday 3pm: "AI experiment of the week" (15 min)
+- Friday 3:30pm: "Weekly AI review" (30 min)
+- Last Friday of month, 3pm: "Monthly AI audit" (60 min)
+- First Monday of quarter, 2pm: "Quarterly AI audit" (90 min)
+- Every 90 days: "Rotate API keys"
 
 ## Anti-ritual: don't do these
 
-- Don't chase every new model release — most won't matter to you
+- Don't chase every new model release. Most won't matter to you
 - Don't add to the prompt library without pruning
 - Don't hoard subscriptions "in case I need them"
-- Don't set-and-forget memory — audit it
+- Don't set-and-forget memory. Audit it

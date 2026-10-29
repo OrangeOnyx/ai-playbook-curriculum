@@ -23,4 +23,4 @@ Consumer subscriptions first (they give you the widest exploration surface). API
 - All Tier 1 consumer subscriptions active
 - All Tier 1 API keys in your password manager
 - Billing caps set on every API key
-- One key stored in a `.env.local` file only (never `.env` — never commit)
+- One key stored in a `.env.local` file only (never `.env`, never commit)

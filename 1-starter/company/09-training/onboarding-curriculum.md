@@ -63,7 +63,7 @@ Every new employee completes this within their first 30 days. Structured as five
 - Know how to report incidents
 
 **Content:**
-- Data classification examples — role-play "would you paste this?"
+- Data classification examples: role-play "would you paste this?"
 - Hallucination examples: fabricated citations, wrong facts, made-up features
 - Verification patterns: cross-check, ask for sources, use grounded tools
 - Incident reporting: what, when, how, to whom

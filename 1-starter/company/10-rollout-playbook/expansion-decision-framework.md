@@ -84,7 +84,7 @@ If a workflow fails after expansion:
 
 Successful expansion needs staffing. Typical model:
 
-- **1 AI Champion per department** (partial FTE — usually 20%)
+- **1 AI Champion per department** (partial FTE, usually 20%)
 - **1 AI Program Manager** central (full FTE)
 - **1 AI Platform Engineer** central (full FTE, more as scale grows)
 - **1 Security/Legal partner** central (partial FTE)

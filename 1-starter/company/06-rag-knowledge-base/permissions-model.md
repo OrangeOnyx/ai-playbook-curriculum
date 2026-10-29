@@ -48,7 +48,7 @@ Every chunk carries:
 
 Rules:
 - Union of role membership and explicit user grants
-- Never OR-across roles for confidential — require the specific role
+- Never OR-across roles for confidential. Require the specific role
 - Denial by default
 
 ## Source-system sync
@@ -65,7 +65,7 @@ For each connected source (Drive, Notion, SharePoint, Confluence, GitHub):
 Every query includes:
 - Authenticated user identity (via SSO)
 - Their role(s) at query time (fresh, not cached)
-- Any context restrictions (e.g., "this session is for external customer response — restrict to public and internal only")
+- Any context restrictions (e.g., "this session is for external customer response. Restrict to public and internal only")
 
 ## Auditing
 

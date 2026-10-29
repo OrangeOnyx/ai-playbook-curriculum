@@ -24,5 +24,5 @@
 
 ## Reflect
 - [ ] One thing to say no to next week
-- [ ] Top 3 priorities for next week — write them down
+- [ ] Top 3 priorities for next week: write them down
 - [ ] One model or feature to try next week

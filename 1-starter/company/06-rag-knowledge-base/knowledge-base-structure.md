@@ -137,7 +137,7 @@ Retrieval filters:
 
 ## Refresh rules
 
-- Every doc has `next_review` — after that date, either re-approve or archive
+- Every doc has `next_review`. After that date, either re-approve or archive
 - Doc owner gets a monthly digest of docs coming due
 - Any change to a policy triggers a KB update within 5 business days
 - Retired docs move to `99-archived/` with a redirect stub in the original location if links exist

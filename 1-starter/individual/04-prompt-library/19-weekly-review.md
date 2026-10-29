@@ -6,7 +6,7 @@
 
 **Category:** Personal ops
 
-**Model recommendation:** Perplexity Computer or Claude Projects — needs to read multiple sources.
+**Model recommendation:** Perplexity Computer or Claude Projects. Needs to read multiple sources.
 
 ---
 

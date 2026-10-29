@@ -6,7 +6,7 @@
 
 **Category:** Research
 
-**Model recommendation:** Perplexity — search-grounded, best for verification.
+**Model recommendation:** Perplexity, search-grounded and best for verification.
 
 ---
 

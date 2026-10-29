@@ -35,9 +35,9 @@ Prices are USD, monthly, as of August 2026. Confirm current pricing before subsc
 
 ## Tier 4: Nice to have
 
-- Together AI, Fireworks, Replicate — additional inference options
-- Hugging Face Pro — dataset + model hub
-- Kaggle — free notebooks + datasets
+- Together AI, Fireworks, Replicate: additional inference options
+- Hugging Face Pro: dataset + model hub
+- Kaggle: free notebooks + datasets
 
 ## Rule of thumb
 

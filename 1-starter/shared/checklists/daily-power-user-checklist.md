@@ -20,5 +20,5 @@ Not everything. Just the habits that compound.
 - [ ] Never paste anything crossing your privacy line
 
 ## Before EOD (5 min)
-- [ ] Skim any incomplete drafts — should any go to inbox as drafts overnight?
+- [ ] Skim any incomplete drafts. Should any go to inbox as drafts overnight?
 - [ ] Note one thing that worked well with AI today, one that didn't

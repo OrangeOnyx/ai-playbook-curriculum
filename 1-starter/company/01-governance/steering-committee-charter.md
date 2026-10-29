@@ -15,8 +15,8 @@ It is a governance body, not a build team. Build teams execute; the Committee de
 | **Legal** | General Counsel or designee | Contract, regulatory, IP |
 | **Security** | CISO or Security Lead | Data protection, IR, vendor risk |
 | **IT / Platform** | Head of IT or Platform Engineering | Identity, integrations, cost, deployment |
-| **AI Champion — Engineering** | Senior engineer trusted with agent builds | Technical practicality |
-| **AI Champion — Business** | Rotating seat from a business team (Sales, Support, Ops, etc.) | Business context, user voice |
+| **AI Champion, Engineering** | Senior engineer trusted with agent builds | Technical practicality |
+| **AI Champion, Business** | Rotating seat from a business team (Sales, Support, Ops, etc.) | Business context, user voice |
 | **Data / Analytics** (optional) | Head of Data | Data quality, evals |
 | **HR** (advisory) | HRBP | Workforce impact, training |
 
@@ -75,9 +75,9 @@ The Committee publishes internally:
 
 - Formed at kickoff of AI program
 - Full charter (this doc) reviewed annually
-- Committee itself is reviewed by Executive Sponsor annually — dissolved if AI becomes fully embedded across departments (steady-state governance moves to existing functions)
+- Committee itself is reviewed by Executive Sponsor annually. It is dissolved if AI becomes fully embedded across departments (steady-state governance moves to existing functions)
 
 ## Escalation from Committee
 
-- To Executive Sponsor — anything requiring exec approval, budget beyond charter cap
-- To Board — material regulatory risk, or AI use with strategic implications
+- To Executive Sponsor: anything requiring exec approval, budget beyond charter cap
+- To Board: material regulatory risk, or AI use with strategic implications

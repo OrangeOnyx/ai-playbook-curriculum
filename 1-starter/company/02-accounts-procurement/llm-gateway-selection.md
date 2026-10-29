@@ -26,7 +26,7 @@ With a gateway:
 ### Portkey (SaaS)
 - **Best for:** Mid-market to enterprise wanting a managed solution
 - **Pros:** Fast setup, deep observability, good fallback logic, virtual keys per team
-- **Cons:** SaaS (data crosses their systems — get DPA), cost scales with volume
+- **Cons:** SaaS (data crosses their systems, so get DPA), cost scales with volume
 - **Pricing:** Free tier; paid starts ~$99/mo
 
 ### LiteLLM (open source, self-hosted)

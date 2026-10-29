@@ -41,5 +41,5 @@ Attach the knowledge base from `knowledge-base-manifest.md`.
 
 ## Version
 
-- v1.0 — initial
+- v1.0: initial
 - Reviewed quarterly by the Steering Committee and department lead

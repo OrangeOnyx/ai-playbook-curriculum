@@ -1,12 +1,12 @@
 # Prompt Improver
 
-**Purpose:** Rewrite a prompt to be more effective — clearer, more constrained, better output structure.
+**Purpose:** Rewrite a prompt to be more effective: clearer, more constrained, better output structure.
 
 **When to use:** When a prompt you're using isn't producing what you want.
 
 **Category:** Meta
 
-**Model recommendation:** Claude Opus — best at prompt engineering reasoning.
+**Model recommendation:** Claude Opus, best at prompt engineering reasoning.
 
 ---
 

@@ -35,10 +35,10 @@ Rows = data class. Columns = tool tier. Cells = allowed / not allowed.
 | Product roadmap (published) | Public | |
 | Source code (open source) | Public | |
 | Source code (proprietary, no secrets) | Confidential | |
-| Source code with credentials | Restricted | Never — scrub first |
+| Source code with credentials | Restricted | Never: scrub first |
 | SSN, DOB, tax ID | Restricted | |
 | Payment card data | Restricted | PCI applies |
-| Medical / health data | Restricted | HIPAA — BAA required |
+| Medical / health data | Restricted | HIPAA: BAA required |
 | Legal-privileged | Restricted | Attorney-client protected |
 | Financial statements | Confidential | |
 | Financial statements (public co, filed) | Public | |

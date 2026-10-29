@@ -13,7 +13,7 @@ Check all that apply:
 - [ ] Employer trade secrets or unreleased IP
 - [ ] Source code with API keys, database URLs, or private business logic
 - [ ] Personal financial data (bank statements, tax returns)
-- [ ] Real estate confidential (deal terms, tenant financials) — relevant for Adam
+- [ ] Real estate confidential (deal terms, tenant financials), relevant for Adam
 - [ ] Password/credential material
 - [ ] Other: _________________
 
@@ -21,9 +21,9 @@ Check all that apply:
 
 | Data class | Consumer AI (ChatGPT free/Plus, Claude free/Pro) | Paid API with zero-retention | Local model only | Never AI |
 |---|---|---|---|---|
-| Public / already-shipped work | ✅ | ✅ | ✅ | — |
-| Personal notes, drafts | ✅ | ✅ | ✅ | — |
-| Client names only (no PII) | ⚠️ redact | ✅ | ✅ | — |
+| Public / already-shipped work | ✅ | ✅ | ✅ | n/a |
+| Personal notes, drafts | ✅ | ✅ | ✅ | n/a |
+| Client names only (no PII) | ⚠️ redact | ✅ | ✅ | n/a |
 | Client PII | ❌ | ✅ (with DPA) | ✅ | consider |
 | Payment / SSN | ❌ | ❌ | ⚠️ | ✅ |
 | Legal-privileged | ❌ | ❌ | ✅ | ✅ |
@@ -43,12 +43,12 @@ Before pasting anything sensitive:
 
 ## 4. Which providers have you confirmed no-training settings on?
 
-- [ ] OpenAI — Settings → Data Controls → "Improve the model for everyone" **off**
-- [ ] Anthropic Claude — On by default for consumer accounts; confirmed
-- [ ] Perplexity — Settings → Privacy → "AI Data Retention" reviewed
-- [ ] Google Gemini — Activity → Gemini Apps Activity **off** if desired
-- [ ] Microsoft Copilot — Enterprise tier only for sensitive data
-- [ ] Grok — Settings → Data sharing **off**
+- [ ] OpenAI: Settings → Data Controls → "Improve the model for everyone" **off**
+- [ ] Anthropic Claude: On by default for consumer accounts; confirmed
+- [ ] Perplexity: Settings → Privacy → "AI Data Retention" reviewed
+- [ ] Google Gemini: Activity → Gemini Apps Activity **off** if desired
+- [ ] Microsoft Copilot: Enterprise tier only for sensitive data
+- [ ] Grok: Settings → Data sharing **off**
 
 ## 5. What's your one-sentence privacy rule?
 
