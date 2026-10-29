@@ -8,7 +8,7 @@ The basic workflow is:
 
 1. Select a narrow, reproducible behavior.
 2. Find internal features or components correlated with it.
-3. Intervene—patch, ablate, or steer activations.
+3. Intervene: patch, ablate, or steer activations.
 4. Measure whether the predicted behavior changes.
 5. Test whether the explanation generalizes beyond one curated example.
 

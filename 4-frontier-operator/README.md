@@ -1,7 +1,7 @@
 # Stage 4 Frontier Operator
 
 **You are:** a practitioner.
-**You will become:** a contributor to the field — original research, novel systems, category-defining products, open-weight training, foundation infra, or mechanistic interpretability.
+**You will become:** a contributor to the field through original research, novel systems, category-defining products, open-weight training, foundation infra, or mechanistic interpretability.
 **The Curriculum's pace:** ongoing, indefinite.
 
 ![Stage 4](../shared/graphics/stage-4.svg)

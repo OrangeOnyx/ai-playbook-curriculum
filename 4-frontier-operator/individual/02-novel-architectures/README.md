@@ -15,4 +15,4 @@ Use a research ladder:
 
 Architecture search can generate candidates, but it cannot supply taste, a meaningful objective, or a trustworthy evaluation. Beware benchmark overfitting disguised as invention. A design is interesting if it teaches you something even when it loses.
 
-The frontier is not reached by declaring a new block of code. It is reached by finding a property current systems cannot achieve, proposing a mechanism, and accumulating evidence that the mechanism—not accidental confounds—caused the improvement.
+The frontier is not reached by declaring a new block of code. It is reached by finding a property current systems cannot achieve, proposing a mechanism, and accumulating evidence that the mechanism, not accidental confounds, caused the improvement.
